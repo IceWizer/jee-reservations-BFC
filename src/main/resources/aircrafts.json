@@ -1,0 +1,11067 @@
+[
+  {
+    "name": "21 Air",
+    "code": "2I",
+    "icao": "CSB"
+  },
+  {
+    "name": "247 Aviation",
+    "code": "",
+    "icao": "EMC"
+  },
+  {
+    "name": "2Excel Aviation",
+    "code": "",
+    "icao": "BRO"
+  },
+  {
+    "name": "4 Airways",
+    "code": "",
+    "icao": "DAK"
+  },
+  {
+    "name": "40-Mile Air",
+    "code": "Q5",
+    "icao": "MLA"
+  },
+  {
+    "name": "748 Air Services",
+    "code": "FE",
+    "icao": "IHO"
+  },
+  {
+    "name": "9 Air",
+    "code": "AQ",
+    "icao": "JYH"
+  },
+  {
+    "name": "Abakan Air",
+    "code": "S5",
+    "icao": "NKP"
+  },
+  {
+    "name": "ABS Jets",
+    "code": "",
+    "icao": "ABP"
+  },
+  {
+    "name": "Abu Dhabi Aviation",
+    "code": "",
+    "icao": "BAR"
+  },
+  {
+    "name": "ABX Air",
+    "code": "GB",
+    "icao": "ABX"
+  },
+  {
+    "name": "Acass Ireland",
+    "code": "",
+    "icao": "SON"
+  },
+  {
+    "name": "Advanced Air",
+    "code": "AN",
+    "icao": "WSN"
+  },
+  {
+    "name": "Aegean Airlines",
+    "code": "A3",
+    "icao": "AEE"
+  },
+  {
+    "name": "Aer Lingus",
+    "code": "EI",
+    "icao": "EIN"
+  },
+  {
+    "name": "Aer Lingus UK",
+    "code": "EG",
+    "icao": "EUK"
+  },
+  {
+    "name": "AerCaribe",
+    "code": "JK",
+    "icao": "ACL"
+  },
+  {
+    "name": "Aero",
+    "code": "5E",
+    "icao": "BLK"
+  },
+  {
+    "name": "Aero",
+    "code": "N2",
+    "icao": "NIG"
+  },
+  {
+    "name": "Aero Asahi",
+    "code": "",
+    "icao": "AKF"
+  },
+  {
+    "name": "Aero Charter",
+    "code": "",
+    "icao": "GLT"
+  },
+  {
+    "name": "Aero Charter and Transport",
+    "code": "",
+    "icao": "CTA"
+  },
+  {
+    "name": "Aero Dili",
+    "code": "8G",
+    "icao": "DTL"
+  },
+  {
+    "name": "Aero FlightOps UK",
+    "code": "",
+    "icao": "UKA"
+  },
+  {
+    "name": "Aero Guernsey",
+    "code": "",
+    "icao": "AEO"
+  },
+  {
+    "name": "Aero K",
+    "code": "RF",
+    "icao": "EOK"
+  },
+  {
+    "name": "Aero Mongolia",
+    "code": "M0",
+    "icao": "MNG"
+  },
+  {
+    "name": "Aero Nomad",
+    "code": "KA",
+    "icao": "ANK"
+  },
+  {
+    "name": "Aero Sotravia",
+    "code": "",
+    "icao": "ASR"
+  },
+  {
+    "name": "Aero Ways",
+    "code": "",
+    "icao": "TKK"
+  },
+  {
+    "name": "Aero-Beta Flight Training",
+    "code": "",
+    "icao": "ABA"
+  },
+  {
+    "name": "Aero-Dienst",
+    "code": "",
+    "icao": "ADN"
+  },
+  {
+    "name": "Aero-Tech Services",
+    "code": "",
+    "icao": "TEK"
+  },
+  {
+    "name": "Aeroavila Transortes Aereos",
+    "code": "",
+    "icao": "KKA"
+  },
+  {
+    "name": "Aeroflot",
+    "code": "SU",
+    "icao": "AFL"
+  },
+  {
+    "name": "AeroGuard Flight Training Center",
+    "code": "",
+    "icao": "ASI"
+  },
+  {
+    "name": "Aeroitalia",
+    "code": "XZ",
+    "icao": "AEZ"
+  },
+  {
+    "name": "Aeroitalia Regional",
+    "code": "KS",
+    "icao": "KON"
+  },
+  {
+    "name": "Aerojet Tomza",
+    "code": "",
+    "icao": "EZI"
+  },
+  {
+    "name": "Aerolineas Argentinas",
+    "code": "AR",
+    "icao": "ARG"
+  },
+  {
+    "name": "Aerolineas Ejecutivas",
+    "code": "",
+    "icao": "LET"
+  },
+  {
+    "name": "Aerolineas Sosa",
+    "code": "P4",
+    "icao": "NSO"
+  },
+  {
+    "name": "Aerolink Uganda",
+    "code": "A8",
+    "icao": "XAU"
+  },
+  {
+    "name": "AeroLogic",
+    "code": "3S",
+    "icao": "BOX"
+  },
+  {
+    "name": "Aeromas",
+    "code": "",
+    "icao": "MSM"
+  },
+  {
+    "name": "Aeromexico",
+    "code": "AM",
+    "icao": "AMX"
+  },
+  {
+    "name": "Aeromexico Connect",
+    "code": "5D",
+    "icao": "SLI"
+  },
+  {
+    "name": "Aeronaves Dominicanas",
+    "code": "DC",
+    "icao": "OLO"
+  },
+  {
+    "name": "Aeronaves TSM",
+    "code": "",
+    "icao": "VTM"
+  },
+  {
+    "name": "Aeropartner",
+    "code": "",
+    "icao": "DFC"
+  },
+  {
+    "name": "Aeropyrenees",
+    "code": "",
+    "icao": "EAP"
+  },
+  {
+    "name": "Aeroregional",
+    "code": "6G",
+    "icao": "RER"
+  },
+  {
+    "name": "Aeroservicios Avila",
+    "code": "",
+    "icao": "VEA"
+  },
+  {
+    "name": "Aeroservicios de la Costa",
+    "code": "",
+    "icao": "TAA"
+  },
+  {
+    "name": "Aerostan",
+    "code": "KW",
+    "icao": "BSC"
+  },
+  {
+    "name": "Aerosucre",
+    "code": "A4",
+    "icao": "KRE"
+  },
+  {
+    "name": "Aerosul Linhas Aereas",
+    "code": "",
+    "icao": "ASO"
+  },
+  {
+    "name": "Aerotec",
+    "code": "",
+    "icao": "AEP"
+  },
+  {
+    "name": "Aerotours",
+    "code": "",
+    "icao": "ATU"
+  },
+  {
+    "name": "Aerotranscargo",
+    "code": "F5",
+    "icao": "ATG"
+  },
+  {
+    "name": "AeroUnion",
+    "code": "6R",
+    "icao": "TNO"
+  },
+  {
+    "name": "Aerovias DAP",
+    "code": "V5",
+    "icao": "DAP"
+  },
+  {
+    "name": "Aerovis Airlines",
+    "code": "",
+    "icao": "VIZ"
+  },
+  {
+    "name": "Aeroways",
+    "code": "",
+    "icao": "MCK"
+  },
+  {
+    "name": "Aerus",
+    "code": "ZV",
+    "icao": "RFD"
+  },
+  {
+    "name": "AF-Aviation",
+    "code": "",
+    "icao": "AFF"
+  },
+  {
+    "name": "Africa Airlines",
+    "code": "",
+    "icao": "AAT"
+  },
+  {
+    "name": "Africa Charter Airline",
+    "code": "",
+    "icao": "FSK"
+  },
+  {
+    "name": "Africa World Airlines",
+    "code": "AW",
+    "icao": "AFW"
+  },
+  {
+    "name": "African Express Airways",
+    "code": "XU",
+    "icao": "AXK"
+  },
+  {
+    "name": "Afrijet",
+    "code": "J7",
+    "icao": "ABS"
+  },
+  {
+    "name": "Afriqiyah Airways",
+    "code": "8U",
+    "icao": "AAW"
+  },
+  {
+    "name": "Aims Community College Aviation",
+    "code": "",
+    "icao": "RTY"
+  },
+  {
+    "name": "Air 1st Aviation",
+    "code": "",
+    "icao": "RUF"
+  },
+  {
+    "name": "Air Adelphi",
+    "code": "",
+    "icao": "MUS"
+  },
+  {
+    "name": "Air Albania",
+    "code": "ZB",
+    "icao": "ABN"
+  },
+  {
+    "name": "Air Algerie",
+    "code": "AH",
+    "icao": "DAH"
+  },
+  {
+    "name": "Air Alliance",
+    "code": "",
+    "icao": "AYY"
+  },
+  {
+    "name": "Air Alsie",
+    "code": "6I",
+    "icao": "MMD"
+  },
+  {
+    "name": "Air Anka",
+    "code": "6K",
+    "icao": "TAH"
+  },
+  {
+    "name": "Air Arabia",
+    "code": "G9",
+    "icao": "ABY"
+  },
+  {
+    "name": "Air Arabia Abu Dhabi",
+    "code": "3L",
+    "icao": "ADY"
+  },
+  {
+    "name": "Air Arabia Egypt",
+    "code": "E5",
+    "icao": "RBG"
+  },
+  {
+    "name": "Air Arabia Maroc",
+    "code": "3O",
+    "icao": "MAC"
+  },
+  {
+    "name": "Air Astana",
+    "code": "KC",
+    "icao": "KZR"
+  },
+  {
+    "name": "Air Astra",
+    "code": "2A",
+    "icao": "AWA"
+  },
+  {
+    "name": "Air Atlanta Europe",
+    "code": "CT",
+    "icao": "AAE"
+  },
+  {
+    "name": "Air Atlanta Icelandic",
+    "code": "CC",
+    "icao": "ABD"
+  },
+  {
+    "name": "Air Austral",
+    "code": "UU",
+    "icao": "REU"
+  },
+  {
+    "name": "Air Baltic",
+    "code": "BT",
+    "icao": "BTI"
+  },
+  {
+    "name": "Air Belgium",
+    "code": "KF",
+    "icao": "ABB"
+  },
+  {
+    "name": "Air Bohemia",
+    "code": "",
+    "icao": "BOH"
+  },
+  {
+    "name": "Air Borealis",
+    "code": "",
+    "icao": "LBR"
+  },
+  {
+    "name": "Air Botswana",
+    "code": "BP",
+    "icao": "BOT"
+  },
+  {
+    "name": "Air Burkina",
+    "code": "2J",
+    "icao": "VBW"
+  },
+  {
+    "name": "Air Busan",
+    "code": "BX",
+    "icao": "ABL"
+  },
+  {
+    "name": "Air Cairo",
+    "code": "SM",
+    "icao": "MSC"
+  },
+  {
+    "name": "Air Caledonie",
+    "code": "TY",
+    "icao": "TPC"
+  },
+  {
+    "name": "Air Canada",
+    "code": "AC",
+    "icao": "ACA"
+  },
+  {
+    "name": "Air Canada Rouge",
+    "code": "RV",
+    "icao": "ROU"
+  },
+  {
+    "name": "Air Caraibes",
+    "code": "TX",
+    "icao": "FWI"
+  },
+  {
+    "name": "Air Cara\u00efbes Atlantique",
+    "code": "",
+    "icao": "CAJ"
+  },
+  {
+    "name": "Air Care Alliance",
+    "code": "",
+    "icao": "CMF"
+  },
+  {
+    "name": "Air Cargo Carriers",
+    "code": "2Q",
+    "icao": "SNC"
+  },
+  {
+    "name": "Air Central",
+    "code": "GI",
+    "icao": "LHA"
+  },
+  {
+    "name": "Air Century",
+    "code": "Y2",
+    "icao": "CEY"
+  },
+  {
+    "name": "Air Changan",
+    "code": "9H",
+    "icao": "CGN"
+  },
+  {
+    "name": "Air Charity Network",
+    "code": "",
+    "icao": "NGF"
+  },
+  {
+    "name": "Air Charter Scotland",
+    "code": "",
+    "icao": "EDC"
+  },
+  {
+    "name": "Air Charter Scotland Europe",
+    "code": "",
+    "icao": "SCO"
+  },
+  {
+    "name": "Air Charters Europe",
+    "code": "",
+    "icao": "AGR"
+  },
+  {
+    "name": "Air Chathams",
+    "code": "3C",
+    "icao": "CVA"
+  },
+  {
+    "name": "Air China",
+    "code": "CA",
+    "icao": "CCA"
+  },
+  {
+    "name": "Air China Cargo",
+    "code": "",
+    "icao": "CAO"
+  },
+  {
+    "name": "Air China Inner Mongolia",
+    "code": "",
+    "icao": "CNM"
+  },
+  {
+    "name": "Air Class",
+    "code": "",
+    "icao": "QCL"
+  },
+  {
+    "name": "Air Corporate",
+    "code": "",
+    "icao": "CPV"
+  },
+  {
+    "name": "Air Corsica",
+    "code": "XK",
+    "icao": "CCM"
+  },
+  {
+    "name": "Air Cote d'Ivoire",
+    "code": "HF",
+    "icao": "VRE"
+  },
+  {
+    "name": "Air Creebec",
+    "code": "YN",
+    "icao": "CRQ"
+  },
+  {
+    "name": "Air Deccan",
+    "code": "",
+    "icao": "DKN"
+  },
+  {
+    "name": "Air Dilijans",
+    "code": "RM",
+    "icao": "NGT"
+  },
+  {
+    "name": "Air Djibouti",
+    "code": "DJ",
+    "icao": "DJB"
+  },
+  {
+    "name": "Air Do",
+    "code": "HD",
+    "icao": "ADO"
+  },
+  {
+    "name": "Air Dolomiti",
+    "code": "EN",
+    "icao": "DLA"
+  },
+  {
+    "name": "Air Eagle",
+    "code": "",
+    "icao": "EPE"
+  },
+  {
+    "name": "Air Europa",
+    "code": "UX",
+    "icao": "AEA"
+  },
+  {
+    "name": "Air Europa Express",
+    "code": "X5",
+    "icao": "OVA"
+  },
+  {
+    "name": "Air Excel",
+    "code": "",
+    "icao": "XLL"
+  },
+  {
+    "name": "Air Falcon",
+    "code": "FS",
+    "icao": "FPK"
+  },
+  {
+    "name": "Air Flamenco",
+    "code": "F4",
+    "icao": "WAF"
+  },
+  {
+    "name": "Air France",
+    "code": "AF",
+    "icao": "AFR"
+  },
+  {
+    "name": "Air France Hop",
+    "code": "A5",
+    "icao": "HOP"
+  },
+  {
+    "name": "Air Ghana",
+    "code": "",
+    "icao": "GHN"
+  },
+  {
+    "name": "Air Greenland",
+    "code": "GL",
+    "icao": "GRL"
+  },
+  {
+    "name": "Air Guilin",
+    "code": "GT",
+    "icao": "CGH"
+  },
+  {
+    "name": "Air Haifa",
+    "code": "",
+    "icao": "HFA"
+  },
+  {
+    "name": "Air Hong Kong",
+    "code": "LD",
+    "icao": "AHK"
+  },
+  {
+    "name": "Air Horizont",
+    "code": "HT",
+    "icao": "HAT"
+  },
+  {
+    "name": "Air Incheon",
+    "code": "KJ",
+    "icao": "AIH"
+  },
+  {
+    "name": "Air India",
+    "code": "AI",
+    "icao": "AIC"
+  },
+  {
+    "name": "Air India Express",
+    "code": "IX",
+    "icao": "AXB"
+  },
+  {
+    "name": "Air Inuit",
+    "code": "3H",
+    "icao": "AIE"
+  },
+  {
+    "name": "Air Japan",
+    "code": "NQ",
+    "icao": "AJX"
+  },
+  {
+    "name": "Air Key West",
+    "code": "",
+    "icao": "KWX"
+  },
+  {
+    "name": "Air Kiribati",
+    "code": "IK",
+    "icao": "AKL"
+  },
+  {
+    "name": "Air Koryo",
+    "code": "JS",
+    "icao": "KOR"
+  },
+  {
+    "name": "Air Leisure",
+    "code": "AL",
+    "icao": "ALD"
+  },
+  {
+    "name": "Air Liaison",
+    "code": "DU",
+    "icao": "LSJ"
+  },
+  {
+    "name": "Air Libya",
+    "code": "7I",
+    "icao": "TLR"
+  },
+  {
+    "name": "Air Loyaute",
+    "code": "",
+    "icao": "RLY"
+  },
+  {
+    "name": "Air Macau",
+    "code": "NX",
+    "icao": "AMU"
+  },
+  {
+    "name": "Air Macran",
+    "code": "",
+    "icao": "AMH"
+  },
+  {
+    "name": "Air Manas",
+    "code": "ZM",
+    "icao": "MBB"
+  },
+  {
+    "name": "Air Mauritius",
+    "code": "MK",
+    "icao": "MAU"
+  },
+  {
+    "name": "Air Mediterranean",
+    "code": "MV",
+    "icao": "MAR"
+  },
+  {
+    "name": "Air Methods",
+    "code": "",
+    "icao": "LIF"
+  },
+  {
+    "name": "Air Moana",
+    "code": "NM",
+    "icao": "NTR"
+  },
+  {
+    "name": "Air Montenegro",
+    "code": "4O",
+    "icao": "MNE"
+  },
+  {
+    "name": "Air Mountain",
+    "code": "",
+    "icao": "AMT"
+  },
+  {
+    "name": "Air New Zealand",
+    "code": "NZ",
+    "icao": "ANZ"
+  },
+  {
+    "name": "Air Niugini",
+    "code": "PX",
+    "icao": "ANG"
+  },
+  {
+    "name": "Air North",
+    "code": "4N",
+    "icao": "ANT"
+  },
+  {
+    "name": "Air Nostrum",
+    "code": "YW",
+    "icao": "ANE"
+  },
+  {
+    "name": "Air Nunavut",
+    "code": "",
+    "icao": "BFF"
+  },
+  {
+    "name": "Air Ocean Maroc",
+    "code": "",
+    "icao": "AOM"
+  },
+  {
+    "name": "Air Panama",
+    "code": "7P",
+    "icao": "PST"
+  },
+  {
+    "name": "Air Peace",
+    "code": "P4",
+    "icao": "APK"
+  },
+  {
+    "name": "Air Premia",
+    "code": "YP",
+    "icao": "APZ"
+  },
+  {
+    "name": "Air Rarotonga",
+    "code": "GZ",
+    "icao": "RAR"
+  },
+  {
+    "name": "Air Safaris",
+    "code": "",
+    "icao": "SRI"
+  },
+  {
+    "name": "Air Saint-Pierre",
+    "code": "PJ",
+    "icao": "SPM"
+  },
+  {
+    "name": "Air Samarkand",
+    "code": "9S",
+    "icao": "UZS"
+  },
+  {
+    "name": "Air Senegal",
+    "code": "HC",
+    "icao": "SZN"
+  },
+  {
+    "name": "Air Seoul",
+    "code": "RS",
+    "icao": "ASV"
+  },
+  {
+    "name": "Air Seychelles",
+    "code": "HM",
+    "icao": "SEY"
+  },
+  {
+    "name": "Air Sphinx",
+    "code": "",
+    "icao": "ASD"
+  },
+  {
+    "name": "Air Spray",
+    "code": "",
+    "icao": "ASB"
+  },
+  {
+    "name": "Air Sunshine",
+    "code": "",
+    "icao": "RSI"
+  },
+  {
+    "name": "Air Tahiti",
+    "code": "VT",
+    "icao": "VTA"
+  },
+  {
+    "name": "Air Tahiti Nui",
+    "code": "TN",
+    "icao": "THT"
+  },
+  {
+    "name": "Air Tanzania",
+    "code": "TC",
+    "icao": "ATC"
+  },
+  {
+    "name": "Air Taxi & Charter International",
+    "code": "",
+    "icao": "IBJ"
+  },
+  {
+    "name": "Air Tetiaroa",
+    "code": "",
+    "icao": "TOA"
+  },
+  {
+    "name": "Air Thanlwin",
+    "code": "ST",
+    "icao": "RTL"
+  },
+  {
+    "name": "Air Tindi",
+    "code": "8T",
+    "icao": "TIN"
+  },
+  {
+    "name": "Air Transat",
+    "code": "TS",
+    "icao": "TSC"
+  },
+  {
+    "name": "Air Transport Europe",
+    "code": "",
+    "icao": "EAT"
+  },
+  {
+    "name": "Air Transport International",
+    "code": "8C",
+    "icao": "ATN"
+  },
+  {
+    "name": "Air Travel",
+    "code": "A6",
+    "icao": "OTC"
+  },
+  {
+    "name": "Air Urga",
+    "code": "3N",
+    "icao": "URG"
+  },
+  {
+    "name": "Air Vanuatu",
+    "code": "NF",
+    "icao": "AVN"
+  },
+  {
+    "name": "Air Volta",
+    "code": "",
+    "icao": "VLB"
+  },
+  {
+    "name": "Air Wisconsin",
+    "code": "ZW",
+    "icao": "AWI"
+  },
+  {
+    "name": "Air X Charter",
+    "code": "",
+    "icao": "AXY"
+  },
+  {
+    "name": "Air Zimbabwe",
+    "code": "UM",
+    "icao": "AZW"
+  },
+  {
+    "name": "Air-Glaciers",
+    "code": "",
+    "icao": "AGV"
+  },
+  {
+    "name": "Air-Taxi Europe",
+    "code": "",
+    "icao": "TWG"
+  },
+  {
+    "name": "Air1Air",
+    "code": "",
+    "icao": "INA"
+  },
+  {
+    "name": "Air65 Aviation",
+    "code": "",
+    "icao": "FGB"
+  },
+  {
+    "name": "AirACT",
+    "code": "9T",
+    "icao": "RUN"
+  },
+  {
+    "name": "AirAntilles",
+    "code": "4I",
+    "icao": "KES"
+  },
+  {
+    "name": "AirAsia",
+    "code": "AK",
+    "icao": "AXM"
+  },
+  {
+    "name": "AirAsia Cambodia",
+    "code": "KT",
+    "icao": "KTC"
+  },
+  {
+    "name": "AirAsia X",
+    "code": "D7",
+    "icao": "XAX"
+  },
+  {
+    "name": "AirBlue",
+    "code": "PA",
+    "icao": "ABQ"
+  },
+  {
+    "name": "Airborne Imaging",
+    "code": "",
+    "icao": "ARZ"
+  },
+  {
+    "name": "AirBridgeCargo Airlines",
+    "code": "RU",
+    "icao": "ABW"
+  },
+  {
+    "name": "Airbus",
+    "code": "",
+    "icao": "AIB"
+  },
+  {
+    "name": "Airbus Beluga Transport",
+    "code": "",
+    "icao": "BCO"
+  },
+  {
+    "name": "Airbus Transport International",
+    "code": "4Y",
+    "icao": "BGA"
+  },
+  {
+    "name": "Aircalin",
+    "code": "SB",
+    "icao": "ACI"
+  },
+  {
+    "name": "Aircharters Worldwide",
+    "code": "",
+    "icao": "MJS"
+  },
+  {
+    "name": "Aircraft Management Group",
+    "code": "",
+    "icao": "RVJ"
+  },
+  {
+    "name": "Aireon Canada",
+    "code": "",
+    "icao": "AEN"
+  },
+  {
+    "name": "Airest",
+    "code": "",
+    "icao": "AEG"
+  },
+  {
+    "name": "AirExplore",
+    "code": "ED",
+    "icao": "AXE"
+  },
+  {
+    "name": "Airfast Indonesia",
+    "code": "FS",
+    "icao": "AFE"
+  },
+  {
+    "name": "AirGO Private Airline",
+    "code": "",
+    "icao": "XGO"
+  },
+  {
+    "name": "Airhub Airlines",
+    "code": "RE",
+    "icao": "GJM"
+  },
+  {
+    "name": "AirJet",
+    "code": "",
+    "icao": "MBC"
+  },
+  {
+    "name": "Airkenya Express",
+    "code": "P2",
+    "icao": "XAK"
+  },
+  {
+    "name": "Airlec Air Espace",
+    "code": "",
+    "icao": "ARL"
+  },
+  {
+    "name": "Airlift",
+    "code": "",
+    "icao": "ALI"
+  },
+  {
+    "name": "Airlift International",
+    "code": "",
+    "icao": "AIR"
+  },
+  {
+    "name": "Airlink",
+    "code": "",
+    "icao": "JAR"
+  },
+  {
+    "name": "Airlink",
+    "code": "4Z",
+    "icao": "LNK"
+  },
+  {
+    "name": "AirMaster",
+    "code": "MR",
+    "icao": "RMX"
+  },
+  {
+    "name": "Airmax",
+    "code": "",
+    "icao": "MMX"
+  },
+  {
+    "name": "AirNet",
+    "code": "",
+    "icao": "USC"
+  },
+  {
+    "name": "Airnorth",
+    "code": "TL",
+    "icao": "ANO"
+  },
+  {
+    "name": "Airpac Airlines",
+    "code": "",
+    "icao": "APC"
+  },
+  {
+    "name": "AirSERBIA",
+    "code": "JU",
+    "icao": "ASL"
+  },
+  {
+    "name": "AirSF Flight Services",
+    "code": "",
+    "icao": "XSN"
+  },
+  {
+    "name": "Airshare",
+    "code": "",
+    "icao": "XSR"
+  },
+  {
+    "name": "AirSial",
+    "code": "PF",
+    "icao": "SIF"
+  },
+  {
+    "name": "AirSmart",
+    "code": "",
+    "icao": "XSM"
+  },
+  {
+    "name": "AirSprint",
+    "code": "",
+    "icao": "ASP"
+  },
+  {
+    "name": "AirStar Charter",
+    "code": "",
+    "icao": "OLV"
+  },
+  {
+    "name": "Airstream",
+    "code": "",
+    "icao": "AQS"
+  },
+  {
+    "name": "AirSWIFT",
+    "code": "T6",
+    "icao": "ATX"
+  },
+  {
+    "name": "AirTanker",
+    "code": "9L",
+    "icao": "TOW"
+  },
+  {
+    "name": "Airtask",
+    "code": "",
+    "icao": "DCT"
+  },
+  {
+    "name": "AirTraffic",
+    "code": "",
+    "icao": "ATY"
+  },
+  {
+    "name": "Airvan Kenya",
+    "code": "",
+    "icao": "AKV"
+  },
+  {
+    "name": "Airwaze",
+    "code": "",
+    "icao": "WZE"
+  },
+  {
+    "name": "Airwork",
+    "code": "",
+    "icao": "AWK"
+  },
+  {
+    "name": "AIS Airlines",
+    "code": "",
+    "icao": "PNX"
+  },
+  {
+    "name": "Aitheras Aviation Group",
+    "code": "",
+    "icao": "PXG"
+  },
+  {
+    "name": "AIX Connect",
+    "code": "I5",
+    "icao": "IAD"
+  },
+  {
+    "name": "AJet",
+    "code": "VF",
+    "icao": "TKJ"
+  },
+  {
+    "name": "Akasa Air",
+    "code": "QP",
+    "icao": "AKJ"
+  },
+  {
+    "name": "Al-Atheer Aviation",
+    "code": "",
+    "icao": "ATE"
+  },
+  {
+    "name": "Aladdin Jet",
+    "code": "",
+    "icao": "ADJ"
+  },
+  {
+    "name": "Alaman Air",
+    "code": "",
+    "icao": "TTR"
+  },
+  {
+    "name": "Alante Air Charter",
+    "code": "",
+    "icao": "SVL"
+  },
+  {
+    "name": "Alaska Airlines",
+    "code": "AS",
+    "icao": "ASA"
+  },
+  {
+    "name": "Alaska Central Express",
+    "code": "KO",
+    "icao": "AER"
+  },
+  {
+    "name": "AlbaStar",
+    "code": "",
+    "icao": "LAV"
+  },
+  {
+    "name": "Albatros Airlines",
+    "code": "G0",
+    "icao": "GAL"
+  },
+  {
+    "name": "Albinati Aeronautics",
+    "code": "",
+    "icao": "LUC"
+  },
+  {
+    "name": "Albinati Aviation",
+    "code": "",
+    "icao": "ULC"
+  },
+  {
+    "name": "Alexandria Airlines",
+    "code": "DQ",
+    "icao": "KHH"
+  },
+  {
+    "name": "Alexjets San Marino",
+    "code": "",
+    "icao": "AXJ"
+  },
+  {
+    "name": "Alfa Airlines",
+    "code": "5E",
+    "icao": "AAJ"
+  },
+  {
+    "name": "Algonquin Airlink",
+    "code": "",
+    "icao": "FSY"
+  },
+  {
+    "name": "Alidaunia",
+    "code": "D4",
+    "icao": "LID"
+  },
+  {
+    "name": "AlisCargo Airlines",
+    "code": "CP",
+    "icao": "LSI"
+  },
+  {
+    "name": "Aliserio",
+    "code": "",
+    "icao": "TJD"
+  },
+  {
+    "name": "ALK Airlines",
+    "code": "",
+    "icao": "VBB"
+  },
+  {
+    "name": "Alkan Air",
+    "code": "",
+    "icao": "ALN"
+  },
+  {
+    "name": "Alkan Air",
+    "code": "",
+    "icao": "AKN"
+  },
+  {
+    "name": "All Nippon Airways",
+    "code": "NH",
+    "icao": "ANA"
+  },
+  {
+    "name": "Allegiant Air",
+    "code": "G4",
+    "icao": "AAY"
+  },
+  {
+    "name": "Alliance Air",
+    "code": "9I",
+    "icao": "LLR"
+  },
+  {
+    "name": "Alliance Airlines",
+    "code": "QQ",
+    "icao": "UTY"
+  },
+  {
+    "name": "Alliance Executive Jets",
+    "code": "",
+    "icao": "ALE"
+  },
+  {
+    "name": "Allied Air",
+    "code": "4W",
+    "icao": "AJK"
+  },
+  {
+    "name": "AlMasria Universal Airlines",
+    "code": "UJ",
+    "icao": "LMU"
+  },
+  {
+    "name": "Aloha Air Cargo",
+    "code": "KH",
+    "icao": "AAH"
+  },
+  {
+    "name": "AlpAvia",
+    "code": "AL",
+    "icao": "APP"
+  },
+  {
+    "name": "Alpha Aviation",
+    "code": "",
+    "icao": "AAO"
+  },
+  {
+    "name": "Alphaland Aviation",
+    "code": "",
+    "icao": "BIC"
+  },
+  {
+    "name": "AlphaSky",
+    "code": "AS",
+    "icao": "JAG"
+  },
+  {
+    "name": "Alpi Jets",
+    "code": "",
+    "icao": "ALX"
+  },
+  {
+    "name": "Alpine Air Express",
+    "code": "5A",
+    "icao": "AIP"
+  },
+  {
+    "name": "Alpine Flightservice",
+    "code": "",
+    "icao": "FSE"
+  },
+  {
+    "name": "Alrosa",
+    "code": "6R",
+    "icao": "DRU"
+  },
+  {
+    "name": "Altagna",
+    "code": "",
+    "icao": "AGH"
+  },
+  {
+    "name": "Altair Airlines",
+    "code": "",
+    "icao": "AQL"
+  },
+  {
+    "name": "Altius Aviation",
+    "code": "",
+    "icao": "STY"
+  },
+  {
+    "name": "Amakusa Airlines",
+    "code": "MZ",
+    "icao": "AHX"
+  },
+  {
+    "name": "AMC Airlines",
+    "code": "",
+    "icao": "AMV"
+  },
+  {
+    "name": "AMC Aviation",
+    "code": "",
+    "icao": "AMQ"
+  },
+  {
+    "name": "Amelia",
+    "code": "8R",
+    "icao": "AIA"
+  },
+  {
+    "name": "Amelia International",
+    "code": "NL",
+    "icao": "AEH"
+  },
+  {
+    "name": "American Air Charter",
+    "code": "",
+    "icao": "GTW"
+  },
+  {
+    "name": "American Airlines",
+    "code": "AA",
+    "icao": "AAL"
+  },
+  {
+    "name": "American Jet",
+    "code": "",
+    "icao": "AJB"
+  },
+  {
+    "name": "American Jet International",
+    "code": "",
+    "icao": "SCM"
+  },
+  {
+    "name": "Ameriflight",
+    "code": "A8",
+    "icao": "AMF"
+  },
+  {
+    "name": "Amerijet International",
+    "code": "M6",
+    "icao": "AJT"
+  },
+  {
+    "name": "Ameristar",
+    "code": "7Z",
+    "icao": "AJI"
+  },
+  {
+    "name": "AMREF Flying Doctors",
+    "code": "",
+    "icao": "FDS"
+  },
+  {
+    "name": "AMS Airlines",
+    "code": "",
+    "icao": "GEO"
+  },
+  {
+    "name": "ANA Wings",
+    "code": "EH",
+    "icao": "AKX"
+  },
+  {
+    "name": "Anap Jets",
+    "code": "",
+    "icao": "AJP"
+  },
+  {
+    "name": "Anderson Air",
+    "code": "",
+    "icao": "ADS"
+  },
+  {
+    "name": "Andes Lineas Aereas",
+    "code": "O4",
+    "icao": "ANS"
+  },
+  {
+    "name": "Angara Airlines",
+    "code": "",
+    "icao": "AGU"
+  },
+  {
+    "name": "Anguilla Air Services",
+    "code": "Q3",
+    "icao": "AXL"
+  },
+  {
+    "name": "Animawings",
+    "code": "A2",
+    "icao": "AWG"
+  },
+  {
+    "name": "Antonov Airlines",
+    "code": "",
+    "icao": "ADB"
+  },
+  {
+    "name": "APG Airlines",
+    "code": "GP",
+    "icao": "RIV"
+  },
+  {
+    "name": "Arajet",
+    "code": "DM",
+    "icao": "DWI"
+  },
+  {
+    "name": "Arc en Ciel",
+    "code": "",
+    "icao": "JMS"
+  },
+  {
+    "name": "Archer Air",
+    "code": "",
+    "icao": "AXR"
+  },
+  {
+    "name": "Arcus Air",
+    "code": "",
+    "icao": "AZE"
+  },
+  {
+    "name": "Argentina - Air Force",
+    "code": "",
+    "icao": "FAG"
+  },
+  {
+    "name": "Ariana Afghan Airlines",
+    "code": "FG",
+    "icao": "AFG"
+  },
+  {
+    "name": "Ariella",
+    "code": "EL",
+    "icao": "RIE"
+  },
+  {
+    "name": "Arik Air",
+    "code": "W3",
+    "icao": "ARA"
+  },
+  {
+    "name": "Arkhangelsk Airlines",
+    "code": "",
+    "icao": "OAO"
+  },
+  {
+    "name": "Arkia Israeli Airlines",
+    "code": "IZ",
+    "icao": "AIZ"
+  },
+  {
+    "name": "Armenia Airways",
+    "code": "6A",
+    "icao": "AMW"
+  },
+  {
+    "name": "Armenian Airlines",
+    "code": "JI",
+    "icao": "AAG"
+  },
+  {
+    "name": "Aruba Airlines",
+    "code": "AG",
+    "icao": "ARU"
+  },
+  {
+    "name": "ASAS Linhas Aereas",
+    "code": "",
+    "icao": "CEU"
+  },
+  {
+    "name": "Ascend Airways",
+    "code": "YD",
+    "icao": "SYG"
+  },
+  {
+    "name": "ASG Business Aviation",
+    "code": "",
+    "icao": "ESW"
+  },
+  {
+    "name": "Asia Cargo Airlines",
+    "code": "GM",
+    "icao": "TMG"
+  },
+  {
+    "name": "Asia Pacific Airlines",
+    "code": "P9",
+    "icao": "MGE"
+  },
+  {
+    "name": "Asia Sky Lines",
+    "code": "",
+    "icao": "LIC"
+  },
+  {
+    "name": "Asia Union Airlines",
+    "code": "7Q",
+    "icao": "AUV"
+  },
+  {
+    "name": "Asian Express Airlines",
+    "code": "RS",
+    "icao": "TXP"
+  },
+  {
+    "name": "Asian Express General Aviation Wuxi",
+    "code": "",
+    "icao": "WUA"
+  },
+  {
+    "name": "Asiana Airlines",
+    "code": "OZ",
+    "icao": "AAR"
+  },
+  {
+    "name": "Asky Airlines",
+    "code": "KP",
+    "icao": "SKK"
+  },
+  {
+    "name": "ASL Airlines",
+    "code": "5H",
+    "icao": "ABR"
+  },
+  {
+    "name": "ASL Airlines Australia",
+    "code": "PH",
+    "icao": "PHA"
+  },
+  {
+    "name": "ASL Airlines Belgium",
+    "code": "3V",
+    "icao": "TAY"
+  },
+  {
+    "name": "ASL Airlines France",
+    "code": "5O",
+    "icao": "FPO"
+  },
+  {
+    "name": "ASL Airlines UK",
+    "code": "",
+    "icao": "ABV"
+  },
+  {
+    "name": "Asta Linhas Aereas",
+    "code": "0A",
+    "icao": "SUL"
+  },
+  {
+    "name": "Astonjet",
+    "code": "",
+    "icao": "ASJ"
+  },
+  {
+    "name": "Astonjet Malta",
+    "code": "",
+    "icao": "AJD"
+  },
+  {
+    "name": "Astral Aviation",
+    "code": "8V",
+    "icao": "ACP"
+  },
+  {
+    "name": "ATA Airlines",
+    "code": "I3",
+    "icao": "TBZ"
+  },
+  {
+    "name": "ATI Jet",
+    "code": "",
+    "icao": "CYO"
+  },
+  {
+    "name": "Atlanta Air Charter",
+    "code": "",
+    "icao": "CTE"
+  },
+  {
+    "name": "Atlantic Airways",
+    "code": "RC",
+    "icao": "FLI"
+  },
+  {
+    "name": "Atlantic Flight Training Academy",
+    "code": "",
+    "icao": "AFZ"
+  },
+  {
+    "name": "Atlantic Jets",
+    "code": "",
+    "icao": "AJG"
+  },
+  {
+    "name": "Atlas Air",
+    "code": "5Y",
+    "icao": "GTI"
+  },
+  {
+    "name": "Atlas Air Company",
+    "code": "",
+    "icao": "MUR"
+  },
+  {
+    "name": "Atlas Air Service",
+    "code": "",
+    "icao": "ATL"
+  },
+  {
+    "name": "ATM Information Service Japan",
+    "code": "",
+    "icao": "ATO"
+  },
+  {
+    "name": "ATP Flight School",
+    "code": "",
+    "icao": "CXK"
+  },
+  {
+    "name": "ATR",
+    "code": "",
+    "icao": "EVX"
+  },
+  {
+    "name": "Atran",
+    "code": "V8",
+    "icao": "VAS"
+  },
+  {
+    "name": "Atsa Airlines",
+    "code": "4A",
+    "icao": "AMP"
+  },
+  {
+    "name": "Auckland Rescue Helicopter",
+    "code": "",
+    "icao": "WPR"
+  },
+  {
+    "name": "Auric Air",
+    "code": "UI",
+    "icao": "AUK"
+  },
+  {
+    "name": "Aurigny Air Services",
+    "code": "GR",
+    "icao": "AUR"
+  },
+  {
+    "name": "Aurora",
+    "code": "HZ",
+    "icao": "SHU"
+  },
+  {
+    "name": "Aurora Flight Sciences",
+    "code": "",
+    "icao": "AUU"
+  },
+  {
+    "name": "Australia - Customs",
+    "code": "",
+    "icao": "CUS"
+  },
+  {
+    "name": "Australia - Federal Police",
+    "code": "",
+    "icao": "FPL"
+  },
+  {
+    "name": "Australia - Royal Australian Air Force",
+    "code": "",
+    "icao": "ASY"
+  },
+  {
+    "name": "Austria - Air Force",
+    "code": "",
+    "icao": "ASF"
+  },
+  {
+    "name": "Austrian Airlines",
+    "code": "OS",
+    "icao": "AUA"
+  },
+  {
+    "name": "Av8Jet",
+    "code": "",
+    "icao": "AJO"
+  },
+  {
+    "name": "AVA Airlines",
+    "code": "",
+    "icao": "AXV"
+  },
+  {
+    "name": "Avalair Aircraft Management",
+    "code": "",
+    "icao": "ARR"
+  },
+  {
+    "name": "Avanti Air",
+    "code": "",
+    "icao": "ATV"
+  },
+  {
+    "name": "AvCenter",
+    "code": "",
+    "icao": "TTE"
+  },
+  {
+    "name": "Avcon Jet",
+    "code": "",
+    "icao": "AOJ"
+  },
+  {
+    "name": "Avcon Jet Malta",
+    "code": "",
+    "icao": "VCJ"
+  },
+  {
+    "name": "Avcon Jet San Marino",
+    "code": "",
+    "icao": "VAJ"
+  },
+  {
+    "name": "Avelo Airlines",
+    "code": "XP",
+    "icao": "VXP"
+  },
+  {
+    "name": "Avia Traffic",
+    "code": "YK",
+    "icao": "AVJ"
+  },
+  {
+    "name": "Aviacon Zitotrans",
+    "code": "ZR",
+    "icao": "AZS"
+  },
+  {
+    "name": "Avianca",
+    "code": "AV",
+    "icao": "AVA"
+  },
+  {
+    "name": "Avianca Cargo",
+    "code": "QT",
+    "icao": "TPA"
+  },
+  {
+    "name": "Avianca Costa Rica",
+    "code": "LR",
+    "icao": "LRC"
+  },
+  {
+    "name": "Avianca Ecuador",
+    "code": "2K",
+    "icao": "GLG"
+  },
+  {
+    "name": "Avianca El Salvador",
+    "code": "TA",
+    "icao": "TAI"
+  },
+  {
+    "name": "Avianca Express",
+    "code": "EX",
+    "icao": "AVR"
+  },
+  {
+    "name": "Avianca Guatemala",
+    "code": "GU",
+    "icao": "GUG"
+  },
+  {
+    "name": "Aviastar",
+    "code": "",
+    "icao": "VIT"
+  },
+  {
+    "name": "Aviastar-TU",
+    "code": "4B",
+    "icao": "TUP"
+  },
+  {
+    "name": "Aviation Adventures",
+    "code": "",
+    "icao": "AVL"
+  },
+  {
+    "name": "Aviation Advisor",
+    "code": "",
+    "icao": "LKF"
+  },
+  {
+    "name": "Aviation Horizons",
+    "code": "ZS",
+    "icao": "HZS"
+  },
+  {
+    "name": "Aviator College",
+    "code": "",
+    "icao": "WCP"
+  },
+  {
+    "name": "Aviatsa",
+    "code": "",
+    "icao": "VVT"
+  },
+  {
+    "name": "Avincis",
+    "code": "",
+    "icao": "INR"
+  },
+  {
+    "name": "Avincis Aviation Italia",
+    "code": "",
+    "icao": "ELH"
+  },
+  {
+    "name": "Avincis Aviation Norway",
+    "code": "",
+    "icao": "BNO"
+  },
+  {
+    "name": "Avincis Aviation Sweden",
+    "code": "",
+    "icao": "DFL"
+  },
+  {
+    "name": "Avion Express",
+    "code": "X9",
+    "icao": "NVD"
+  },
+  {
+    "name": "Avion Express Brasil",
+    "code": "",
+    "icao": "AEB"
+  },
+  {
+    "name": "Avion Express Malta",
+    "code": "4X",
+    "icao": "MLH"
+  },
+  {
+    "name": "Avionord",
+    "code": "",
+    "icao": "VND"
+  },
+  {
+    "name": "Avior Airlines",
+    "code": "9V",
+    "icao": "ROI"
+  },
+  {
+    "name": "Aviostart",
+    "code": "",
+    "icao": "VSR"
+  },
+  {
+    "name": "AWA",
+    "code": "",
+    "icao": "WEY"
+  },
+  {
+    "name": "Awesome Cargo",
+    "code": "A7",
+    "icao": "WIN"
+  },
+  {
+    "name": "AXIS Aviation",
+    "code": "",
+    "icao": "BQA"
+  },
+  {
+    "name": "Axis Aviation San Marino",
+    "code": "",
+    "icao": "AXS"
+  },
+  {
+    "name": "Azerbaijan Airlines",
+    "code": "J2",
+    "icao": "AHY"
+  },
+  {
+    "name": "Azimut",
+    "code": "",
+    "icao": "MOM"
+  },
+  {
+    "name": "Azimuth",
+    "code": "A4",
+    "icao": "AZO"
+  },
+  {
+    "name": "Azman Air",
+    "code": "ZU",
+    "icao": "AZM"
+  },
+  {
+    "name": "Azores Airlines",
+    "code": "S4",
+    "icao": "RZO"
+  },
+  {
+    "name": "Aztec Airways",
+    "code": "AJ",
+    "icao": "AZY"
+  },
+  {
+    "name": "Azul",
+    "code": "AD",
+    "icao": "AZU"
+  },
+  {
+    "name": "Azul Conecta",
+    "code": "2F",
+    "icao": "ACN"
+  },
+  {
+    "name": "Azur Air",
+    "code": "ZF",
+    "icao": "AZV"
+  },
+  {
+    "name": "B. J. Aviation",
+    "code": "",
+    "icao": "JSD"
+  },
+  {
+    "name": "B.J. Aviation",
+    "code": "",
+    "icao": "JSG"
+  },
+  {
+    "name": "B2C Airways",
+    "code": "",
+    "icao": "BTC"
+  },
+  {
+    "name": "BA CityFlyer",
+    "code": "CJ",
+    "icao": "CFE"
+  },
+  {
+    "name": "BA Euroflyer",
+    "code": "A0",
+    "icao": "EFW"
+  },
+  {
+    "name": "BAA Training",
+    "code": "",
+    "icao": "BFS"
+  },
+  {
+    "name": "Babcock",
+    "code": "",
+    "icao": "RHD"
+  },
+  {
+    "name": "Babcock MCS France",
+    "code": "",
+    "icao": "PTH"
+  },
+  {
+    "name": "Backcountry Aviation",
+    "code": "",
+    "icao": "SQH"
+  },
+  {
+    "name": "Baden Aircraft Operations",
+    "code": "",
+    "icao": "BAO"
+  },
+  {
+    "name": "Badr Airlines",
+    "code": "J4",
+    "icao": "BDR"
+  },
+  {
+    "name": "BAe Systems",
+    "code": "",
+    "icao": "BAE"
+  },
+  {
+    "name": "BAE Systems Marine",
+    "code": "",
+    "icao": "VSB"
+  },
+  {
+    "name": "Bahamasair",
+    "code": "UP",
+    "icao": "BHS"
+  },
+  {
+    "name": "Bairline",
+    "code": "",
+    "icao": "BRJ"
+  },
+  {
+    "name": "Baker Aviation",
+    "code": "",
+    "icao": "KOW"
+  },
+  {
+    "name": "Bamboo Airways",
+    "code": "QH",
+    "icao": "BAV"
+  },
+  {
+    "name": "Bangkok Airways",
+    "code": "PG",
+    "icao": "BKP"
+  },
+  {
+    "name": "BankAir",
+    "code": "",
+    "icao": "BKA"
+  },
+  {
+    "name": "Bar XH Air",
+    "code": "",
+    "icao": "BXH"
+  },
+  {
+    "name": "Baron Aviation Services",
+    "code": "",
+    "icao": "BVN"
+  },
+  {
+    "name": "Bassaka Air",
+    "code": "5B",
+    "icao": "BSX"
+  },
+  {
+    "name": "Batik Air",
+    "code": "ID",
+    "icao": "BTK"
+  },
+  {
+    "name": "Batik Air Malaysia",
+    "code": "OD",
+    "icao": "MXD"
+  },
+  {
+    "name": "BBN Airlines",
+    "code": "B5",
+    "icao": "BBT"
+  },
+  {
+    "name": "BBN Airlines Indonesia",
+    "code": "7B",
+    "icao": "BBL"
+  },
+  {
+    "name": "Bearskin Airlines",
+    "code": "JV",
+    "icao": "BLS"
+  },
+  {
+    "name": "Bees Airlines",
+    "code": "E8",
+    "icao": "BES"
+  },
+  {
+    "name": "Beijing Airlines",
+    "code": "",
+    "icao": "BJN"
+  },
+  {
+    "name": "Bel Air Aviation",
+    "code": "",
+    "icao": "BBX"
+  },
+  {
+    "name": "Belavia",
+    "code": "B2",
+    "icao": "BRU"
+  },
+  {
+    "name": "Belgium - Air Force",
+    "code": "",
+    "icao": "BAF"
+  },
+  {
+    "name": "Belgium - Coast Guard",
+    "code": "",
+    "icao": "BCG"
+  },
+  {
+    "name": "Belgium - Gendarmerie",
+    "code": "",
+    "icao": "GDB"
+  },
+  {
+    "name": "Belgium - Navy",
+    "code": "",
+    "icao": "NYB"
+  },
+  {
+    "name": "BellAir",
+    "code": "",
+    "icao": "TCN"
+  },
+  {
+    "name": "Bemidji Airlines",
+    "code": "CH",
+    "icao": "BMJ"
+  },
+  {
+    "name": "Benin Airlines",
+    "code": "PL",
+    "icao": "ABT"
+  },
+  {
+    "name": "Beond",
+    "code": "B4",
+    "icao": "BYD"
+  },
+  {
+    "name": "Bering Air",
+    "code": "8E",
+    "icao": "BRG"
+  },
+  {
+    "name": "Berjaya Air",
+    "code": "J8",
+    "icao": "BVT"
+  },
+  {
+    "name": "BermudAir",
+    "code": "2T",
+    "icao": "BMA"
+  },
+  {
+    "name": "Berniq Airways",
+    "code": "NB",
+    "icao": "BNL"
+  },
+  {
+    "name": "Berry Aviation",
+    "code": "",
+    "icao": "BYA"
+  },
+  {
+    "name": "Bestfly Aruba",
+    "code": "",
+    "icao": "BFY"
+  },
+  {
+    "name": "BH Air",
+    "code": "8H",
+    "icao": "BGH"
+  },
+  {
+    "name": "Bhutan Airlines",
+    "code": "B3",
+    "icao": "BTN"
+  },
+  {
+    "name": "Big Bend Community College",
+    "code": "",
+    "icao": "BGB"
+  },
+  {
+    "name": "Bighorn Airways",
+    "code": "",
+    "icao": "BHR"
+  },
+  {
+    "name": "Biman Bangladesh Airlines",
+    "code": "BG",
+    "icao": "BBC"
+  },
+  {
+    "name": "BinAir",
+    "code": "",
+    "icao": "BID"
+  },
+  {
+    "name": "Binani Air",
+    "code": "",
+    "icao": "BGL"
+  },
+  {
+    "name": "Binter Canarias",
+    "code": "NT",
+    "icao": "IBB"
+  },
+  {
+    "name": "Bioflight",
+    "code": "",
+    "icao": "BIO"
+  },
+  {
+    "name": "Blackbird Air",
+    "code": "",
+    "icao": "BBB"
+  },
+  {
+    "name": "Blessings Aviation",
+    "code": "",
+    "icao": "TJJ"
+  },
+  {
+    "name": "Blue Bird Aviation",
+    "code": "",
+    "icao": "BLB"
+  },
+  {
+    "name": "Blue Dart Aviation",
+    "code": "BZ",
+    "icao": "BDA"
+  },
+  {
+    "name": "Blue Islands",
+    "code": "SI",
+    "icao": "BCI"
+  },
+  {
+    "name": "Blue Jet Airways",
+    "code": "",
+    "icao": "BJQ"
+  },
+  {
+    "name": "Blue Square Aviation",
+    "code": "",
+    "icao": "BSG"
+  },
+  {
+    "name": "Bluebird Airways",
+    "code": "BZ",
+    "icao": "BBG"
+  },
+  {
+    "name": "Bluebird Aviation",
+    "code": "",
+    "icao": "BBZ"
+  },
+  {
+    "name": "Bluesky Airways",
+    "code": "",
+    "icao": "BSF"
+  },
+  {
+    "name": "BlueSky Aviation",
+    "code": "",
+    "icao": "SBK"
+  },
+  {
+    "name": "Boeing",
+    "code": "",
+    "icao": "BOE"
+  },
+  {
+    "name": "Boliviana de Aviacion",
+    "code": "OB",
+    "icao": "BOV"
+  },
+  {
+    "name": "Bombardier",
+    "code": "",
+    "icao": "BBA"
+  },
+  {
+    "name": "Bookajet",
+    "code": "",
+    "icao": "BOO"
+  },
+  {
+    "name": "Boutique Air",
+    "code": "4B",
+    "icao": "BTQ"
+  },
+  {
+    "name": "BRA",
+    "code": "TF",
+    "icao": "BRX"
+  },
+  {
+    "name": "Braathens International Airways",
+    "code": "TT",
+    "icao": "BIX"
+  },
+  {
+    "name": "Braspress Air Cargo",
+    "code": "",
+    "icao": "BPC"
+  },
+  {
+    "name": "Bravo Airways",
+    "code": "",
+    "icao": "BAY"
+  },
+  {
+    "name": "Brazil - Air Force",
+    "code": "",
+    "icao": "BRS"
+  },
+  {
+    "name": "Brazil - Army",
+    "code": "",
+    "icao": "EXB"
+  },
+  {
+    "name": "Brazil - Navy",
+    "code": "",
+    "icao": "MBR"
+  },
+  {
+    "name": "Breeze Airways",
+    "code": "MX",
+    "icao": "MXY"
+  },
+  {
+    "name": "Bridger Aerospace",
+    "code": "",
+    "icao": "BGR"
+  },
+  {
+    "name": "Bridges Air Cargo",
+    "code": "5B",
+    "icao": "BRD"
+  },
+  {
+    "name": "Brilliant Jet",
+    "code": "",
+    "icao": "TXJ"
+  },
+  {
+    "name": "Bristow Helicopters",
+    "code": "",
+    "icao": "BHL"
+  },
+  {
+    "name": "Bristow Nigeria",
+    "code": "",
+    "icao": "BHN"
+  },
+  {
+    "name": "Bristow Norway",
+    "code": "",
+    "icao": "NOR"
+  },
+  {
+    "name": "Bristow US",
+    "code": "",
+    "icao": "BTZ"
+  },
+  {
+    "name": "British Airways",
+    "code": "BA",
+    "icao": "BAW"
+  },
+  {
+    "name": "British Airways Shuttle",
+    "code": "",
+    "icao": "SHT"
+  },
+  {
+    "name": "British International Helicopters",
+    "code": "",
+    "icao": "BRT"
+  },
+  {
+    "name": "Bromma Air Maintenance",
+    "code": "",
+    "icao": "CFL"
+  },
+  {
+    "name": "Brussels Airlines",
+    "code": "SN",
+    "icao": "BEL"
+  },
+  {
+    "name": "Budapest Aircraft Service",
+    "code": "RP",
+    "icao": "BPS"
+  },
+  {
+    "name": "Buddha Air",
+    "code": "U4",
+    "icao": "BHA"
+  },
+  {
+    "name": "Budget Lines",
+    "code": "BD",
+    "icao": "BGN"
+  },
+  {
+    "name": "Buffalo Airways",
+    "code": "J0",
+    "icao": "BFL"
+  },
+  {
+    "name": "Bul Air",
+    "code": "LB",
+    "icao": "BVL"
+  },
+  {
+    "name": "Bulgaria - Air Force",
+    "code": "",
+    "icao": "AFB"
+  },
+  {
+    "name": "Bulgaria - Government",
+    "code": "",
+    "icao": "BGF"
+  },
+  {
+    "name": "Bulgaria Air",
+    "code": "FB",
+    "icao": "LZB"
+  },
+  {
+    "name": "Buraq Air",
+    "code": "UZ",
+    "icao": "BRQ"
+  },
+  {
+    "name": "Burkina Faso - Government",
+    "code": "",
+    "icao": "BFA"
+  },
+  {
+    "name": "Business Aviation Asia",
+    "code": "UN",
+    "icao": "UNA"
+  },
+  {
+    "name": "Business Wings",
+    "code": "",
+    "icao": "JMP"
+  },
+  {
+    "name": "Buzz",
+    "code": "RR",
+    "icao": "RYS"
+  },
+  {
+    "name": "BySky",
+    "code": "",
+    "icao": "BYS"
+  },
+  {
+    "name": "C&M Airways",
+    "code": "",
+    "icao": "RWG"
+  },
+  {
+    "name": "CAA",
+    "code": "BU",
+    "icao": "DBP"
+  },
+  {
+    "name": "Cabo Verde Airlines",
+    "code": "VR",
+    "icao": "TCV"
+  },
+  {
+    "name": "CAE",
+    "code": "",
+    "icao": "CSR"
+  },
+  {
+    "name": "CAE",
+    "code": "",
+    "icao": "OXF"
+  },
+  {
+    "name": "Caicos Express Airways",
+    "code": "9Q",
+    "icao": "CXE"
+  },
+  {
+    "name": "Calm Air",
+    "code": "MO",
+    "icao": "CAV"
+  },
+  {
+    "name": "Calstar",
+    "code": "",
+    "icao": "CMD"
+  },
+  {
+    "name": "Camair-Co",
+    "code": "QC",
+    "icao": "CRC"
+  },
+  {
+    "name": "Cambodia Airways",
+    "code": "KR",
+    "icao": "KME"
+  },
+  {
+    "name": "Cambodia Angkor Air",
+    "code": "K6",
+    "icao": "KHV"
+  },
+  {
+    "name": "CAMEX Adria Airlines",
+    "code": "",
+    "icao": "CMM"
+  },
+  {
+    "name": "Camex Airlines",
+    "code": "Z7",
+    "icao": "CMS"
+  },
+  {
+    "name": "Canada - Coast Guard",
+    "code": "",
+    "icao": "CTG"
+  },
+  {
+    "name": "Canada - Department of Transport",
+    "code": "",
+    "icao": "TGO"
+  },
+  {
+    "name": "Canada - Ontario Ministry of Natural Resources",
+    "code": "",
+    "icao": "ONT"
+  },
+  {
+    "name": "Canada - Royal Canadian Air Force",
+    "code": "",
+    "icao": "CFC"
+  },
+  {
+    "name": "Canada - Royal Canadian Mounted Police",
+    "code": "",
+    "icao": "SST"
+  },
+  {
+    "name": "Canada - Saskatchewan Air Ambulance Service",
+    "code": "",
+    "icao": "SLG"
+  },
+  {
+    "name": "Canadian Airways Congo",
+    "code": "",
+    "icao": "TWC"
+  },
+  {
+    "name": "Canadian North",
+    "code": "5T",
+    "icao": "AKT"
+  },
+  {
+    "name": "Canair",
+    "code": "",
+    "icao": "RSC"
+  },
+  {
+    "name": "CanaryFly",
+    "code": "PM",
+    "icao": "CNF"
+  },
+  {
+    "name": "Canavia",
+    "code": "",
+    "icao": "CNA"
+  },
+  {
+    "name": "Canlink Aviation",
+    "code": "",
+    "icao": "MFC"
+  },
+  {
+    "name": "CanWest Air",
+    "code": "",
+    "icao": "CWA"
+  },
+  {
+    "name": "Cape Air",
+    "code": "9K",
+    "icao": "KAP"
+  },
+  {
+    "name": "Capital Air Ambulance",
+    "code": "",
+    "icao": "EGL"
+  },
+  {
+    "name": "Capital Airlines",
+    "code": "JD",
+    "icao": "CBJ"
+  },
+  {
+    "name": "Capital City Air Carriers",
+    "code": "",
+    "icao": "CCQ"
+  },
+  {
+    "name": "Cardig Air",
+    "code": "7D",
+    "icao": "CAD"
+  },
+  {
+    "name": "CareFlight",
+    "code": "",
+    "icao": "CFH"
+  },
+  {
+    "name": "Cargo Air",
+    "code": "",
+    "icao": "CGF"
+  },
+  {
+    "name": "Cargo Three",
+    "code": "C3",
+    "icao": "CTW"
+  },
+  {
+    "name": "Cargojet Airways",
+    "code": "W8",
+    "icao": "CJT"
+  },
+  {
+    "name": "Cargolux",
+    "code": "CV",
+    "icao": "CLX"
+  },
+  {
+    "name": "Cargolux Italia",
+    "code": "C8",
+    "icao": "ICV"
+  },
+  {
+    "name": "Caribbean Airlines",
+    "code": "BW",
+    "icao": "BWA"
+  },
+  {
+    "name": "Carlisle Air Group",
+    "code": "",
+    "icao": "CCK"
+  },
+  {
+    "name": "Carpatair",
+    "code": "V3",
+    "icao": "KRP"
+  },
+  {
+    "name": "Carson Air",
+    "code": "",
+    "icao": "CRN"
+  },
+  {
+    "name": "Caspian Airlines",
+    "code": "IV",
+    "icao": "CPN"
+  },
+  {
+    "name": "Castle Aviation",
+    "code": "",
+    "icao": "CSJ"
+  },
+  {
+    "name": "Cat Aviation",
+    "code": "",
+    "icao": "CAZ"
+  },
+  {
+    "name": "Cathay Pacific",
+    "code": "CX",
+    "icao": "CPA"
+  },
+  {
+    "name": "Catreus",
+    "code": "",
+    "icao": "VCG"
+  },
+  {
+    "name": "Cavok Air",
+    "code": "",
+    "icao": "CVK"
+  },
+  {
+    "name": "Cayman Airways",
+    "code": "KX",
+    "icao": "CAY"
+  },
+  {
+    "name": "CB SkyShare",
+    "code": "",
+    "icao": "CBC"
+  },
+  {
+    "name": "Cebgo",
+    "code": "DG",
+    "icao": "SRQ"
+  },
+  {
+    "name": "Cebu Pacific",
+    "code": "5J",
+    "icao": "CEB"
+  },
+  {
+    "name": "Ceiba Intercontinental",
+    "code": "",
+    "icao": "CEL"
+  },
+  {
+    "name": "CemAir",
+    "code": "5Z",
+    "icao": "KEM"
+  },
+  {
+    "name": "Centene Management Company",
+    "code": "",
+    "icao": "TMP"
+  },
+  {
+    "name": "Central Air Southwest",
+    "code": "",
+    "icao": "CTL"
+  },
+  {
+    "name": "Central Airlines",
+    "code": "I9",
+    "icao": "HLF"
+  },
+  {
+    "name": "Central Mountain Air",
+    "code": "9M",
+    "icao": "GLR"
+  },
+  {
+    "name": "Centreline",
+    "code": "",
+    "icao": "CLF"
+  },
+  {
+    "name": "Cerium Air",
+    "code": "",
+    "icao": "CAQ"
+  },
+  {
+    "name": "Chabahar Airlines",
+    "code": "",
+    "icao": "IRU"
+  },
+  {
+    "name": "Chair Airlines",
+    "code": "GM",
+    "icao": "GSW"
+  },
+  {
+    "name": "Chalair Aviation",
+    "code": "CE",
+    "icao": "CLG"
+  },
+  {
+    "name": "Challenge Air Cargo",
+    "code": "X6",
+    "icao": "CHZ"
+  },
+  {
+    "name": "Challenge Airlines BE",
+    "code": "X7",
+    "icao": "CHG"
+  },
+  {
+    "name": "Challenge Airlines IL",
+    "code": "5C",
+    "icao": "ICL"
+  },
+  {
+    "name": "Cham Wings Airlines",
+    "code": "",
+    "icao": "SAW"
+  },
+  {
+    "name": "Charter Airlines",
+    "code": "",
+    "icao": "RKJ"
+  },
+  {
+    "name": "Charter Jets",
+    "code": "",
+    "icao": "LTC"
+  },
+  {
+    "name": "Chartright Air",
+    "code": "",
+    "icao": "HRT"
+  },
+  {
+    "name": "CHC Helicopter",
+    "code": "",
+    "icao": "HMB"
+  },
+  {
+    "name": "CHC Helicopters Netherlands",
+    "code": "",
+    "icao": "HNL"
+  },
+  {
+    "name": "CHC Helicopters Nigeria",
+    "code": "",
+    "icao": "ATQ"
+  },
+  {
+    "name": "CHC Helikopter Service",
+    "code": "",
+    "icao": "HKS"
+  },
+  {
+    "name": "CHC International",
+    "code": "",
+    "icao": "GCY"
+  },
+  {
+    "name": "Chengdu Airlines",
+    "code": "EU",
+    "icao": "UEA"
+  },
+  {
+    "name": "Chervon",
+    "code": "",
+    "icao": "GLH"
+  },
+  {
+    "name": "Chicago Jet Group",
+    "code": "",
+    "icao": "WDY"
+  },
+  {
+    "name": "China - Air Force",
+    "code": "",
+    "icao": "CKJ"
+  },
+  {
+    "name": "China - Civil Aviation Administration",
+    "code": "",
+    "icao": "CFI"
+  },
+  {
+    "name": "China Airlines",
+    "code": "CI",
+    "icao": "CAL"
+  },
+  {
+    "name": "China Cargo Airlines",
+    "code": "CK",
+    "icao": "CKK"
+  },
+  {
+    "name": "China Eastern Airlines",
+    "code": "MU",
+    "icao": "CES"
+  },
+  {
+    "name": "China Express Airlines",
+    "code": "G5",
+    "icao": "HXA"
+  },
+  {
+    "name": "China Postal Airlines",
+    "code": "CF",
+    "icao": "CYZ"
+  },
+  {
+    "name": "China Southern Airlines",
+    "code": "CZ",
+    "icao": "CSN"
+  },
+  {
+    "name": "China Southern Cargo",
+    "code": "",
+    "icao": "CSG"
+  },
+  {
+    "name": "China United Airlines",
+    "code": "KN",
+    "icao": "CUA"
+  },
+  {
+    "name": "Chodang University",
+    "code": "",
+    "icao": "CDQ"
+  },
+  {
+    "name": "Chongqing Airlines",
+    "code": "OQ",
+    "icao": "CQN"
+  },
+  {
+    "name": "Chrono Aviation",
+    "code": "MB",
+    "icao": "NDL"
+  },
+  {
+    "name": "Chrono Jet",
+    "code": "MB",
+    "icao": "MBK"
+  },
+  {
+    "name": "Cinnamon Air",
+    "code": "C7",
+    "icao": "CIN"
+  },
+  {
+    "name": "Circadian Aviation",
+    "code": "",
+    "icao": "CYC"
+  },
+  {
+    "name": "CITIC Offshore Helicopter",
+    "code": "",
+    "icao": "CHC"
+  },
+  {
+    "name": "Citilink",
+    "code": "QG",
+    "icao": "CTV"
+  },
+  {
+    "name": "Cityjet",
+    "code": "WX",
+    "icao": "BCY"
+  },
+  {
+    "name": "Civil Air Patrol",
+    "code": "",
+    "icao": "CAP"
+  },
+  {
+    "name": "Class Aviation",
+    "code": "",
+    "icao": "DUC"
+  },
+  {
+    "name": "Clic",
+    "code": "VE",
+    "icao": "EFY"
+  },
+  {
+    "name": "ClipperJet",
+    "code": "",
+    "icao": "ORO"
+  },
+  {
+    "name": "CM Airlines",
+    "code": "H5",
+    "icao": "OMT"
+  },
+  {
+    "name": "CMA CGM Air Cargo",
+    "code": "2C",
+    "icao": "CMA"
+  },
+  {
+    "name": "Coastal Aviation",
+    "code": "CQ",
+    "icao": "CSV"
+  },
+  {
+    "name": "Cobalt Air",
+    "code": "CO",
+    "icao": "FCB"
+  },
+  {
+    "name": "Cobham Aviation Services Australia",
+    "code": "",
+    "icao": "NJS"
+  },
+  {
+    "name": "Colombia - Air Force",
+    "code": "",
+    "icao": "FAC"
+  },
+  {
+    "name": "Colorful Guizhou Airlines",
+    "code": "GY",
+    "icao": "CGZ"
+  },
+  {
+    "name": "Comlux",
+    "code": "",
+    "icao": "CLA"
+  },
+  {
+    "name": "Comlux Aruba",
+    "code": "CS",
+    "icao": "CXB"
+  },
+  {
+    "name": "Comlux Kazakhstan",
+    "code": "",
+    "icao": "KAZ"
+  },
+  {
+    "name": "Comlux Malta",
+    "code": "",
+    "icao": "MLM"
+  },
+  {
+    "name": "CommuteAir",
+    "code": "C5",
+    "icao": "UCA"
+  },
+  {
+    "name": "Compagnia Aeronautica Italiana",
+    "code": "",
+    "icao": "CPI"
+  },
+  {
+    "name": "Compass Cargo Airlines",
+    "code": "HQ",
+    "icao": "ADZ"
+  },
+  {
+    "name": "Conair",
+    "code": "",
+    "icao": "FGD"
+  },
+  {
+    "name": "Condor",
+    "code": "DE",
+    "icao": "CFG"
+  },
+  {
+    "name": "Congo Airways",
+    "code": "8Z",
+    "icao": "CGA"
+  },
+  {
+    "name": "Conquest Air",
+    "code": "C4",
+    "icao": "QAI"
+  },
+  {
+    "name": "Constanta Airline",
+    "code": "",
+    "icao": "UZA"
+  },
+  {
+    "name": "Contour Aviation",
+    "code": "LF",
+    "icao": "VTE"
+  },
+  {
+    "name": "Conviasa",
+    "code": "V0",
+    "icao": "VCV"
+  },
+  {
+    "name": "Copa Airlines",
+    "code": "CM",
+    "icao": "CMP"
+  },
+  {
+    "name": "Copenhagen Airtaxi",
+    "code": "",
+    "icao": "CAT"
+  },
+  {
+    "name": "Corendon Airlines",
+    "code": "XC",
+    "icao": "CAI"
+  },
+  {
+    "name": "Corendon Airlines Europe",
+    "code": "XR",
+    "icao": "CXI"
+  },
+  {
+    "name": "Corendon Dutch Airlines",
+    "code": "CD",
+    "icao": "CND"
+  },
+  {
+    "name": "Corporate Air",
+    "code": "",
+    "icao": "CPT"
+  },
+  {
+    "name": "Corporate Air",
+    "code": "",
+    "icao": "MLN"
+  },
+  {
+    "name": "Corporate Jet",
+    "code": "",
+    "icao": "PHJ"
+  },
+  {
+    "name": "Corsair",
+    "code": "SS",
+    "icao": "CRL"
+  },
+  {
+    "name": "Costa Rica - Ministry of Public Security",
+    "code": "",
+    "icao": "MSP"
+  },
+  {
+    "name": "Costa Rica Green Airways",
+    "code": "GW",
+    "icao": "CRG"
+  },
+  {
+    "name": "Coulson Aviation",
+    "code": "",
+    "icao": "CUL"
+  },
+  {
+    "name": "Cristalux",
+    "code": "7Z",
+    "icao": "AUZ"
+  },
+  {
+    "name": "Croatia - Air Force",
+    "code": "",
+    "icao": "HRZ"
+  },
+  {
+    "name": "Croatia Airlines",
+    "code": "OU",
+    "icao": "CTN"
+  },
+  {
+    "name": "Cronos Airlines",
+    "code": "C8",
+    "icao": "CRA"
+  },
+  {
+    "name": "Cronos Airlines Benin",
+    "code": "",
+    "icao": "CKL"
+  },
+  {
+    "name": "Crown Airlines",
+    "code": "FQ",
+    "icao": "CWN"
+  },
+  {
+    "name": "Crystal Air",
+    "code": "",
+    "icao": "CYT"
+  },
+  {
+    "name": "CSA Air",
+    "code": "",
+    "icao": "IRO"
+  },
+  {
+    "name": "CSI Aviation",
+    "code": "",
+    "icao": "CSI"
+  },
+  {
+    "name": "CSM Aviation",
+    "code": "",
+    "icao": "TOG"
+  },
+  {
+    "name": "Cubana",
+    "code": "CU",
+    "icao": "CUB"
+  },
+  {
+    "name": "Cygnus Air",
+    "code": "",
+    "icao": "RGN"
+  },
+  {
+    "name": "Cyprus Airways",
+    "code": "CY",
+    "icao": "CYP"
+  },
+  {
+    "name": "Czech Airlines",
+    "code": "OK",
+    "icao": "CSA"
+  },
+  {
+    "name": "Czechia - Air Force",
+    "code": "",
+    "icao": "CEF"
+  },
+  {
+    "name": "Czechia - Government",
+    "code": "",
+    "icao": "CIE"
+  },
+  {
+    "name": "Daallo Airlines",
+    "code": "D3",
+    "icao": "DAO"
+  },
+  {
+    "name": "Dalian Airlines",
+    "code": "",
+    "icao": "CCD"
+  },
+  {
+    "name": "Dan Air",
+    "code": "DN",
+    "icao": "DNA"
+  },
+  {
+    "name": "Dana Air",
+    "code": "9J",
+    "icao": "DAN"
+  },
+  {
+    "name": "DAS Private Jets",
+    "code": "",
+    "icao": "DWW"
+  },
+  {
+    "name": "Dassault Falcon Service",
+    "code": "",
+    "icao": "DSO"
+  },
+  {
+    "name": "DAT",
+    "code": "DX",
+    "icao": "DTR"
+  },
+  {
+    "name": "DAT LT",
+    "code": "R6",
+    "icao": "DNU"
+  },
+  {
+    "name": "DB Aviation",
+    "code": "",
+    "icao": "DBT"
+  },
+  {
+    "name": "DC Aviation",
+    "code": "",
+    "icao": "DCW"
+  },
+  {
+    "name": "DC Aviation",
+    "code": "",
+    "icao": "DCS"
+  },
+  {
+    "name": "DC Aviation San Marino",
+    "code": "",
+    "icao": "DCU"
+  },
+  {
+    "name": "DEA Aviation",
+    "code": "",
+    "icao": "WKT"
+  },
+  {
+    "name": "Deer Jet",
+    "code": "",
+    "icao": "DER"
+  },
+  {
+    "name": "Deer Jet Beijing",
+    "code": "",
+    "icao": "BDJ"
+  },
+  {
+    "name": "Delta Air Lines",
+    "code": "DL",
+    "icao": "DAL"
+  },
+  {
+    "name": "Delta State University Aviation",
+    "code": "",
+    "icao": "DSU"
+  },
+  {
+    "name": "Denmark - Army",
+    "code": "",
+    "icao": "DAR"
+  },
+  {
+    "name": "Denmark - Navy",
+    "code": "",
+    "icao": "DNY"
+  },
+  {
+    "name": "Denmark -Air Force",
+    "code": "",
+    "icao": "DAF"
+  },
+  {
+    "name": "Desert Jet",
+    "code": "",
+    "icao": "DJR"
+  },
+  {
+    "name": "Desert Wings Aviation",
+    "code": "",
+    "icao": "DWA"
+  },
+  {
+    "name": "DesertAir Alaska",
+    "code": "",
+    "icao": "DAZ"
+  },
+  {
+    "name": "Deucalion Aviation",
+    "code": "",
+    "icao": "DLN"
+  },
+  {
+    "name": "Dexter Air Taxi",
+    "code": "",
+    "icao": "DXT"
+  },
+  {
+    "name": "DHL Aero Expreso",
+    "code": "D5",
+    "icao": "DAE"
+  },
+  {
+    "name": "DHL Air",
+    "code": "D0",
+    "icao": "DHK"
+  },
+  {
+    "name": "DHL Air Austria",
+    "code": "Q7",
+    "icao": "DHA"
+  },
+  {
+    "name": "DHL Aviation EEMEA",
+    "code": "ES",
+    "icao": "DHX"
+  },
+  {
+    "name": "Diamond Sky",
+    "code": "",
+    "icao": "DMS"
+  },
+  {
+    "name": "Dillon Aero",
+    "code": "",
+    "icao": "KTY"
+  },
+  {
+    "name": "Discover Airlines",
+    "code": "4Y",
+    "icao": "OCN"
+  },
+  {
+    "name": "Divi Divi Air",
+    "code": "3R",
+    "icao": "DVR"
+  },
+  {
+    "name": "Dokia Air",
+    "code": "",
+    "icao": "DKA"
+  },
+  {
+    "name": "Donghai Airlines",
+    "code": "DZ",
+    "icao": "EPA"
+  },
+  {
+    "name": "Dornier Aviation Nigeria Aiep",
+    "code": "DO",
+    "icao": "DAV"
+  },
+  {
+    "name": "Douniah Airlines",
+    "code": "DH",
+    "icao": "DTS"
+  },
+  {
+    "name": "DragonFly Executive",
+    "code": "",
+    "icao": "CBM"
+  },
+  {
+    "name": "Draken Europe",
+    "code": "",
+    "icao": "FRA"
+  },
+  {
+    "name": "Dreamline Aviation",
+    "code": "",
+    "icao": "DLX"
+  },
+  {
+    "name": "DRF Luftrettung",
+    "code": "1I",
+    "icao": "AMB"
+  },
+  {
+    "name": "Dronamics Europe Airlines",
+    "code": "OY",
+    "icao": "DXE"
+  },
+  {
+    "name": "Druk Air",
+    "code": "KB",
+    "icao": "DRK"
+  },
+  {
+    "name": "Dubai Air Wing",
+    "code": "",
+    "icao": "DUB"
+  },
+  {
+    "name": "Duke Energy Business Services",
+    "code": "",
+    "icao": "GGW"
+  },
+  {
+    "name": "E+S Air",
+    "code": "",
+    "icao": "CAH"
+  },
+  {
+    "name": "E-Aviation",
+    "code": "",
+    "icao": "EFD"
+  },
+  {
+    "name": "E-Cargo Airlines",
+    "code": "RF",
+    "icao": "ERF"
+  },
+  {
+    "name": "EADS CASA",
+    "code": "",
+    "icao": "AED"
+  },
+  {
+    "name": "Eagle Air",
+    "code": "",
+    "icao": "EGE"
+  },
+  {
+    "name": "Eagle Air",
+    "code": "",
+    "icao": "EGU"
+  },
+  {
+    "name": "Eagle Air Iceland",
+    "code": "",
+    "icao": "FEI"
+  },
+  {
+    "name": "Eagle Creek Aviation",
+    "code": "",
+    "icao": "EGC"
+  },
+  {
+    "name": "EagleMed",
+    "code": "",
+    "icao": "EMD"
+  },
+  {
+    "name": "East Coast Jets",
+    "code": "",
+    "icao": "ECJ"
+  },
+  {
+    "name": "East Wing",
+    "code": "",
+    "icao": "EWZ"
+  },
+  {
+    "name": "East-West Express",
+    "code": "",
+    "icao": "EWU"
+  },
+  {
+    "name": "Eastar Jet",
+    "code": "ZE",
+    "icao": "ESR"
+  },
+  {
+    "name": "Eastern Air Express",
+    "code": "",
+    "icao": "BBQ"
+  },
+  {
+    "name": "Eastern Airlines",
+    "code": "2D",
+    "icao": "EAL"
+  },
+  {
+    "name": "Eastern Airways",
+    "code": "T3",
+    "icao": "EZE"
+  },
+  {
+    "name": "Eastern Australia Airlines",
+    "code": "",
+    "icao": "EAQ"
+  },
+  {
+    "name": "Easy Charter",
+    "code": "RD",
+    "icao": "LOL"
+  },
+  {
+    "name": "easyJet",
+    "code": "U2",
+    "icao": "EZY"
+  },
+  {
+    "name": "easyJet Europe",
+    "code": "EC",
+    "icao": "EJU"
+  },
+  {
+    "name": "easyJet Switzerland",
+    "code": "DS",
+    "icao": "EZS"
+  },
+  {
+    "name": "EATIS",
+    "code": "",
+    "icao": "SRK"
+  },
+  {
+    "name": "Eclair Aviation",
+    "code": "",
+    "icao": "ECC"
+  },
+  {
+    "name": "ECO Airlines",
+    "code": "",
+    "icao": "EKO"
+  },
+  {
+    "name": "EcoJet",
+    "code": "8J",
+    "icao": "ECO"
+  },
+  {
+    "name": "Ecuador - Air Force",
+    "code": "",
+    "icao": "FAE"
+  },
+  {
+    "name": "Edelweiss Air",
+    "code": "WK",
+    "icao": "EDW"
+  },
+  {
+    "name": "EGT Jet",
+    "code": "",
+    "icao": "EGT"
+  },
+  {
+    "name": "Egypt - Air Force",
+    "code": "",
+    "icao": "EGY"
+  },
+  {
+    "name": "Egyptair",
+    "code": "MS",
+    "icao": "MSR"
+  },
+  {
+    "name": "Egyptair Cargo",
+    "code": "",
+    "icao": "MSX"
+  },
+  {
+    "name": "EJM Europe",
+    "code": "",
+    "icao": "JME"
+  },
+  {
+    "name": "El Al",
+    "code": "LY",
+    "icao": "ELY"
+  },
+  {
+    "name": "Elan Express",
+    "code": "",
+    "icao": "ELX"
+  },
+  {
+    "name": "Elangeni",
+    "code": "",
+    "icao": "ELG"
+  },
+  {
+    "name": "Electra Airways",
+    "code": "3E",
+    "icao": "EAF"
+  },
+  {
+    "name": "Elemental Aviation",
+    "code": "",
+    "icao": "MWH"
+  },
+  {
+    "name": "Elifriulia",
+    "code": "",
+    "icao": "EFG"
+  },
+  {
+    "name": "Elilombarda",
+    "code": "",
+    "icao": "EOA"
+  },
+  {
+    "name": "Eliossola",
+    "code": "",
+    "icao": "EOS"
+  },
+  {
+    "name": "Elit'Avia International",
+    "code": "",
+    "icao": "EAA"
+  },
+  {
+    "name": "Elitaliana",
+    "code": "",
+    "icao": "ELA"
+  },
+  {
+    "name": "Elitavia",
+    "code": "",
+    "icao": "EAV"
+  },
+  {
+    "name": "Elitavia Malta",
+    "code": "MA",
+    "icao": "EAU"
+  },
+  {
+    "name": "Elite Air",
+    "code": "",
+    "icao": "ELZ"
+  },
+  {
+    "name": "Elite Airways",
+    "code": "7Q",
+    "icao": "MNU"
+  },
+  {
+    "name": "Elitellina",
+    "code": "",
+    "icao": "FGS"
+  },
+  {
+    "name": "Elthuraya Aviation",
+    "code": "",
+    "icao": "FIB"
+  },
+  {
+    "name": "Embraer",
+    "code": "",
+    "icao": "EMB"
+  },
+  {
+    "name": "Embry-Riddle Aeronautical University",
+    "code": "",
+    "icao": "ERU"
+  },
+  {
+    "name": "Emerald Airlines",
+    "code": "EA",
+    "icao": "EAI"
+  },
+  {
+    "name": "Emerald Airlines UK",
+    "code": "",
+    "icao": "EAG"
+  },
+  {
+    "name": "Emetebe",
+    "code": "",
+    "icao": "EMT"
+  },
+  {
+    "name": "Emirates",
+    "code": "EK",
+    "icao": "UAE"
+  },
+  {
+    "name": "Emirates Flight Training Academy",
+    "code": "",
+    "icao": "EFC"
+  },
+  {
+    "name": "Emperor Aviation",
+    "code": "",
+    "icao": "EMM"
+  },
+  {
+    "name": "Empire Airlines",
+    "code": "EM",
+    "icao": "CFS"
+  },
+  {
+    "name": "Empire Aviation",
+    "code": "",
+    "icao": "MJE"
+  },
+  {
+    "name": "Empresa Publica de Transporte Aereo Militar",
+    "code": "",
+    "icao": "EPT"
+  },
+  {
+    "name": "Empyreal Jet",
+    "code": "",
+    "icao": "RLJ"
+  },
+  {
+    "name": "ENAC Ecole Aviation Civile",
+    "code": "",
+    "icao": "NAK"
+  },
+  {
+    "name": "Encore Air Cargo",
+    "code": "",
+    "icao": "DKT"
+  },
+  {
+    "name": "Endeavor Air",
+    "code": "9E",
+    "icao": "EDV"
+  },
+  {
+    "name": "ENG Aviation",
+    "code": "",
+    "icao": "ENG"
+  },
+  {
+    "name": "Enter Air",
+    "code": "E4",
+    "icao": "ENT"
+  },
+  {
+    "name": "Envoy",
+    "code": "MQ",
+    "icao": "ENY"
+  },
+  {
+    "name": "Epic Flight Academy",
+    "code": "",
+    "icao": "EPI"
+  },
+  {
+    "name": "Epsilon Aviation",
+    "code": "",
+    "icao": "GRV"
+  },
+  {
+    "name": "Era Helicopters",
+    "code": "",
+    "icao": "ERH"
+  },
+  {
+    "name": "Estafeta",
+    "code": "E7",
+    "icao": "ESF"
+  },
+  {
+    "name": "Estelar",
+    "code": "ES",
+    "icao": "ETR"
+  },
+  {
+    "name": "Estonia - Air Force",
+    "code": "",
+    "icao": "EEF"
+  },
+  {
+    "name": "Eswatini Air",
+    "code": "RN",
+    "icao": "SZL"
+  },
+  {
+    "name": "ETF Airways",
+    "code": "2F",
+    "icao": "EZZ"
+  },
+  {
+    "name": "Ethiopian Airlines",
+    "code": "ET",
+    "icao": "ETH"
+  },
+  {
+    "name": "Etihad Airways",
+    "code": "EY",
+    "icao": "ETD"
+  },
+  {
+    "name": "Euro Link",
+    "code": "",
+    "icao": "EUL"
+  },
+  {
+    "name": "Euro-Asia Air",
+    "code": "5B",
+    "icao": "EAK"
+  },
+  {
+    "name": "EuroAtlantic Airways",
+    "code": "YU",
+    "icao": "MMZ"
+  },
+  {
+    "name": "Euroavia Airlines",
+    "code": "",
+    "icao": "SEB"
+  },
+  {
+    "name": "Eurocopter Deutschland",
+    "code": "",
+    "icao": "RDF"
+  },
+  {
+    "name": "European Air Charter",
+    "code": "H6",
+    "icao": "BUC"
+  },
+  {
+    "name": "European Air Transport",
+    "code": "QY",
+    "icao": "BCS"
+  },
+  {
+    "name": "European Aircraft Private Club",
+    "code": "",
+    "icao": "PGC"
+  },
+  {
+    "name": "European Cargo",
+    "code": "SE",
+    "icao": "URO"
+  },
+  {
+    "name": "European Flight Academy",
+    "code": "",
+    "icao": "PTO"
+  },
+  {
+    "name": "European Flight Service",
+    "code": "",
+    "icao": "EUW"
+  },
+  {
+    "name": "European Flyers",
+    "code": "",
+    "icao": "FYS"
+  },
+  {
+    "name": "European SAO",
+    "code": "",
+    "icao": "EKT"
+  },
+  {
+    "name": "Eurowings",
+    "code": "EW",
+    "icao": "EWG"
+  },
+  {
+    "name": "Eurowings Europe",
+    "code": "E6",
+    "icao": "EWL"
+  },
+  {
+    "name": "EVA Air",
+    "code": "BR",
+    "icao": "EVA"
+  },
+  {
+    "name": "Everts Air Alaska",
+    "code": "5V",
+    "icao": "VTS"
+  },
+  {
+    "name": "EWA Air",
+    "code": "ZD",
+    "icao": "EWR"
+  },
+  {
+    "name": "Excellent Air",
+    "code": "",
+    "icao": "ECA"
+  },
+  {
+    "name": "Exclusive Aviation",
+    "code": "",
+    "icao": "REE"
+  },
+  {
+    "name": "Execuflight",
+    "code": "",
+    "icao": "EFT"
+  },
+  {
+    "name": "Execujet Middle East",
+    "code": "",
+    "icao": "EJO"
+  },
+  {
+    "name": "Execujet Scandinavia",
+    "code": "",
+    "icao": "VMP"
+  },
+  {
+    "name": "Executive Airlink",
+    "code": "",
+    "icao": "ENK"
+  },
+  {
+    "name": "Executive Aviation Corporation",
+    "code": "",
+    "icao": "SIY"
+  },
+  {
+    "name": "Executive Fliteways",
+    "code": "",
+    "icao": "XFL"
+  },
+  {
+    "name": "Executive Jet Charter",
+    "code": "",
+    "icao": "EXJ"
+  },
+  {
+    "name": "Executive Jet Management",
+    "code": "",
+    "icao": "EJM"
+  },
+  {
+    "name": "Exploits Valley Air Services",
+    "code": "8K",
+    "icao": "EVS"
+  },
+  {
+    "name": "Express Air Cargo",
+    "code": "7A",
+    "icao": "XRC"
+  },
+  {
+    "name": "Express Freighters Australia",
+    "code": "QE",
+    "icao": "EFA"
+  },
+  {
+    "name": "Exxaero",
+    "code": "",
+    "icao": "XRO"
+  },
+  {
+    "name": "Eznis Airways",
+    "code": "MG",
+    "icao": "EZA"
+  },
+  {
+    "name": "Ezy Airlines",
+    "code": "",
+    "icao": "EZT"
+  },
+  {
+    "name": "FAI rent-a-jet",
+    "code": "",
+    "icao": "IFA"
+  },
+  {
+    "name": "Falcon Aviation Services",
+    "code": "",
+    "icao": "FVS"
+  },
+  {
+    "name": "Fanjet Express",
+    "code": "7F",
+    "icao": "FJE"
+  },
+  {
+    "name": "Farmingdale State University Aviation",
+    "code": "",
+    "icao": "FDL"
+  },
+  {
+    "name": "Fast Air",
+    "code": "",
+    "icao": "PBR"
+  },
+  {
+    "name": "Fastjet",
+    "code": "FN",
+    "icao": "FJW"
+  },
+  {
+    "name": "Federal Airlines",
+    "code": "C8",
+    "icao": "FDR"
+  },
+  {
+    "name": "FedEx",
+    "code": "FX",
+    "icao": "FDX"
+  },
+  {
+    "name": "Fenix Air Charter",
+    "code": "",
+    "icao": "FNX"
+  },
+  {
+    "name": "Feuerwehr-Flugdienst Niedersachsen",
+    "code": "",
+    "icao": "FFD"
+  },
+  {
+    "name": "Fiji Airways",
+    "code": "FJ",
+    "icao": "FJI"
+  },
+  {
+    "name": "Fiji Link",
+    "code": "",
+    "icao": "FJA"
+  },
+  {
+    "name": "Finistair",
+    "code": "",
+    "icao": "FTR"
+  },
+  {
+    "name": "Finland - Air Force",
+    "code": "",
+    "icao": "FNF"
+  },
+  {
+    "name": "Finland - Border Guard",
+    "code": "",
+    "icao": "FNG"
+  },
+  {
+    "name": "Finnair",
+    "code": "AY",
+    "icao": "FIN"
+  },
+  {
+    "name": "FinnHEMS",
+    "code": "",
+    "icao": "FIH"
+  },
+  {
+    "name": "Firefly",
+    "code": "FY",
+    "icao": "FFM"
+  },
+  {
+    "name": "First Air",
+    "code": "7F",
+    "icao": "FAB"
+  },
+  {
+    "name": "First Nation Airways",
+    "code": "",
+    "icao": "FRN"
+  },
+  {
+    "name": "FitsAir",
+    "code": "8D",
+    "icao": "EXV"
+  },
+  {
+    "name": "Flair Airlines",
+    "code": "F8",
+    "icao": "FLE"
+  },
+  {
+    "name": "Fleet Air International",
+    "code": "",
+    "icao": "FRF"
+  },
+  {
+    "name": "Flexflight",
+    "code": "W2",
+    "icao": "FXT"
+  },
+  {
+    "name": "Flexjet",
+    "code": "",
+    "icao": "LXJ"
+  },
+  {
+    "name": "Flexjet Europe",
+    "code": "",
+    "icao": "FLJ"
+  },
+  {
+    "name": "Flexjet Operations Malta",
+    "code": "",
+    "icao": "FJO"
+  },
+  {
+    "name": "Flight Calibration Services",
+    "code": "",
+    "icao": "FCK"
+  },
+  {
+    "name": "Flight Calibration Services",
+    "code": "",
+    "icao": "VOR"
+  },
+  {
+    "name": "Flight Fast Track",
+    "code": "",
+    "icao": "FTT"
+  },
+  {
+    "name": "Flight Options",
+    "code": "",
+    "icao": "OPT"
+  },
+  {
+    "name": "Flight Training Europe",
+    "code": "",
+    "icao": "AYR"
+  },
+  {
+    "name": "FlightExec",
+    "code": "",
+    "icao": "FEX"
+  },
+  {
+    "name": "Flightline",
+    "code": "",
+    "icao": "FTL"
+  },
+  {
+    "name": "Flightlink",
+    "code": "YS",
+    "icao": "FLZ"
+  },
+  {
+    "name": "Flightpath Charter Airways",
+    "code": "",
+    "icao": "KNT"
+  },
+  {
+    "name": "Flightworks",
+    "code": "",
+    "icao": "FWK"
+  },
+  {
+    "name": "Flints Aero Services",
+    "code": "",
+    "icao": "FSL"
+  },
+  {
+    "name": "Flitewatch",
+    "code": "",
+    "icao": "FLW"
+  },
+  {
+    "name": "Florida Air Cargo",
+    "code": "",
+    "icao": "FAS"
+  },
+  {
+    "name": "Florida Flyers Flight Academy",
+    "code": "",
+    "icao": "FFY"
+  },
+  {
+    "name": "Florida Tech College of Aeronautics",
+    "code": "",
+    "icao": "TCF"
+  },
+  {
+    "name": "Fltplan",
+    "code": "",
+    "icao": "DCM"
+  },
+  {
+    "name": "Flugfelag Islands",
+    "code": "NY",
+    "icao": "FXI"
+  },
+  {
+    "name": "Fly 7",
+    "code": "",
+    "icao": "FSF"
+  },
+  {
+    "name": "Fly Across",
+    "code": "",
+    "icao": "ACW"
+  },
+  {
+    "name": "Fly Air41 Airways",
+    "code": "",
+    "icao": "BER"
+  },
+  {
+    "name": "Fly Alliance",
+    "code": "",
+    "icao": "KPO"
+  },
+  {
+    "name": "Fly AllWays",
+    "code": "8W",
+    "icao": "EDR"
+  },
+  {
+    "name": "Fly ALS",
+    "code": "",
+    "icao": "ALW"
+  },
+  {
+    "name": "Fly Angola",
+    "code": "EQ",
+    "icao": "FLA"
+  },
+  {
+    "name": "Fly Baghdad",
+    "code": "IF",
+    "icao": "FBA"
+  },
+  {
+    "name": "Fly Express Airlines",
+    "code": "",
+    "icao": "FXA"
+  },
+  {
+    "name": "Fly Jet KZ",
+    "code": "",
+    "icao": "FJK"
+  },
+  {
+    "name": "Fly Khiva",
+    "code": "D3",
+    "icao": "KFH"
+  },
+  {
+    "name": "Fly Khiva",
+    "code": "D3",
+    "icao": "FKH"
+  },
+  {
+    "name": "Fly Oya",
+    "code": "YI",
+    "icao": "OYA"
+  },
+  {
+    "name": "Fly Pro",
+    "code": "FP",
+    "icao": "PVV"
+  },
+  {
+    "name": "Fly Red Sea",
+    "code": "Z4",
+    "icao": "RSG"
+  },
+  {
+    "name": "Fly Sky Airlines",
+    "code": "",
+    "icao": "FSQ"
+  },
+  {
+    "name": "Fly Sky Airlines",
+    "code": "",
+    "icao": "FSU"
+  },
+  {
+    "name": "Fly Tyrol",
+    "code": "",
+    "icao": "FTY"
+  },
+  {
+    "name": "Fly Yemen Airlines",
+    "code": "",
+    "icao": "FYO"
+  },
+  {
+    "name": "Fly-Coop Air Service",
+    "code": "",
+    "icao": "FCA"
+  },
+  {
+    "name": "Fly2Sky",
+    "code": "F6",
+    "icao": "VAW"
+  },
+  {
+    "name": "Fly4 Airlines",
+    "code": "F4",
+    "icao": "FFA"
+  },
+  {
+    "name": "Fly540",
+    "code": "5H",
+    "icao": "FFV"
+  },
+  {
+    "name": "Fly91",
+    "code": "IC",
+    "icao": "GOA"
+  },
+  {
+    "name": "Flyadeal",
+    "code": "F3",
+    "icao": "FAD"
+  },
+  {
+    "name": "FlyArystan",
+    "code": "FS",
+    "icao": "AYN"
+  },
+  {
+    "name": "FlyBig",
+    "code": "S9",
+    "icao": "FLG"
+  },
+  {
+    "name": "Flybondi",
+    "code": "FO",
+    "icao": "FBZ"
+  },
+  {
+    "name": "FlyBy",
+    "code": "",
+    "icao": "FBY"
+  },
+  {
+    "name": "FlyDubai",
+    "code": "FZ",
+    "icao": "FDB"
+  },
+  {
+    "name": "FlyEgypt",
+    "code": "FT",
+    "icao": "FEG"
+  },
+  {
+    "name": "UR Airlines",
+    "code": "UD",
+    "icao": "UBD"
+  },
+  {
+    "name": "flyExclusive",
+    "code": "",
+    "icao": "JRE"
+  },
+  {
+    "name": "FLYGTA Airlines",
+    "code": "SX",
+    "icao": "TOR"
+  },
+  {
+    "name": "Flying Business Aviation",
+    "code": "",
+    "icao": "FBX"
+  },
+  {
+    "name": "Flying Service",
+    "code": "",
+    "icao": "FYG"
+  },
+  {
+    "name": "Flyinggroup",
+    "code": "",
+    "icao": "FYL"
+  },
+  {
+    "name": "FlyJinnah",
+    "code": "9P",
+    "icao": "FJL"
+  },
+  {
+    "name": "Flylili",
+    "code": "FL",
+    "icao": "LIL"
+  },
+  {
+    "name": "FlyMe",
+    "code": "VP",
+    "icao": "VQI"
+  },
+  {
+    "name": "FlyMontserrat",
+    "code": "5M",
+    "icao": "MNT"
+  },
+  {
+    "name": "FlyNamibia",
+    "code": "WV",
+    "icao": "FLN"
+  },
+  {
+    "name": "Flynas",
+    "code": "XY",
+    "icao": "KNE"
+  },
+  {
+    "name": "FlyOne",
+    "code": "5F",
+    "icao": "FIA"
+  },
+  {
+    "name": "FlyOne Armenia",
+    "code": "3F",
+    "icao": "FIE"
+  },
+  {
+    "name": "FlyOne Romania",
+    "code": "OE",
+    "icao": "FOE"
+  },
+  {
+    "name": "FlyPelican",
+    "code": "FP",
+    "icao": "FRE"
+  },
+  {
+    "name": "FlySafair",
+    "code": "FA",
+    "icao": "SFR"
+  },
+  {
+    "name": "FlySchool",
+    "code": "",
+    "icao": "FSM"
+  },
+  {
+    "name": "FlyWales",
+    "code": "",
+    "icao": "PYN"
+  },
+  {
+    "name": "Flyyo",
+    "code": "4D",
+    "icao": "DIR"
+  },
+  {
+    "name": "Fort Aero",
+    "code": "",
+    "icao": "FRX"
+  },
+  {
+    "name": "Four Corners Aviation",
+    "code": "",
+    "icao": "ULA"
+  },
+  {
+    "name": "Fox Aviation",
+    "code": "",
+    "icao": "FIX"
+  },
+  {
+    "name": "France - \tPolice Aux Frontiers",
+    "code": "",
+    "icao": "POF"
+  },
+  {
+    "name": "France - Air Force",
+    "code": "",
+    "icao": "FAF"
+  },
+  {
+    "name": "France - Air Forces Command",
+    "code": "",
+    "icao": "CTM"
+  },
+  {
+    "name": "France - Army",
+    "code": "",
+    "icao": "FMY"
+  },
+  {
+    "name": "France - Customs",
+    "code": "",
+    "icao": "FDO"
+  },
+  {
+    "name": "France - Navy",
+    "code": "",
+    "icao": "FNY"
+  },
+  {
+    "name": "France - Securite Civile",
+    "code": "",
+    "icao": "FRU"
+  },
+  {
+    "name": "Franconia Air Service",
+    "code": "",
+    "icao": "FRC"
+  },
+  {
+    "name": "Freebird Airlines",
+    "code": "FH",
+    "icao": "FHY"
+  },
+  {
+    "name": "Freebird Airlines Europe",
+    "code": "MI",
+    "icao": "FHM"
+  },
+  {
+    "name": "Freedom Airline Express",
+    "code": "4F",
+    "icao": "FDT"
+  },
+  {
+    "name": "Freedom Airline Express",
+    "code": "4K",
+    "icao": "SMK"
+  },
+  {
+    "name": "Freight Runners Express",
+    "code": "",
+    "icao": "FRG"
+  },
+  {
+    "name": "French Bee",
+    "code": "BF",
+    "icao": "FBU"
+  },
+  {
+    "name": "Frontier",
+    "code": "F9",
+    "icao": "FFT"
+  },
+  {
+    "name": "FROST",
+    "code": "",
+    "icao": "FRO"
+  },
+  {
+    "name": "FTL Airlines",
+    "code": "C0",
+    "icao": "FGO"
+  },
+  {
+    "name": "Fuji Dream Airlines",
+    "code": "JH",
+    "icao": "FDA"
+  },
+  {
+    "name": "Fuzhou Airlines",
+    "code": "FU",
+    "icao": "FZA"
+  },
+  {
+    "name": "FX TerraDynamics",
+    "code": "",
+    "icao": "FTX"
+  },
+  {
+    "name": "GainJet",
+    "code": "",
+    "icao": "GNJ"
+  },
+  {
+    "name": "Galistair Infinite Aviation",
+    "code": "8S",
+    "icao": "GTR"
+  },
+  {
+    "name": "Gama Aviation",
+    "code": "",
+    "icao": "GMA"
+  },
+  {
+    "name": "Gama Aviation Cayman",
+    "code": "",
+    "icao": "GKY"
+  },
+  {
+    "name": "Gama Aviation UAE",
+    "code": "",
+    "icao": "GSH"
+  },
+  {
+    "name": "Garuda Indonesia",
+    "code": "GA",
+    "icao": "GIA"
+  },
+  {
+    "name": "Gazpromavia",
+    "code": "4G",
+    "icao": "GZP"
+  },
+  {
+    "name": "Gelix Airlines",
+    "code": "",
+    "icao": "GAI"
+  },
+  {
+    "name": "Gelix Airlines",
+    "code": "",
+    "icao": "GLX"
+  },
+  {
+    "name": "General Atomic AeroTech Systems",
+    "code": "",
+    "icao": "DOR"
+  },
+  {
+    "name": "Genex",
+    "code": "",
+    "icao": "GNX"
+  },
+  {
+    "name": "Genghis Khan Airlines",
+    "code": "9D",
+    "icao": "NMG"
+  },
+  {
+    "name": "Georgian Airlines",
+    "code": "GH",
+    "icao": "IGT"
+  },
+  {
+    "name": "Georgian Airways",
+    "code": "A9",
+    "icao": "TGZ"
+  },
+  {
+    "name": "Georgian Aviation University",
+    "code": "",
+    "icao": "AUG"
+  },
+  {
+    "name": "Geosky",
+    "code": "D4",
+    "icao": "GEL"
+  },
+  {
+    "name": "German Airways",
+    "code": "ZQ",
+    "icao": "GER"
+  },
+  {
+    "name": "Germanwings",
+    "code": "4U",
+    "icao": "GWI"
+  },
+  {
+    "name": "Germany - Air Ambulance",
+    "code": "",
+    "icao": "CHX"
+  },
+  {
+    "name": "Germany - Air Force",
+    "code": "",
+    "icao": "GAF"
+  },
+  {
+    "name": "Germany - Army",
+    "code": "",
+    "icao": "GAM"
+  },
+  {
+    "name": "Germany - DLR Flugbetriebe",
+    "code": "",
+    "icao": "LFO"
+  },
+  {
+    "name": "Germany - Navy",
+    "code": "",
+    "icao": "GNY"
+  },
+  {
+    "name": "Gesellschaft Fur Flugzieldarstellung",
+    "code": "",
+    "icao": "GFD"
+  },
+  {
+    "name": "Gestair",
+    "code": "",
+    "icao": "GES"
+  },
+  {
+    "name": "Gestair Aviation Malta",
+    "code": "",
+    "icao": "GSM"
+  },
+  {
+    "name": "Getjet Airlines",
+    "code": "GW",
+    "icao": "GJT"
+  },
+  {
+    "name": "Getjet Airlines Latvia",
+    "code": "",
+    "icao": "DML"
+  },
+  {
+    "name": "Ghadames Air Transport",
+    "code": "NJ",
+    "icao": "GMS"
+  },
+  {
+    "name": "Ghana - Air Force",
+    "code": "",
+    "icao": "GHF"
+  },
+  {
+    "name": "Glasym",
+    "code": "",
+    "icao": "EYH"
+  },
+  {
+    "name": "Global Air Charters",
+    "code": "",
+    "icao": "GJE"
+  },
+  {
+    "name": "Global Air Transport",
+    "code": "5S",
+    "icao": "GAK"
+  },
+  {
+    "name": "Global Airways",
+    "code": "",
+    "icao": "GBL"
+  },
+  {
+    "name": "Global Aviation",
+    "code": "",
+    "icao": "MSS"
+  },
+  {
+    "name": "Global Aviation",
+    "code": "",
+    "icao": "GEA"
+  },
+  {
+    "name": "Global Aviation Burkina Faso",
+    "code": "",
+    "icao": "GBF"
+  },
+  {
+    "name": "Global Jet Austria",
+    "code": "",
+    "icao": "GLJ"
+  },
+  {
+    "name": "Global Jet Luxembourg",
+    "code": "",
+    "icao": "SVW"
+  },
+  {
+    "name": "Global Reach Aviation",
+    "code": "",
+    "icao": "GAV"
+  },
+  {
+    "name": "Global Wings",
+    "code": "",
+    "icao": "GWW"
+  },
+  {
+    "name": "GlobalX",
+    "code": "G6",
+    "icao": "GXA"
+  },
+  {
+    "name": "GlobeAir",
+    "code": "",
+    "icao": "GAC"
+  },
+  {
+    "name": "Go First",
+    "code": "G8",
+    "icao": "GOW"
+  },
+  {
+    "name": "Go Jet Aviation",
+    "code": "",
+    "icao": "GYS"
+  },
+  {
+    "name": "Go2Sky",
+    "code": "6G",
+    "icao": "RLX"
+  },
+  {
+    "name": "GoJet ",
+    "code": "G7",
+    "icao": "GJS"
+  },
+  {
+    "name": "GOL Linhas Aereas",
+    "code": "G3",
+    "icao": "GLO"
+  },
+  {
+    "name": "Goldeck Flug",
+    "code": "",
+    "icao": "GDK"
+  },
+  {
+    "name": "GoodJET",
+    "code": "",
+    "icao": "GDG"
+  },
+  {
+    "name": "Gouvernement du Quebec",
+    "code": "",
+    "icao": "QUE"
+  },
+  {
+    "name": "GP Aviation",
+    "code": "IV",
+    "icao": "GPX"
+  },
+  {
+    "name": "Grafair",
+    "code": "",
+    "icao": "GFM"
+  },
+  {
+    "name": "Grand Canyon Airlines",
+    "code": "YR",
+    "icao": "CVU"
+  },
+  {
+    "name": "Grand China Air",
+    "code": "CN",
+    "icao": "GDC"
+  },
+  {
+    "name": "Grant Aviation",
+    "code": "GV",
+    "icao": "GUN"
+  },
+  {
+    "name": "Greater Bay Airlines",
+    "code": "HB",
+    "icao": "HGB"
+  },
+  {
+    "name": "Greece - Air Force",
+    "code": "",
+    "icao": "HAF"
+  },
+  {
+    "name": "Greece - Army",
+    "code": "",
+    "icao": "HLA"
+  },
+  {
+    "name": "Greece - Navy",
+    "code": "",
+    "icao": "HNA"
+  },
+  {
+    "name": "Green Africa Airways",
+    "code": "Q9",
+    "icao": "GWG"
+  },
+  {
+    "name": "Greybird Aviation",
+    "code": "",
+    "icao": "GAG"
+  },
+  {
+    "name": "Gryphon Air",
+    "code": "",
+    "icao": "GRG"
+  },
+  {
+    "name": "GTA Air",
+    "code": "",
+    "icao": "GTX"
+  },
+  {
+    "name": "Gulf Air",
+    "code": "GF",
+    "icao": "GFA"
+  },
+  {
+    "name": "Gulf and Caribbean Cargo",
+    "code": "IF",
+    "icao": "TSU"
+  },
+  {
+    "name": "Gulf Wings",
+    "code": "",
+    "icao": "GWC"
+  },
+  {
+    "name": "Gulfstream Aerospace",
+    "code": "",
+    "icao": "GLF"
+  },
+  {
+    "name": "GullivAir",
+    "code": "G2",
+    "icao": "GBG"
+  },
+  {
+    "name": "Gum Air",
+    "code": "",
+    "icao": "GUM"
+  },
+  {
+    "name": "Guna Airlines",
+    "code": "",
+    "icao": "GUA"
+  },
+  {
+    "name": "GX Airlines",
+    "code": "GX",
+    "icao": "CBG"
+  },
+  {
+    "name": "Hahn Air",
+    "code": "HR",
+    "icao": "HHN"
+  },
+  {
+    "name": "Hai Au Aviation",
+    "code": "",
+    "icao": "HAI"
+  },
+  {
+    "name": "Hainan Airlines",
+    "code": "HU",
+    "icao": "CHH"
+  },
+  {
+    "name": "Hala Air",
+    "code": "HG",
+    "icao": "HTP"
+  },
+  {
+    "name": "Halla Airlines",
+    "code": "",
+    "icao": "HGA"
+  },
+  {
+    "name": "Hangar 8",
+    "code": "",
+    "icao": "HGR"
+  },
+  {
+    "name": "Hanseo University",
+    "code": "",
+    "icao": "HSF"
+  },
+  {
+    "name": "Harco Aviation",
+    "code": "",
+    "icao": "HRC"
+  },
+  {
+    "name": "Harmony Jets",
+    "code": "",
+    "icao": "HMJ"
+  },
+  {
+    "name": "Haute Aviation",
+    "code": "",
+    "icao": "BOM"
+  },
+  {
+    "name": "Haute Aviation",
+    "code": "",
+    "icao": "HUE"
+  },
+  {
+    "name": "Hawaiian Airlines",
+    "code": "HA",
+    "icao": "HAL"
+  },
+  {
+    "name": "Hayways",
+    "code": "Y5",
+    "icao": "HYY"
+  },
+  {
+    "name": "Hebei Airlines",
+    "code": "NS",
+    "icao": "HBH"
+  },
+  {
+    "name": "Heli Air Monaco",
+    "code": "YO",
+    "icao": "MCM"
+  },
+  {
+    "name": "Heli Air Services",
+    "code": "",
+    "icao": "HLR"
+  },
+  {
+    "name": "Heli Holland",
+    "code": "",
+    "icao": "HHE"
+  },
+  {
+    "name": "Heli Securite",
+    "code": "",
+    "icao": "HLI"
+  },
+  {
+    "name": "Heli Service International",
+    "code": "",
+    "icao": "HSO"
+  },
+  {
+    "name": "H\u00e9li-Union",
+    "code": "",
+    "icao": "HLU"
+  },
+  {
+    "name": "Helicol",
+    "code": "",
+    "icao": "HEL"
+  },
+  {
+    "name": "HeliDubai",
+    "code": "",
+    "icao": "HDB"
+  },
+  {
+    "name": "Helijet International",
+    "code": "",
+    "icao": "JBA"
+  },
+  {
+    "name": "Helistar",
+    "code": "",
+    "icao": "HTS"
+  },
+  {
+    "name": "Helistar",
+    "code": "",
+    "icao": "HSR"
+  },
+  {
+    "name": "Helitrans",
+    "code": "",
+    "icao": "HDR"
+  },
+  {
+    "name": "HELITY Copter Airlines",
+    "code": "",
+    "icao": "HTY"
+  },
+  {
+    "name": "Hello Jets",
+    "code": "H3",
+    "icao": "HLJ"
+  },
+  {
+    "name": "Helvetic Airways",
+    "code": "2L",
+    "icao": "OAW"
+  },
+  {
+    "name": "Henley Air",
+    "code": "",
+    "icao": "HGH"
+  },
+  {
+    "name": "Hera Flight",
+    "code": "",
+    "icao": "HER"
+  },
+  {
+    "name": "Hermes Airlines",
+    "code": "H3",
+    "icao": "HRM"
+  },
+  {
+    "name": "Heron Aviation",
+    "code": "",
+    "icao": "HRN"
+  },
+  {
+    "name": "Heston Airlines",
+    "code": "HN",
+    "icao": "HST"
+  },
+  {
+    "name": "Hi Fly",
+    "code": "5K",
+    "icao": "HFY"
+  },
+  {
+    "name": "Hi Fly Malta",
+    "code": "3L",
+    "icao": "HFM"
+  },
+  {
+    "name": "Himalaya Airlines",
+    "code": "H9",
+    "icao": "HIM"
+  },
+  {
+    "name": "Hinterland Aviation",
+    "code": "OI",
+    "icao": "HND"
+  },
+  {
+    "name": "HiSky",
+    "code": "H7",
+    "icao": "HYM"
+  },
+  {
+    "name": "HiSky Europe",
+    "code": "H4",
+    "icao": "HYS"
+  },
+  {
+    "name": "HK express",
+    "code": "UO",
+    "icao": "HKE"
+  },
+  {
+    "name": "HNV Cote d'Ivoire",
+    "code": "",
+    "icao": "HNZ"
+  },
+  {
+    "name": "Hokkaido Air System",
+    "code": "",
+    "icao": "NTH"
+  },
+  {
+    "name": "Holiday Europe",
+    "code": "5Q",
+    "icao": "HES"
+  },
+  {
+    "name": "Hong Kong - Government Flying Service",
+    "code": "",
+    "icao": "GFS"
+  },
+  {
+    "name": "Hong Kong Air Cargo",
+    "code": "RH",
+    "icao": "HKC"
+  },
+  {
+    "name": "Hong Kong Airlines",
+    "code": "HX",
+    "icao": "CRK"
+  },
+  {
+    "name": "Hop-A-Jet",
+    "code": "",
+    "icao": "HPJ"
+  },
+  {
+    "name": "Horizon Air",
+    "code": "QX",
+    "icao": "QXE"
+  },
+  {
+    "name": "Hoverfly",
+    "code": "",
+    "icao": "HOV"
+  },
+  {
+    "name": "HTM Helicopter Travel Munich",
+    "code": "",
+    "icao": "HTM"
+  },
+  {
+    "name": "Hummingbird Aviation",
+    "code": "",
+    "icao": "ETI"
+  },
+  {
+    "name": "Hungary - Air Force",
+    "code": "",
+    "icao": "HUF"
+  },
+  {
+    "name": "Hunnu Air",
+    "code": "MR",
+    "icao": "MML"
+  },
+  {
+    "name": "Hydro Quebec",
+    "code": "0Q",
+    "icao": "HYD"
+  },
+  {
+    "name": "Hyperion Aviation",
+    "code": "",
+    "icao": "HYP"
+  },
+  {
+    "name": "I-Fly",
+    "code": "F7",
+    "icao": "RSY"
+  },
+  {
+    "name": "I-Fly Air",
+    "code": "",
+    "icao": "IFY"
+  },
+  {
+    "name": "IAS Medical",
+    "code": "",
+    "icao": "MDI"
+  },
+  {
+    "name": "IASCO Flight Training",
+    "code": "",
+    "icao": "MMY"
+  },
+  {
+    "name": "IBC Airways",
+    "code": "II",
+    "icao": "CSQ"
+  },
+  {
+    "name": "Iberia",
+    "code": "IB",
+    "icao": "IBE"
+  },
+  {
+    "name": "Iberia Express",
+    "code": "I2",
+    "icao": "IBS"
+  },
+  {
+    "name": "Iberojet",
+    "code": "E9",
+    "icao": "EVE"
+  },
+  {
+    "name": "Ibex Airlines",
+    "code": "FW",
+    "icao": "IBX"
+  },
+  {
+    "name": "Ibom Air",
+    "code": "QI",
+    "icao": "IAN"
+  },
+  {
+    "name": "Icar Air",
+    "code": "",
+    "icao": "RAC"
+  },
+  {
+    "name": "Iceland - Coast Guard",
+    "code": "",
+    "icao": "ICG"
+  },
+  {
+    "name": "Icelandair",
+    "code": "FI",
+    "icao": "ICE"
+  },
+  {
+    "name": "ICS-Aero",
+    "code": "",
+    "icao": "ICF"
+  },
+  {
+    "name": "IFL Group",
+    "code": "",
+    "icao": "IFL"
+  },
+  {
+    "name": "Ikar",
+    "code": "EO",
+    "icao": "KAR"
+  },
+  {
+    "name": "Image Air Charter",
+    "code": "",
+    "icao": "BMG"
+  },
+  {
+    "name": "ImperialJet",
+    "code": "",
+    "icao": "PNK"
+  },
+  {
+    "name": "ImperialJet",
+    "code": "",
+    "icao": "JTI"
+  },
+  {
+    "name": "India - Air Force",
+    "code": "",
+    "icao": "IFC"
+  },
+  {
+    "name": "Indiana State University Flight Academy",
+    "code": "",
+    "icao": "ISU"
+  },
+  {
+    "name": "IndiaOne Air",
+    "code": "I7",
+    "icao": "IOA"
+  },
+  {
+    "name": "IndiGo",
+    "code": "6E",
+    "icao": "IGO"
+  },
+  {
+    "name": "Indonesia AirAsia",
+    "code": "QZ",
+    "icao": "AWQ"
+  },
+  {
+    "name": "Initium Aviation",
+    "code": "",
+    "icao": "INI"
+  },
+  {
+    "name": "Inner Mongolia Express",
+    "code": "",
+    "icao": "IME"
+  },
+  {
+    "name": "iNTAIRLINE",
+    "code": "",
+    "icao": "ITI"
+  },
+  {
+    "name": "Integra Jet",
+    "code": "",
+    "icao": "IJR"
+  },
+  {
+    "name": "Intel Air Shuttle",
+    "code": "",
+    "icao": "HGT"
+  },
+  {
+    "name": "InterCaribbean Airways",
+    "code": "JY",
+    "icao": "IWY"
+  },
+  {
+    "name": "InterJet West",
+    "code": "K8",
+    "icao": "IJW"
+  },
+  {
+    "name": "International Committee of the Red Cross",
+    "code": "",
+    "icao": "RED"
+  },
+  {
+    "name": "International Jet Management",
+    "code": "",
+    "icao": "IJM"
+  },
+  {
+    "name": "IrAero",
+    "code": "IO",
+    "icao": "IAE"
+  },
+  {
+    "name": "Iran Air",
+    "code": "IR",
+    "icao": "IRA"
+  },
+  {
+    "name": "Iran Airtour",
+    "code": "B9",
+    "icao": "IRB"
+  },
+  {
+    "name": "Iran Aseman Airlines",
+    "code": "EP",
+    "icao": "IRC"
+  },
+  {
+    "name": "Iraq Gate Company",
+    "code": "",
+    "icao": "IGC"
+  },
+  {
+    "name": "Iraqi Airways",
+    "code": "IA",
+    "icao": "IAW"
+  },
+  {
+    "name": "Irving Oil Transport",
+    "code": "",
+    "icao": "KCE"
+  },
+  {
+    "name": "Island Wings Charter",
+    "code": "",
+    "icao": "IWL"
+  },
+  {
+    "name": "Israir Airlines",
+    "code": "6H",
+    "icao": "ISR"
+  },
+  {
+    "name": "ITA Airways",
+    "code": "AZ",
+    "icao": "ITY"
+  },
+  {
+    "name": "Italfly",
+    "code": "",
+    "icao": "ITL"
+  },
+  {
+    "name": "Italy - Air Force",
+    "code": "",
+    "icao": "IAM"
+  },
+  {
+    "name": "Italy - Army",
+    "code": "",
+    "icao": "IEI"
+  },
+  {
+    "name": "Italy - Coast Guard",
+    "code": "",
+    "icao": "GCI"
+  },
+  {
+    "name": "Italy - Navy",
+    "code": "",
+    "icao": "MMI"
+  },
+  {
+    "name": "iXAir",
+    "code": "",
+    "icao": "IXR"
+  },
+  {
+    "name": "Izhavia",
+    "code": "I8",
+    "icao": "IZA"
+  },
+  {
+    "name": "J D Aviation",
+    "code": "",
+    "icao": "JDA"
+  },
+  {
+    "name": "JA Air Charter",
+    "code": "",
+    "icao": "LTD"
+  },
+  {
+    "name": "Jackson Demolition Service",
+    "code": "",
+    "icao": "JDS"
+  },
+  {
+    "name": "Jambojet",
+    "code": "JM",
+    "icao": "JMA"
+  },
+  {
+    "name": "Japan Air Commuter",
+    "code": "JC",
+    "icao": "JAC"
+  },
+  {
+    "name": "Japan Airlines",
+    "code": "JL",
+    "icao": "JAL"
+  },
+  {
+    "name": "Japan Transocean Air",
+    "code": "NU",
+    "icao": "JTA"
+  },
+  {
+    "name": "Jayawijaya Dirgantara",
+    "code": "",
+    "icao": "JWD"
+  },
+  {
+    "name": "Jazeera Airways",
+    "code": "J9",
+    "icao": "JZR"
+  },
+  {
+    "name": "Jazz Aviation",
+    "code": "QK",
+    "icao": "JZA"
+  },
+  {
+    "name": "JC Bamford Excavators",
+    "code": "",
+    "icao": "JCB"
+  },
+  {
+    "name": "Jeju Air",
+    "code": "7C",
+    "icao": "JJA"
+  },
+  {
+    "name": "Jet Access Aviation",
+    "code": "",
+    "icao": "JXA"
+  },
+  {
+    "name": "Jet Aviation Business Jets",
+    "code": "PP",
+    "icao": "PJS"
+  },
+  {
+    "name": "Jet Aviation Business Jets Deutschland",
+    "code": "",
+    "icao": "JBD"
+  },
+  {
+    "name": "Jet Aviation Flight Services",
+    "code": "",
+    "icao": "JAS"
+  },
+  {
+    "name": "Jet Charter",
+    "code": "N2",
+    "icao": "JCT"
+  },
+  {
+    "name": "Jet Concierge Club",
+    "code": "",
+    "icao": "JCO"
+  },
+  {
+    "name": "Jet Edge",
+    "code": "",
+    "icao": "EDG"
+  },
+  {
+    "name": "Jet Executive",
+    "code": "",
+    "icao": "JEI"
+  },
+  {
+    "name": "Jet Fly Airline",
+    "code": "",
+    "icao": "JFL"
+  },
+  {
+    "name": "Jet It",
+    "code": "",
+    "icao": "JIT"
+  },
+  {
+    "name": "Jet Linx Aviation",
+    "code": "JL",
+    "icao": "JTL"
+  },
+  {
+    "name": "Jet Logistics",
+    "code": "",
+    "icao": "JLG"
+  },
+  {
+    "name": "Jet Net Services",
+    "code": "",
+    "icao": "JNS"
+  },
+  {
+    "name": "Jet OUT",
+    "code": "",
+    "icao": "CRE"
+  },
+  {
+    "name": "Jet Sky Airways",
+    "code": "JK",
+    "icao": "JTK"
+  },
+  {
+    "name": "Jet Story",
+    "code": "",
+    "icao": "JDI"
+  },
+  {
+    "name": "Jet Test International",
+    "code": "",
+    "icao": "JTN"
+  },
+  {
+    "name": "Jet View",
+    "code": "",
+    "icao": "JVW"
+  },
+  {
+    "name": "Jet2",
+    "code": "LS",
+    "icao": "EXS"
+  },
+  {
+    "name": "Jetbee Czech",
+    "code": "",
+    "icao": "JBC"
+  },
+  {
+    "name": "JetBlue",
+    "code": "B6",
+    "icao": "JBU"
+  },
+  {
+    "name": "Jetcall",
+    "code": "",
+    "icao": "JCL"
+  },
+  {
+    "name": "Jetconnect",
+    "code": "",
+    "icao": "QNZ"
+  },
+  {
+    "name": "JetFlite",
+    "code": "",
+    "icao": "JEF"
+  },
+  {
+    "name": "Jetfly Aviation",
+    "code": "",
+    "icao": "JFA"
+  },
+  {
+    "name": "JetHouse",
+    "code": "",
+    "icao": "JTH"
+  },
+  {
+    "name": "Jetkontor",
+    "code": "",
+    "icao": "JKH"
+  },
+  {
+    "name": "JetNetherlands",
+    "code": "",
+    "icao": "JNL"
+  },
+  {
+    "name": "jetNEXA",
+    "code": "",
+    "icao": "JNX"
+  },
+  {
+    "name": "Jetology",
+    "code": "",
+    "icao": "JTY"
+  },
+  {
+    "name": "JetRight",
+    "code": "",
+    "icao": "JRT"
+  },
+  {
+    "name": "Jetset",
+    "code": "",
+    "icao": "CEO"
+  },
+  {
+    "name": "JetSMART",
+    "code": "JA",
+    "icao": "JAT"
+  },
+  {
+    "name": "JetSMART Argentina",
+    "code": "WJ",
+    "icao": "JES"
+  },
+  {
+    "name": "JetSMART Colombia",
+    "code": "J6",
+    "icao": "JEC"
+  },
+  {
+    "name": "JetSMART Peru",
+    "code": "JZ",
+    "icao": "JAP"
+  },
+  {
+    "name": "Jetspremier",
+    "code": "",
+    "icao": "JPM"
+  },
+  {
+    "name": "Jetstar",
+    "code": "JQ",
+    "icao": "JST"
+  },
+  {
+    "name": "Jetstar Asia",
+    "code": "3K",
+    "icao": "JSA"
+  },
+  {
+    "name": "Jetstar Japan",
+    "code": "GK",
+    "icao": "JJP"
+  },
+  {
+    "name": "JetStream",
+    "code": "",
+    "icao": "JSH"
+  },
+  {
+    "name": "JetStream Charter",
+    "code": "",
+    "icao": "VTB"
+  },
+  {
+    "name": "Jetsuite Air",
+    "code": "",
+    "icao": "RSP"
+  },
+  {
+    "name": "Jettime",
+    "code": "JP",
+    "icao": "JTD"
+  },
+  {
+    "name": "Jetways Airlines",
+    "code": "WU",
+    "icao": "JWX"
+  },
+  {
+    "name": "Jhonlin Air Transport",
+    "code": "",
+    "icao": "JLB"
+  },
+  {
+    "name": "Jiangsu Jingdong Cargo Airlines",
+    "code": "JG",
+    "icao": "JDL"
+  },
+  {
+    "name": "Jiangxi Air",
+    "code": "RY",
+    "icao": "CJX"
+  },
+  {
+    "name": "Jiangxi Express Commuter Aviation",
+    "code": "",
+    "icao": "KXA"
+  },
+  {
+    "name": "Jin Air",
+    "code": "LJ",
+    "icao": "JNA"
+  },
+  {
+    "name": "Jinxiang Airlines",
+    "code": "",
+    "icao": "JXX"
+  },
+  {
+    "name": "Jivair",
+    "code": "",
+    "icao": "JIV"
+  },
+  {
+    "name": "JoinJet",
+    "code": "",
+    "icao": "JNJ"
+  },
+  {
+    "name": "Jonair",
+    "code": "",
+    "icao": "JON"
+  },
+  {
+    "name": "Jonika",
+    "code": "",
+    "icao": "JNK"
+  },
+  {
+    "name": "Jordan - Air Force",
+    "code": "",
+    "icao": "RJZ"
+  },
+  {
+    "name": "Jordan Aviation",
+    "code": "R5",
+    "icao": "JAV"
+  },
+  {
+    "name": "Journey Aviation",
+    "code": "",
+    "icao": "JNY"
+  },
+  {
+    "name": "JoyAir",
+    "code": "JR",
+    "icao": "JOY"
+  },
+  {
+    "name": "JS Aviation",
+    "code": "",
+    "icao": "JSM"
+  },
+  {
+    "name": "Jsky Airlines",
+    "code": "",
+    "icao": "ISP"
+  },
+  {
+    "name": "JSX",
+    "code": "XE",
+    "icao": "JSX"
+  },
+  {
+    "name": "Jubba Airways",
+    "code": "3J",
+    "icao": "JBW"
+  },
+  {
+    "name": "Jump Air",
+    "code": "",
+    "icao": "JUP"
+  },
+  {
+    "name": "Juneyao Air",
+    "code": "HO",
+    "icao": "DKH"
+  },
+  {
+    "name": "Jung Sky",
+    "code": "",
+    "icao": "JSY"
+  },
+  {
+    "name": "K&R Aviation",
+    "code": "",
+    "icao": "OPN"
+  },
+  {
+    "name": "K-Mile Air",
+    "code": "8K",
+    "icao": "KMI"
+  },
+  {
+    "name": "K5-Aviation Germany",
+    "code": "",
+    "icao": "KAY"
+  },
+  {
+    "name": "KaiserAir",
+    "code": "",
+    "icao": "KAI"
+  },
+  {
+    "name": "Kalitta Air",
+    "code": "K4",
+    "icao": "CKS"
+  },
+  {
+    "name": "Kalitta Charters",
+    "code": "K9",
+    "icao": "KFS"
+  },
+  {
+    "name": "Kalitta Charters II",
+    "code": "K5",
+    "icao": "KII"
+  },
+  {
+    "name": "Kam Air",
+    "code": "RQ",
+    "icao": "KMF"
+  },
+  {
+    "name": "Kamaka Air",
+    "code": "",
+    "icao": "KMK"
+  },
+  {
+    "name": "Kangala Air Express",
+    "code": "",
+    "icao": "KAE"
+  },
+  {
+    "name": "Kansas State University Aviation",
+    "code": "",
+    "icao": "KSU"
+  },
+  {
+    "name": "Karun Airlines",
+    "code": "",
+    "icao": "KRU"
+  },
+  {
+    "name": "Keewatin Air",
+    "code": "FK",
+    "icao": "KEW"
+  },
+  {
+    "name": "Kelowna Flightcraft Air",
+    "code": "FK",
+    "icao": "KFA"
+  },
+  {
+    "name": "Kenai Aviation",
+    "code": "",
+    "icao": "KNW"
+  },
+  {
+    "name": "Kenmore Air",
+    "code": "M5",
+    "icao": "KEN"
+  },
+  {
+    "name": "Kenn Borek Air",
+    "code": "4K",
+    "icao": "KBA"
+  },
+  {
+    "name": "Kent State University College of Aeronautics",
+    "code": "",
+    "icao": "KSF"
+  },
+  {
+    "name": "Kenya Airways",
+    "code": "KQ",
+    "icao": "KQA"
+  },
+  {
+    "name": "Key Air",
+    "code": "",
+    "icao": "KEY"
+  },
+  {
+    "name": "Key Lime Air",
+    "code": "KG",
+    "icao": "LYM"
+  },
+  {
+    "name": "KhabAvia",
+    "code": "",
+    "icao": "KHF"
+  },
+  {
+    "name": "Kingfisher Air",
+    "code": "",
+    "icao": "BEZ"
+  },
+  {
+    "name": "Kish Air",
+    "code": "",
+    "icao": "KIS"
+  },
+  {
+    "name": "KlasJet",
+    "code": "",
+    "icao": "KLJ"
+  },
+  {
+    "name": "KLM",
+    "code": "KL",
+    "icao": "KLM"
+  },
+  {
+    "name": "KLM Cityhopper",
+    "code": "WA",
+    "icao": "KLC"
+  },
+  {
+    "name": "KM Malta Airlines",
+    "code": "KM",
+    "icao": "KMM"
+  },
+  {
+    "name": "KN Helicopters",
+    "code": "",
+    "icao": "SHW"
+  },
+  {
+    "name": "Kolob Canyons Air Services",
+    "code": "",
+    "icao": "KCR"
+  },
+  {
+    "name": "Komiaviatrans",
+    "code": "KO",
+    "icao": "KMA"
+  },
+  {
+    "name": "Korea Aerospace University",
+    "code": "",
+    "icao": "HGD"
+  },
+  {
+    "name": "Korea Aviation College",
+    "code": "",
+    "icao": "KAG"
+  },
+  {
+    "name": "Korea National University of Transportation",
+    "code": "",
+    "icao": "KTU"
+  },
+  {
+    "name": "Korean Air",
+    "code": "KE",
+    "icao": "KAL"
+  },
+  {
+    "name": "Kosmos Airlines",
+    "code": "",
+    "icao": "KSM"
+  },
+  {
+    "name": "Krasavia",
+    "code": "KV",
+    "icao": "SSJ"
+  },
+  {
+    "name": "Kudlik Aviation",
+    "code": "",
+    "icao": "KUK"
+  },
+  {
+    "name": "Kunming Airlines",
+    "code": "KY",
+    "icao": "KNA"
+  },
+  {
+    "name": "Kuwait Airways",
+    "code": "KU",
+    "icao": "KAC"
+  },
+  {
+    "name": "Kyungwoon University",
+    "code": "",
+    "icao": "WCD"
+  },
+  {
+    "name": "L.J. Aviation",
+    "code": "",
+    "icao": "LJY"
+  },
+  {
+    "name": "L3Harris Airline Academy",
+    "code": "",
+    "icao": "LFA"
+  },
+  {
+    "name": "La Compagnie",
+    "code": "B0",
+    "icao": "DJT"
+  },
+  {
+    "name": "La Costena",
+    "code": "LC",
+    "icao": "NIS"
+  },
+  {
+    "name": "Labcorp",
+    "code": "",
+    "icao": "SKQ"
+  },
+  {
+    "name": "LADE",
+    "code": "5U",
+    "icao": "LDE"
+  },
+  {
+    "name": "LAM",
+    "code": "TM",
+    "icao": "LAM"
+  },
+  {
+    "name": "Lao Airlines",
+    "code": "QV",
+    "icao": "LAO"
+  },
+  {
+    "name": "Lao Skyway",
+    "code": "LK",
+    "icao": "LLL"
+  },
+  {
+    "name": "LAS Cargo",
+    "code": "4L",
+    "icao": "LAU"
+  },
+  {
+    "name": "Laser Airlines",
+    "code": "QL",
+    "icao": "LER"
+  },
+  {
+    "name": "LATAM Airlines",
+    "code": "LA",
+    "icao": "LAN"
+  },
+  {
+    "name": "LATAM Brasil",
+    "code": "JJ",
+    "icao": "TAM"
+  },
+  {
+    "name": "LATAM Cargo",
+    "code": "UC",
+    "icao": "LCO"
+  },
+  {
+    "name": "LATAM Cargo Brasil",
+    "code": "M3",
+    "icao": "LTG"
+  },
+  {
+    "name": "LATAM Cargo Colombia",
+    "code": "L7",
+    "icao": "LAE"
+  },
+  {
+    "name": "LATAM Chile",
+    "code": "LU",
+    "icao": "LXP"
+  },
+  {
+    "name": "LATAM Colombia",
+    "code": "4C",
+    "icao": "ARE"
+  },
+  {
+    "name": "LATAM Ecuador",
+    "code": "XL",
+    "icao": "LNE"
+  },
+  {
+    "name": "LATAM Paraguay",
+    "code": "PZ",
+    "icao": "LAP"
+  },
+  {
+    "name": "LATAM Peru",
+    "code": "LP",
+    "icao": "LPE"
+  },
+  {
+    "name": "Latvia - Air Force",
+    "code": "",
+    "icao": "LAF"
+  },
+  {
+    "name": "Lauda Europe",
+    "code": "LW",
+    "icao": "LDA"
+  },
+  {
+    "name": "Leader",
+    "code": "",
+    "icao": "LSA"
+  },
+  {
+    "name": "LEAV Aviation",
+    "code": "KK",
+    "icao": "NGN"
+  },
+  {
+    "name": "Legacy Airways",
+    "code": "",
+    "icao": "LGF"
+  },
+  {
+    "name": "Legend Airlines",
+    "code": "LZ",
+    "icao": "LAL"
+  },
+  {
+    "name": "Legends Airways",
+    "code": "",
+    "icao": "DVY"
+  },
+  {
+    "name": "LeTourneau University Aviation",
+    "code": "",
+    "icao": "JKA"
+  },
+  {
+    "name": "Level",
+    "code": "",
+    "icao": "LVL"
+  },
+  {
+    "name": "Libya - Air Force",
+    "code": "",
+    "icao": "LBF"
+  },
+  {
+    "name": "Libyan Airlines",
+    "code": "LN",
+    "icao": "LAA"
+  },
+  {
+    "name": "Libyan Express",
+    "code": "",
+    "icao": "LXX"
+  },
+  {
+    "name": "Libyan Wings",
+    "code": "YL",
+    "icao": "LWA"
+  },
+  {
+    "name": "Liebherr Aerospace",
+    "code": "",
+    "icao": "LHB"
+  },
+  {
+    "name": "Life Line Aviation",
+    "code": "",
+    "icao": "LLK"
+  },
+  {
+    "name": "Lift",
+    "code": "GE",
+    "icao": "GBB"
+  },
+  {
+    "name": "Lion Air",
+    "code": "JT",
+    "icao": "LNI"
+  },
+  {
+    "name": "Lion Helicopters",
+    "code": "",
+    "icao": "LHE"
+  },
+  {
+    "name": "Lipican Aer",
+    "code": "8I",
+    "icao": "LIP"
+  },
+  {
+    "name": "Lithuania - Air Force",
+    "code": "",
+    "icao": "LYF"
+  },
+  {
+    "name": "Liz Aviation",
+    "code": "L0",
+    "icao": "LAZ"
+  },
+  {
+    "name": "LLC H3Operations",
+    "code": "",
+    "icao": "UHO"
+  },
+  {
+    "name": "Loganair",
+    "code": "LM",
+    "icao": "LOG"
+  },
+  {
+    "name": "Lone Star Aviators",
+    "code": "",
+    "icao": "BST"
+  },
+  {
+    "name": "LongJiang Airlines",
+    "code": "LT",
+    "icao": "SNG"
+  },
+  {
+    "name": "Longtail Aviation",
+    "code": "6T",
+    "icao": "LGT"
+  },
+  {
+    "name": "Loong Air",
+    "code": "GJ",
+    "icao": "CDC"
+  },
+  {
+    "name": "LOT",
+    "code": "LO",
+    "icao": "LOT"
+  },
+  {
+    "name": "Lucky Air",
+    "code": "8L",
+    "icao": "LKE"
+  },
+  {
+    "name": "Lufthansa",
+    "code": "LH",
+    "icao": "DLH"
+  },
+  {
+    "name": "Lufthansa Cargo",
+    "code": "",
+    "icao": "GEC"
+  },
+  {
+    "name": "Lufthansa City",
+    "code": "VL",
+    "icao": "LHX"
+  },
+  {
+    "name": "Lufthansa CityLine",
+    "code": "CL",
+    "icao": "CLH"
+  },
+  {
+    "name": "Lufttransport",
+    "code": "",
+    "icao": "LTR"
+  },
+  {
+    "name": "Lumiwings",
+    "code": "L9",
+    "icao": "LWI"
+  },
+  {
+    "name": "Lunds Universitet",
+    "code": "",
+    "icao": "UNY"
+  },
+  {
+    "name": "Luxair",
+    "code": "LG",
+    "icao": "LGL"
+  },
+  {
+    "name": "Luxaviation",
+    "code": "",
+    "icao": "LXA"
+  },
+  {
+    "name": "Luxaviation Belgium",
+    "code": "",
+    "icao": "AAB"
+  },
+  {
+    "name": "Luxaviation E.A",
+    "code": "",
+    "icao": "LMJ"
+  },
+  {
+    "name": "Luxaviation Germany",
+    "code": "",
+    "icao": "LXG"
+  },
+  {
+    "name": "Luxaviation UK",
+    "code": "",
+    "icao": "LNX"
+  },
+  {
+    "name": "Luxembourg Air Ambulance",
+    "code": "",
+    "icao": "LRQ"
+  },
+  {
+    "name": "Luxwing",
+    "code": "BN",
+    "icao": "LWG"
+  },
+  {
+    "name": "Lydd Air",
+    "code": "",
+    "icao": "LYD"
+  },
+  {
+    "name": "Lynden Air Cargo",
+    "code": "L2",
+    "icao": "LYC"
+  },
+  {
+    "name": "Madagascar Airlines",
+    "code": "MD",
+    "icao": "MGY"
+  },
+  {
+    "name": "MAE Aircraft Management",
+    "code": "MA",
+    "icao": "MEN"
+  },
+  {
+    "name": "Maersk",
+    "code": "DJ",
+    "icao": "SRR"
+  },
+  {
+    "name": "Magnicharters",
+    "code": "UJ",
+    "icao": "GMT"
+  },
+  {
+    "name": "Mahan Air",
+    "code": "W5",
+    "icao": "IRM"
+  },
+  {
+    "name": "Makers Air",
+    "code": "",
+    "icao": "WMA"
+  },
+  {
+    "name": "Malawi Airlines",
+    "code": "3W",
+    "icao": "MWI"
+  },
+  {
+    "name": "Malaysia - Air Force",
+    "code": "",
+    "icao": "RMF"
+  },
+  {
+    "name": "Malaysia Airlines",
+    "code": "MH",
+    "icao": "MAS"
+  },
+  {
+    "name": "Maldivian",
+    "code": "Q2",
+    "icao": "DQA"
+  },
+  {
+    "name": "Maleth-Aero",
+    "code": "DB",
+    "icao": "MLT"
+  },
+  {
+    "name": "Mali Air",
+    "code": "",
+    "icao": "MAE"
+  },
+  {
+    "name": "Malta Air",
+    "code": "MW",
+    "icao": "MAY"
+  },
+  {
+    "name": "Malta MedAir",
+    "code": "MT",
+    "icao": "MMO"
+  },
+  {
+    "name": "Manasik Aviation",
+    "code": "XN",
+    "icao": "MNM"
+  },
+  {
+    "name": "Mandarin Airlines",
+    "code": "AE",
+    "icao": "MDA"
+  },
+  {
+    "name": "Mann Yadanarpon Airlines",
+    "code": "7Y",
+    "icao": "MYP"
+  },
+  {
+    "name": "Manta Air",
+    "code": "NR",
+    "icao": "MAV"
+  },
+  {
+    "name": "Map Linhas Aereas",
+    "code": "7M",
+    "icao": "PAM"
+  },
+  {
+    "name": "Marabu",
+    "code": "DI",
+    "icao": "MBU"
+  },
+  {
+    "name": "Marathon Airlines",
+    "code": "O8",
+    "icao": "MTO"
+  },
+  {
+    "name": "Marshall University Aviation",
+    "code": "",
+    "icao": "HRD"
+  },
+  {
+    "name": "Martinair Holland",
+    "code": "MP",
+    "icao": "MPH"
+  },
+  {
+    "name": "Martinaire",
+    "code": "",
+    "icao": "MRA"
+  },
+  {
+    "name": "mas",
+    "code": "M7",
+    "icao": "MAA"
+  },
+  {
+    "name": "Massey University School of Aviation",
+    "code": "",
+    "icao": "MSY"
+  },
+  {
+    "name": "MASwings",
+    "code": "MY",
+    "icao": "MWG"
+  },
+  {
+    "name": "Mater Logistics",
+    "code": "",
+    "icao": "TKH"
+  },
+  {
+    "name": "Mauritania Airlines International",
+    "code": "L6",
+    "icao": "MAI"
+  },
+  {
+    "name": "Mavi Gok Airlines",
+    "code": "4M",
+    "icao": "MGH"
+  },
+  {
+    "name": "Max Air",
+    "code": "VM",
+    "icao": "NGL"
+  },
+  {
+    "name": "Max Air",
+    "code": "",
+    "icao": "FCE"
+  },
+  {
+    "name": "Max Aviation",
+    "code": "",
+    "icao": "MAX"
+  },
+  {
+    "name": "Maxair",
+    "code": "",
+    "icao": "NTW"
+  },
+  {
+    "name": "Maximus Airlines",
+    "code": "6M",
+    "icao": "MXM"
+  },
+  {
+    "name": "Maya Island Air",
+    "code": "2M",
+    "icao": "MYD"
+  },
+  {
+    "name": "McCall Aviation",
+    "code": "",
+    "icao": "MKL"
+  },
+  {
+    "name": "McNeely Charter Services",
+    "code": "",
+    "icao": "MDS"
+  },
+  {
+    "name": "MEA",
+    "code": "ME",
+    "icao": "MEA"
+  },
+  {
+    "name": "Med-Trans",
+    "code": "",
+    "icao": "MEK"
+  },
+  {
+    "name": "Medavia",
+    "code": "",
+    "icao": "MDM"
+  },
+  {
+    "name": "Medimpact",
+    "code": "",
+    "icao": "NDG"
+  },
+  {
+    "name": "Medsky Airways",
+    "code": "BM",
+    "icao": "MNS"
+  },
+  {
+    "name": "Mel Air",
+    "code": "5M",
+    "icao": "MDO"
+  },
+  {
+    "name": "Memorial Hermann Life Flight",
+    "code": "",
+    "icao": "RDK"
+  },
+  {
+    "name": "Meraj Airlines",
+    "code": "",
+    "icao": "MRJ"
+  },
+  {
+    "name": "Mercury Air Cargo",
+    "code": "4X",
+    "icao": "MEC"
+  },
+  {
+    "name": "Meregrass",
+    "code": "",
+    "icao": "QHD"
+  },
+  {
+    "name": "Meridian",
+    "code": "",
+    "icao": "MEM"
+  },
+  {
+    "name": "Meridian Air Company",
+    "code": "",
+    "icao": "MMM"
+  },
+  {
+    "name": "Mermoz-Academy",
+    "code": "",
+    "icao": "MZY"
+  },
+  {
+    "name": "Mesa Airlines",
+    "code": "YV",
+    "icao": "ASH"
+  },
+  {
+    "name": "Mexicana",
+    "code": "XN",
+    "icao": "MXA"
+  },
+  {
+    "name": "Mexicana",
+    "code": "",
+    "icao": "MEX"
+  },
+  {
+    "name": "Mexico - Air Force",
+    "code": "",
+    "icao": "FAM"
+  },
+  {
+    "name": "Mexico - Government",
+    "code": "",
+    "icao": "MXG"
+  },
+  {
+    "name": "Mexico - Navy",
+    "code": "",
+    "icao": "ANX"
+  },
+  {
+    "name": "MHS Aviation",
+    "code": "M2",
+    "icao": "MHV"
+  },
+  {
+    "name": "Miami Air Lease",
+    "code": "",
+    "icao": "MGD"
+  },
+  {
+    "name": "MIAT Mongolian Airlines",
+    "code": "OM",
+    "icao": "MGL"
+  },
+  {
+    "name": "Mid Africa Aviation",
+    "code": "",
+    "icao": "MFG"
+  },
+  {
+    "name": "Midamerica Jet",
+    "code": "",
+    "icao": "MJR"
+  },
+  {
+    "name": "Middle Georgia State University School of Aviation",
+    "code": "",
+    "icao": "NIT"
+  },
+  {
+    "name": "Middle Tennessee State University Aerospace",
+    "code": "",
+    "icao": "MTU"
+  },
+  {
+    "name": "Midwest Aviation",
+    "code": "",
+    "icao": "DZR"
+  },
+  {
+    "name": "Midwest Aviation Division",
+    "code": "",
+    "icao": "MWT"
+  },
+  {
+    "name": "Millesime Aviation",
+    "code": "",
+    "icao": "MIM"
+  },
+  {
+    "name": "Mingalar",
+    "code": "K7",
+    "icao": "KBZ"
+  },
+  {
+    "name": "MJet",
+    "code": "",
+    "icao": "MJF"
+  },
+  {
+    "name": "MJets Air",
+    "code": "WW",
+    "icao": "KXP"
+  },
+  {
+    "name": "MNG Airlines",
+    "code": "MB",
+    "icao": "MNB"
+  },
+  {
+    "name": "Moalem Aviation",
+    "code": "",
+    "icao": "AMA"
+  },
+  {
+    "name": "Mo\u00e7ambique Expresso",
+    "code": "",
+    "icao": "MXE"
+  },
+  {
+    "name": "Modern Logistics",
+    "code": "WD",
+    "icao": "MWM"
+  },
+  {
+    "name": "Monacair",
+    "code": "QM",
+    "icao": "MCR"
+  },
+  {
+    "name": "Mongolian Airways",
+    "code": "XF",
+    "icao": "MGW"
+  },
+  {
+    "name": "Morningstar Air Express",
+    "code": "",
+    "icao": "MAL"
+  },
+  {
+    "name": "Motor Sich Airlines",
+    "code": "M9",
+    "icao": "MSI"
+  },
+  {
+    "name": "Mountain Air Cargo",
+    "code": "",
+    "icao": "MTN"
+  },
+  {
+    "name": "Mountain Aviation",
+    "code": "",
+    "icao": "FTH"
+  },
+  {
+    "name": "Mountain Flyers",
+    "code": "",
+    "icao": "MFB"
+  },
+  {
+    "name": "Move",
+    "code": "",
+    "icao": "MVE"
+  },
+  {
+    "name": "MPC Air",
+    "code": "",
+    "icao": "MPC"
+  },
+  {
+    "name": "Multiflight",
+    "code": "",
+    "icao": "MFT"
+  },
+  {
+    "name": "My Freighter",
+    "code": "C6",
+    "icao": "MFX"
+  },
+  {
+    "name": "My Indo Airlines",
+    "code": "2Y",
+    "icao": "MYU"
+  },
+  {
+    "name": "My Jet",
+    "code": "",
+    "icao": "MYJ"
+  },
+  {
+    "name": "Myanmar Airways International",
+    "code": "8M",
+    "icao": "MMA"
+  },
+  {
+    "name": "Myanmar National Airlines",
+    "code": "UB",
+    "icao": "UBA"
+  },
+  {
+    "name": "MyWay Airlines",
+    "code": "MJ",
+    "icao": "MYW"
+  },
+  {
+    "name": "Naljets",
+    "code": "",
+    "icao": "APX"
+  },
+  {
+    "name": "Nam Air",
+    "code": "IN",
+    "icao": "LKN"
+  },
+  {
+    "name": "Namibia - Defence Force",
+    "code": "",
+    "icao": "NDF"
+  },
+  {
+    "name": "Nantucket Airlines",
+    "code": "",
+    "icao": "ACK"
+  },
+  {
+    "name": "National Air Charters",
+    "code": "JY",
+    "icao": "JYA"
+  },
+  {
+    "name": "National Airlines",
+    "code": "N8",
+    "icao": "NCR"
+  },
+  {
+    "name": "National Airways",
+    "code": "9Y",
+    "icao": "NAE"
+  },
+  {
+    "name": "National Airways Corporation",
+    "code": "",
+    "icao": "NTN"
+  },
+  {
+    "name": "National Jet Express",
+    "code": "NC",
+    "icao": "JTE"
+  },
+  {
+    "name": "National Jet Systems",
+    "code": "",
+    "icao": "QJE"
+  },
+  {
+    "name": "National Jets",
+    "code": "",
+    "icao": "EGS"
+  },
+  {
+    "name": "NATO",
+    "code": "",
+    "icao": "OAN"
+  },
+  {
+    "name": "Nauru Airlines",
+    "code": "ON",
+    "icao": "RON"
+  },
+  {
+    "name": "Naysa",
+    "code": "ZN",
+    "icao": "NAY"
+  },
+  {
+    "name": "NEAJETS",
+    "code": "",
+    "icao": "NEW"
+  },
+  {
+    "name": "Neojets",
+    "code": "",
+    "icao": "NJZ"
+  },
+  {
+    "name": "Neos",
+    "code": "NO",
+    "icao": "NOS"
+  },
+  {
+    "name": "Nepal Airlines",
+    "code": "RA",
+    "icao": "RNA"
+  },
+  {
+    "name": "Nesma Airlines",
+    "code": "NE",
+    "icao": "NMA"
+  },
+  {
+    "name": "Netherlands - Coast Guard",
+    "code": "",
+    "icao": "NCG"
+  },
+  {
+    "name": "Netherlands - Navy",
+    "code": "",
+    "icao": "NRN"
+  },
+  {
+    "name": "Netherlands - Royal Air Force",
+    "code": "",
+    "icao": "NAF"
+  },
+  {
+    "name": "NetJets",
+    "code": "",
+    "icao": "EJA"
+  },
+  {
+    "name": "NetJets Europe",
+    "code": "",
+    "icao": "NJE"
+  },
+  {
+    "name": "Netjets UK",
+    "code": "",
+    "icao": "NJU"
+  },
+  {
+    "name": "Network Aviation",
+    "code": "",
+    "icao": "NWK"
+  },
+  {
+    "name": "New England Airlines",
+    "code": "EJ",
+    "icao": "NEA"
+  },
+  {
+    "name": "New England Patriots",
+    "code": "",
+    "icao": "UDG"
+  },
+  {
+    "name": "New Pacific Airlines",
+    "code": "7H",
+    "icao": "RVF"
+  },
+  {
+    "name": "New Way Cargo Airlines",
+    "code": "NU",
+    "icao": "NWY"
+  },
+  {
+    "name": "New Zealand - Royal New Zealand Air Force",
+    "code": "",
+    "icao": "KIW"
+  },
+  {
+    "name": "Nexgen Aviation",
+    "code": "",
+    "icao": "NXC"
+  },
+  {
+    "name": "NextGen Flight Solutions",
+    "code": "",
+    "icao": "XGN"
+  },
+  {
+    "name": "NG Eagle",
+    "code": "2N",
+    "icao": "XLE"
+  },
+  {
+    "name": "NHC Northern Helicopter",
+    "code": "",
+    "icao": "NHC"
+  },
+  {
+    "name": "NHV",
+    "code": "",
+    "icao": "NHD"
+  },
+  {
+    "name": "NHV Helicopters",
+    "code": "",
+    "icao": "NHZ"
+  },
+  {
+    "name": "Nicholas Air",
+    "code": "",
+    "icao": "JTZ"
+  },
+  {
+    "name": "Niger Airlines",
+    "code": "6N",
+    "icao": "NIN"
+  },
+  {
+    "name": "Nigeria - Air Force",
+    "code": "",
+    "icao": "NGR"
+  },
+  {
+    "name": "Nile Air",
+    "code": "NP",
+    "icao": "NIA"
+  },
+  {
+    "name": "Nippon Cargo Airlines",
+    "code": "KZ",
+    "icao": "NCA"
+  },
+  {
+    "name": "Noble Air Charter",
+    "code": "",
+    "icao": "JLJ"
+  },
+  {
+    "name": "Nok Air",
+    "code": "DD",
+    "icao": "NOK"
+  },
+  {
+    "name": "Nolinor Aviation",
+    "code": "N5",
+    "icao": "NRL"
+  },
+  {
+    "name": "Nomad Aviation",
+    "code": "",
+    "icao": "NUM"
+  },
+  {
+    "name": "Nomadic Aviation",
+    "code": "",
+    "icao": "OMD"
+  },
+  {
+    "name": "Noordzee Helikopters Vlaanderen",
+    "code": "",
+    "icao": "NHX"
+  },
+  {
+    "name": "Nordic Unmanned",
+    "code": "",
+    "icao": "NOU"
+  },
+  {
+    "name": "Nordica",
+    "code": "ND",
+    "icao": "NDA"
+  },
+  {
+    "name": "NordStar",
+    "code": "Y7",
+    "icao": "TYA"
+  },
+  {
+    "name": "Nordwind Airlines",
+    "code": "N4",
+    "icao": "NWS"
+  },
+  {
+    "name": "Norlandair",
+    "code": "",
+    "icao": "FNA"
+  },
+  {
+    "name": "NORRA",
+    "code": "N7",
+    "icao": "FCM"
+  },
+  {
+    "name": "Norse",
+    "code": "N0",
+    "icao": "NBT"
+  },
+  {
+    "name": "Norse UK",
+    "code": "Z0",
+    "icao": "UBT"
+  },
+  {
+    "name": "Norsk Luftambulanse",
+    "code": "",
+    "icao": "DOC"
+  },
+  {
+    "name": "North Cariboo Air",
+    "code": "",
+    "icao": "NCB"
+  },
+  {
+    "name": "North Central",
+    "code": "",
+    "icao": "NCJ"
+  },
+  {
+    "name": "North Flying",
+    "code": "",
+    "icao": "NFA"
+  },
+  {
+    "name": "North Star Aviation",
+    "code": "",
+    "icao": "MVK"
+  },
+  {
+    "name": "North-West Air Company",
+    "code": "0E",
+    "icao": "NWC"
+  },
+  {
+    "name": "North-Western Cargo International Airlines",
+    "code": "CO",
+    "icao": "CNW"
+  },
+  {
+    "name": "North-Wright Airways",
+    "code": "HW",
+    "icao": "NWL"
+  },
+  {
+    "name": "Northern Air",
+    "code": "",
+    "icao": "NLI"
+  },
+  {
+    "name": "Northern Air Cargo",
+    "code": "NC",
+    "icao": "NAC"
+  },
+  {
+    "name": "Northern Air Fiji",
+    "code": "",
+    "icao": "FJN"
+  },
+  {
+    "name": "Northern Jet Management",
+    "code": "",
+    "icao": "NJM"
+  },
+  {
+    "name": "Northern Thunderbird Air",
+    "code": "",
+    "icao": "NTA"
+  },
+  {
+    "name": "Northway Aviation",
+    "code": "",
+    "icao": "NAL"
+  },
+  {
+    "name": "Northwest Flyers",
+    "code": "",
+    "icao": "NWF"
+  },
+  {
+    "name": "Northwestern Air",
+    "code": "J3",
+    "icao": "PLR"
+  },
+  {
+    "name": "Norway - Air Force",
+    "code": "",
+    "icao": "NOW"
+  },
+  {
+    "name": "Norwegian",
+    "code": "DY",
+    "icao": "NOZ"
+  },
+  {
+    "name": "Norwegian Air Sweden",
+    "code": "D8",
+    "icao": "NSZ"
+  },
+  {
+    "name": "Nouvelair Tunisie",
+    "code": "BJ",
+    "icao": "LBT"
+  },
+  {
+    "name": "Nova Airways",
+    "code": "",
+    "icao": "NOV"
+  },
+  {
+    "name": "Novair",
+    "code": "NG",
+    "icao": "NAI"
+  },
+  {
+    "name": "NovaJet",
+    "code": "",
+    "icao": "NOJ"
+  },
+  {
+    "name": "Novoair",
+    "code": "VQ",
+    "icao": "NVQ"
+  },
+  {
+    "name": "Nyxair",
+    "code": "OJ",
+    "icao": "NYX"
+  },
+  {
+    "name": "Offshore Helicopter Services",
+    "code": "",
+    "icao": "ULR"
+  },
+  {
+    "name": "Ohio State University Aviation",
+    "code": "",
+    "icao": "OSU"
+  },
+  {
+    "name": "OK Aviation",
+    "code": "",
+    "icao": "NTF"
+  },
+  {
+    "name": "Okay Airways",
+    "code": "BK",
+    "icao": "OKA"
+  },
+  {
+    "name": "Oklahoma State University Aviation",
+    "code": "",
+    "icao": "OST"
+  },
+  {
+    "name": "Olympic Air",
+    "code": "OA",
+    "icao": "OAL"
+  },
+  {
+    "name": "Olympus Airways",
+    "code": "",
+    "icao": "OLY"
+  },
+  {
+    "name": "Oman - Royal Air Force",
+    "code": "",
+    "icao": "MJN"
+  },
+  {
+    "name": "Oman Air",
+    "code": "WY",
+    "icao": "OMA"
+  },
+  {
+    "name": "Omni Air International",
+    "code": "OY",
+    "icao": "OAE"
+  },
+  {
+    "name": "Omni Air Transport",
+    "code": "",
+    "icao": "DRL"
+  },
+  {
+    "name": "Omni Aviation",
+    "code": "",
+    "icao": "OAV"
+  },
+  {
+    "name": "Omni Taxi Aereo",
+    "code": "",
+    "icao": "OMI"
+  },
+  {
+    "name": "One Air",
+    "code": "HC",
+    "icao": "HGO"
+  },
+  {
+    "name": "One Airways",
+    "code": "OX",
+    "icao": "OEW"
+  },
+  {
+    "name": "Orbest",
+    "code": "6O",
+    "icao": "OBS"
+  },
+  {
+    "name": "Oriental Air Bridge",
+    "code": "OC",
+    "icao": "ORC"
+  },
+  {
+    "name": "Origin Air",
+    "code": "OG",
+    "icao": "OGN"
+  },
+  {
+    "name": "Ornge Air",
+    "code": "",
+    "icao": "PUL"
+  },
+  {
+    "name": "Ortac",
+    "code": "",
+    "icao": "ORT"
+  },
+  {
+    "name": "Oscar Jet",
+    "code": "",
+    "icao": "OSJ"
+  },
+  {
+    "name": "OSM Aviation Academy",
+    "code": "",
+    "icao": "SCQ"
+  },
+  {
+    "name": "Overland Airways",
+    "code": "OF",
+    "icao": "OLA"
+  },
+  {
+    "name": "Owenair",
+    "code": "",
+    "icao": "OWE"
+  },
+  {
+    "name": "Owyhee Air Research",
+    "code": "",
+    "icao": "WWF"
+  },
+  {
+    "name": "Oyonnair",
+    "code": "",
+    "icao": "OYO"
+  },
+  {
+    "name": "P80 Air",
+    "code": "",
+    "icao": "PMG"
+  },
+  {
+    "name": "PACC Air",
+    "code": "",
+    "icao": "WIS"
+  },
+  {
+    "name": "Pacific Coast Jet",
+    "code": "",
+    "icao": "PXT"
+  },
+  {
+    "name": "Pacific Coastal Airlines",
+    "code": "8P",
+    "icao": "PCO"
+  },
+  {
+    "name": "PADAviation",
+    "code": "",
+    "icao": "PVD"
+  },
+  {
+    "name": "Pakistan International Airlines",
+    "code": "PK",
+    "icao": "PIA"
+  },
+  {
+    "name": "PAL Aerospace",
+    "code": "",
+    "icao": "SPR"
+  },
+  {
+    "name": "PAL Airlines",
+    "code": "PB",
+    "icao": "PVL"
+  },
+  {
+    "name": "PAL Express",
+    "code": "2P",
+    "icao": "GAP"
+  },
+  {
+    "name": "Palau Express Airlines",
+    "code": "P9",
+    "icao": "PXC"
+  },
+  {
+    "name": "Pan American Airways",
+    "code": "PN",
+    "icao": "PAA"
+  },
+  {
+    "name": "Pan Europeenne",
+    "code": "",
+    "icao": "EUP"
+  },
+  {
+    "name": "Pan Europeenne Air Service",
+    "code": "",
+    "icao": "PEA"
+  },
+  {
+    "name": "Panaviatic",
+    "code": "",
+    "icao": "VPC"
+  },
+  {
+    "name": "Panellenic Airlines",
+    "code": "",
+    "icao": "RJB"
+  },
+  {
+    "name": "Panorama Airways",
+    "code": "5P",
+    "icao": "UZP"
+  },
+  {
+    "name": "Panorama Aviation",
+    "code": "",
+    "icao": "PNO"
+  },
+  {
+    "name": "Paradox Jets",
+    "code": "",
+    "icao": "PJJ"
+  },
+  {
+    "name": "Paranair",
+    "code": "ZP",
+    "icao": "AZP"
+  },
+  {
+    "name": "Parkland College Institute of Aviation",
+    "code": "",
+    "icao": "ILU"
+  },
+  {
+    "name": "Pascan Aviation",
+    "code": "P6",
+    "icao": "PSC"
+  },
+  {
+    "name": "PassionAir",
+    "code": "OP",
+    "icao": "DIG"
+  },
+  {
+    "name": "Patient Airlift Services",
+    "code": "",
+    "icao": "PLZ"
+  },
+  {
+    "name": "Patria Pilot Training",
+    "code": "",
+    "icao": "PPT"
+  },
+  {
+    "name": "Patriot Aviation",
+    "code": "",
+    "icao": "PTT"
+  },
+  {
+    "name": "Pattaya Airways",
+    "code": "VV",
+    "icao": "PTW"
+  },
+  {
+    "name": "PDG Aviation Services",
+    "code": "",
+    "icao": "PDG"
+  },
+  {
+    "name": "Peach",
+    "code": "MM",
+    "icao": "APJ"
+  },
+  {
+    "name": "Pegasus",
+    "code": "PC",
+    "icao": "PGT"
+  },
+  {
+    "name": "Pegasus Elite Aviation",
+    "code": "",
+    "icao": "PEG"
+  },
+  {
+    "name": "Pel-Air",
+    "code": "",
+    "icao": "PFY"
+  },
+  {
+    "name": "Pelita Air",
+    "code": "IP",
+    "icao": "PAS"
+  },
+  {
+    "name": "People's",
+    "code": "PE",
+    "icao": "PEV"
+  },
+  {
+    "name": "Performance Air",
+    "code": "",
+    "icao": "PRZ"
+  },
+  {
+    "name": "Perimeter Aviation",
+    "code": "YP",
+    "icao": "PAG"
+  },
+  {
+    "name": "Peru - Air Force",
+    "code": "",
+    "icao": "FPR"
+  },
+  {
+    "name": "Peru - Navy",
+    "code": "",
+    "icao": "INP"
+  },
+  {
+    "name": "Petroleum Air Service",
+    "code": "UF",
+    "icao": "PER"
+  },
+  {
+    "name": "Petropavlovsk-Kamchatsky Air",
+    "code": "",
+    "icao": "PTK"
+  },
+  {
+    "name": "PHI",
+    "code": "",
+    "icao": "PHM"
+  },
+  {
+    "name": "Philippine Airlines",
+    "code": "PR",
+    "icao": "PAL"
+  },
+  {
+    "name": "Philippines AirAsia",
+    "code": "Z2",
+    "icao": "APG"
+  },
+  {
+    "name": "Phoenix Aerospace",
+    "code": "",
+    "icao": "PIX"
+  },
+  {
+    "name": "Phoenix Air",
+    "code": "PH",
+    "icao": "GRB"
+  },
+  {
+    "name": "Phoenix East Aviation",
+    "code": "",
+    "icao": "JED"
+  },
+  {
+    "name": "Piedmont Airlines",
+    "code": "PT",
+    "icao": "PDT"
+  },
+  {
+    "name": "Pilatus Flugzeugwerke",
+    "code": "",
+    "icao": "PCH"
+  },
+  {
+    "name": "Pilot Flight Academy",
+    "code": "",
+    "icao": "PIP"
+  },
+  {
+    "name": "Pineapple Air",
+    "code": "",
+    "icao": "PNP"
+  },
+  {
+    "name": "Pink Sparrow",
+    "code": "",
+    "icao": "SOW"
+  },
+  {
+    "name": "Pivot Airlines",
+    "code": "ZX",
+    "icao": "GGN"
+  },
+  {
+    "name": "PixAir Survey",
+    "code": "",
+    "icao": "PXR"
+  },
+  {
+    "name": "Placar Linhas Aereas",
+    "code": "",
+    "icao": "PLS"
+  },
+  {
+    "name": "Planemaster Services",
+    "code": "",
+    "icao": "PMS"
+  },
+  {
+    "name": "PlaneSense",
+    "code": "",
+    "icao": "CNS"
+  },
+  {
+    "name": "Planet 9",
+    "code": "",
+    "icao": "PVA"
+  },
+  {
+    "name": "Platoon Aviation",
+    "code": "",
+    "icao": "PTN"
+  },
+  {
+    "name": "Play",
+    "code": "OG",
+    "icao": "FPY"
+  },
+  {
+    "name": "Plus Ultra",
+    "code": "PU",
+    "icao": "PUE"
+  },
+  {
+    "name": "Toki Air",
+    "code": "BV",
+    "icao": "TOK"
+  },
+  {
+    "name": "Pobeda",
+    "code": "DP",
+    "icao": "PBD"
+  },
+  {
+    "name": "Poland - Air Force",
+    "code": "",
+    "icao": "PLF"
+  },
+  {
+    "name": "Poland - Navy",
+    "code": "",
+    "icao": "PNY"
+  },
+  {
+    "name": "Polar Air Cargo",
+    "code": "PO",
+    "icao": "PAC"
+  },
+  {
+    "name": "Polar Airlines",
+    "code": "PI",
+    "icao": "RKA"
+  },
+  {
+    "name": "Polish Medical Air Rescue",
+    "code": "",
+    "icao": "LPR"
+  },
+  {
+    "name": "populAir",
+    "code": "HP",
+    "icao": "APF"
+  },
+  {
+    "name": "Porter",
+    "code": "P3",
+    "icao": "PTR"
+  },
+  {
+    "name": "Porter Airlines Canada",
+    "code": "PD",
+    "icao": "POE"
+  },
+  {
+    "name": "Portugal - Air Force",
+    "code": "",
+    "icao": "AFP"
+  },
+  {
+    "name": "Portugal - Army",
+    "code": "",
+    "icao": "POA"
+  },
+  {
+    "name": "Portugal - Navy",
+    "code": "",
+    "icao": "PON"
+  },
+  {
+    "name": "Portugalia Airlines",
+    "code": "NI",
+    "icao": "PGA"
+  },
+  {
+    "name": "Poste Air Cargo",
+    "code": "M4",
+    "icao": "MSA"
+  },
+  {
+    "name": "Pradhaan Air Express",
+    "code": "6P",
+    "icao": "PRX"
+  },
+  {
+    "name": "Pratt and Whitney",
+    "code": "",
+    "icao": "PWC"
+  },
+  {
+    "name": "Precision Air",
+    "code": "PW",
+    "icao": "PRF"
+  },
+  {
+    "name": "Precision Aircraft Management",
+    "code": "",
+    "icao": "PRE"
+  },
+  {
+    "name": "Premier Flight Center",
+    "code": "",
+    "icao": "OZT"
+  },
+  {
+    "name": "Premier Jets",
+    "code": "",
+    "icao": "PJI"
+  },
+  {
+    "name": "Premier Private Jets",
+    "code": "",
+    "icao": "MVP"
+  },
+  {
+    "name": "Presidential Aviation",
+    "code": "",
+    "icao": "PRD"
+  },
+  {
+    "name": "Priester Aviation",
+    "code": "",
+    "icao": "PWA"
+  },
+  {
+    "name": "Prime Aviation.",
+    "code": "",
+    "icao": "PKZ"
+  },
+  {
+    "name": "Prince Aviation",
+    "code": "",
+    "icao": "PNC"
+  },
+  {
+    "name": "Priority Air Charter",
+    "code": "",
+    "icao": "PRY"
+  },
+  {
+    "name": "Privaira",
+    "code": "",
+    "icao": "PVO"
+  },
+  {
+    "name": "Private Jet Center",
+    "code": "",
+    "icao": "PJC"
+  },
+  {
+    "name": "Private Jets",
+    "code": "",
+    "icao": "OKC"
+  },
+  {
+    "name": "Private Wings",
+    "code": "JW",
+    "icao": "PWF"
+  },
+  {
+    "name": "Privilege Style",
+    "code": "P6",
+    "icao": "PVG"
+  },
+  {
+    "name": "ProAir Aviation",
+    "code": "",
+    "icao": "PAV"
+  },
+  {
+    "name": "Proflight Zambia",
+    "code": "P0",
+    "icao": "PFZ"
+  },
+  {
+    "name": "Propair",
+    "code": "",
+    "icao": "PRO"
+  },
+  {
+    "name": "PSA Airlines",
+    "code": "OH",
+    "icao": "JIA"
+  },
+  {
+    "name": "Purdue University School of Aviation",
+    "code": "",
+    "icao": "PDU"
+  },
+  {
+    "name": "QA Aviation",
+    "code": "",
+    "icao": "QAV"
+  },
+  {
+    "name": "Qanot Sharq",
+    "code": "HH",
+    "icao": "QNT"
+  },
+  {
+    "name": "Qantas",
+    "code": "QF",
+    "icao": "QFA"
+  },
+  {
+    "name": "QantasLink",
+    "code": "",
+    "icao": "QLK"
+  },
+  {
+    "name": "Qatar - Amiri Flight",
+    "code": "",
+    "icao": "QAF"
+  },
+  {
+    "name": "Qatar Airways",
+    "code": "QR",
+    "icao": "QTR"
+  },
+  {
+    "name": "Qatar Executive",
+    "code": "QE",
+    "icao": "QQE"
+  },
+  {
+    "name": "Qayatawa Air",
+    "code": "",
+    "icao": "QYT"
+  },
+  {
+    "name": "Qazaq Air",
+    "code": "IQ",
+    "icao": "QAZ"
+  },
+  {
+    "name": "Qeshm Airlines",
+    "code": "QB",
+    "icao": "QSM"
+  },
+  {
+    "name": "QinetiQ",
+    "code": "",
+    "icao": "EIS"
+  },
+  {
+    "name": "QinetiQ \/ Empire Test Pilots School",
+    "code": "",
+    "icao": "ETP"
+  },
+  {
+    "name": "Qingdao Airlines",
+    "code": "QW",
+    "icao": "QDA"
+  },
+  {
+    "name": "Qingdao Jiutian International Flight Academy",
+    "code": "",
+    "icao": "QJT"
+  },
+  {
+    "name": "Quanta Aviation Services",
+    "code": "",
+    "icao": "PWR"
+  },
+  {
+    "name": "Quest Diagnostics",
+    "code": "",
+    "icao": "LBQ"
+  },
+  {
+    "name": "Quick Air Jet Charter",
+    "code": "",
+    "icao": "QAJ"
+  },
+  {
+    "name": "Quikjet Cargo Airlines",
+    "code": "QO",
+    "icao": "FQA"
+  },
+  {
+    "name": "RAF-Avia",
+    "code": "MT",
+    "icao": "MTL"
+  },
+  {
+    "name": "RAM Express",
+    "code": "",
+    "icao": "RXP"
+  },
+  {
+    "name": "Rano Air",
+    "code": "R4",
+    "icao": "RAN"
+  },
+  {
+    "name": "Ravenair",
+    "code": "",
+    "icao": "RVR"
+  },
+  {
+    "name": "Raya Airways",
+    "code": "TH",
+    "icao": "RMY"
+  },
+  {
+    "name": "REACH Air Medical Services",
+    "code": "",
+    "icao": "REH"
+  },
+  {
+    "name": "Real Tonga Airline",
+    "code": "",
+    "icao": "RLT"
+  },
+  {
+    "name": "Really Cool Airlines",
+    "code": "",
+    "icao": "LUV"
+  },
+  {
+    "name": "Rectimo Air Transports",
+    "code": "",
+    "icao": "RTO"
+  },
+  {
+    "name": "Rectrix Aviation",
+    "code": "",
+    "icao": "RIX"
+  },
+  {
+    "name": "Red Air",
+    "code": "L5",
+    "icao": "REA"
+  },
+  {
+    "name": "Red Rock Flight School",
+    "code": "",
+    "icao": "ROK"
+  },
+  {
+    "name": "Red Sea Airlines",
+    "code": "4S",
+    "icao": "RSX"
+  },
+  {
+    "name": "Red Wing Aviation",
+    "code": "",
+    "icao": "LAK"
+  },
+  {
+    "name": "Red Wings",
+    "code": "WZ",
+    "icao": "RWZ"
+  },
+  {
+    "name": "Redding Aero Enterprises",
+    "code": "",
+    "icao": "BXR"
+  },
+  {
+    "name": "Redstar Aviation",
+    "code": "",
+    "icao": "RHH"
+  },
+  {
+    "name": "Reeve Air Alaska",
+    "code": "",
+    "icao": "RVV"
+  },
+  {
+    "name": "REGA Swiss Air-Ambulance",
+    "code": "",
+    "icao": "SAZ"
+  },
+  {
+    "name": "REGA Swiss Air-Rescue",
+    "code": "",
+    "icao": "RGA"
+  },
+  {
+    "name": "Regency Air",
+    "code": "",
+    "icao": "RGY"
+  },
+  {
+    "name": "Regional Air Services",
+    "code": "8N",
+    "icao": "REG"
+  },
+  {
+    "name": "Reliable Airlines",
+    "code": "",
+    "icao": "HPN"
+  },
+  {
+    "name": "Reliant Air",
+    "code": "",
+    "icao": "RLI"
+  },
+  {
+    "name": "Renegade Air",
+    "code": "",
+    "icao": "RNG"
+  },
+  {
+    "name": "Rennia Aviation",
+    "code": "",
+    "icao": "RNI"
+  },
+  {
+    "name": "Republic Airways",
+    "code": "YX",
+    "icao": "RPA"
+  },
+  {
+    "name": "Revv Aviation",
+    "code": "",
+    "icao": "FRV"
+  },
+  {
+    "name": "rex. Regional Express",
+    "code": "ZL",
+    "icao": "RXA"
+  },
+  {
+    "name": "Reynolds Jet Management",
+    "code": "",
+    "icao": "RJE"
+  },
+  {
+    "name": "RGA-Black Stone Airlines",
+    "code": "",
+    "icao": "RGM"
+  },
+  {
+    "name": "Rhoades Aviation",
+    "code": "T4",
+    "icao": "RDS"
+  },
+  {
+    "name": "Richland Aviation",
+    "code": "",
+    "icao": "RCA"
+  },
+  {
+    "name": "Richmor Aviation",
+    "code": "",
+    "icao": "RJC"
+  },
+  {
+    "name": "Rimbun Air",
+    "code": "RI",
+    "icao": "OEY"
+  },
+  {
+    "name": "RiseAir",
+    "code": "4T",
+    "icao": "WEW"
+  },
+  {
+    "name": "Riyadh Air",
+    "code": "",
+    "icao": "RXI"
+  },
+  {
+    "name": "Romania - Air Force",
+    "code": "",
+    "icao": "ROF"
+  },
+  {
+    "name": "ROMCargo Airlines",
+    "code": "NJ",
+    "icao": "RCR"
+  },
+  {
+    "name": "Roraima Airways",
+    "code": "",
+    "icao": "ROM"
+  },
+  {
+    "name": "Rose Air",
+    "code": "",
+    "icao": "REM"
+  },
+  {
+    "name": "Rossiya",
+    "code": "FV",
+    "icao": "SDM"
+  },
+  {
+    "name": "Rotana Jet",
+    "code": "RG",
+    "icao": "RJD"
+  },
+  {
+    "name": "Royal Air Freight",
+    "code": "",
+    "icao": "RAX"
+  },
+  {
+    "name": "Royal Air Maroc",
+    "code": "AT",
+    "icao": "RAM"
+  },
+  {
+    "name": "Royal Brunei Airlines",
+    "code": "BI",
+    "icao": "RBA"
+  },
+  {
+    "name": "Royal Jordanian",
+    "code": "RJ",
+    "icao": "RJA"
+  },
+  {
+    "name": "Royal Wings",
+    "code": "JO",
+    "icao": "RYW"
+  },
+  {
+    "name": "Royalair Philippines",
+    "code": "RW",
+    "icao": "RYL"
+  },
+  {
+    "name": "RS Avia",
+    "code": "",
+    "icao": "URA"
+  },
+  {
+    "name": "Rubystar",
+    "code": "",
+    "icao": "RSB"
+  },
+  {
+    "name": "Ruili Airlines",
+    "code": "DR",
+    "icao": "RLH"
+  },
+  {
+    "name": "RusJet",
+    "code": "",
+    "icao": "RSJ"
+  },
+  {
+    "name": "Rusline",
+    "code": "7R",
+    "icao": "RLU"
+  },
+  {
+    "name": "Russia - 223rd Flight Unit State Airline",
+    "code": "",
+    "icao": "CHD"
+  },
+  {
+    "name": "Russia - 224th Flight Unit State Airline",
+    "code": "",
+    "icao": "TTF"
+  },
+  {
+    "name": "Russia - Air Force",
+    "code": "",
+    "icao": "RFF"
+  },
+  {
+    "name": "Russia - Ministry of Emergency Situations (MChS)",
+    "code": "",
+    "icao": "SUM"
+  },
+  {
+    "name": "Russia - National Guard",
+    "code": "",
+    "icao": "RIF"
+  },
+  {
+    "name": "Russia - Special Flight Squadron",
+    "code": "",
+    "icao": "RSD"
+  },
+  {
+    "name": "Rutaca Airlines",
+    "code": "5R",
+    "icao": "RUC"
+  },
+  {
+    "name": "RVL Aviation",
+    "code": "",
+    "icao": "REV"
+  },
+  {
+    "name": "RwandAir",
+    "code": "WB",
+    "icao": "RWD"
+  },
+  {
+    "name": "RWL German Flight Academy",
+    "code": "",
+    "icao": "RWL"
+  },
+  {
+    "name": "Ryan Air (USA)",
+    "code": "7S",
+    "icao": "RYA"
+  },
+  {
+    "name": "Ryanair",
+    "code": "FR",
+    "icao": "RYR"
+  },
+  {
+    "name": "Ryanair UK",
+    "code": "RK",
+    "icao": "RUK"
+  },
+  {
+    "name": "S7 Airlines",
+    "code": "S7",
+    "icao": "SBI"
+  },
+  {
+    "name": "SA Red Cross Air Mercy Service",
+    "code": "",
+    "icao": "AMD"
+  },
+  {
+    "name": "SAAB Aircraft",
+    "code": "",
+    "icao": "SCT"
+  },
+  {
+    "name": "SAAB Nyge Aero",
+    "code": "",
+    "icao": "TGT"
+  },
+  {
+    "name": "SAF Helicopteres",
+    "code": "",
+    "icao": "SHP"
+  },
+  {
+    "name": "Safari Express Cargo",
+    "code": "ZF",
+    "icao": "SXY"
+  },
+  {
+    "name": "Safarilink Aviation",
+    "code": "F2",
+    "icao": "XLK"
+  },
+  {
+    "name": "Saha Airlines",
+    "code": "",
+    "icao": "IRZ"
+  },
+  {
+    "name": "Sahel Aviation Service",
+    "code": "",
+    "icao": "SAO"
+  },
+  {
+    "name": "Saint Louis University Flight School",
+    "code": "",
+    "icao": "BKN"
+  },
+  {
+    "name": "SalamAir",
+    "code": "OV",
+    "icao": "OMS"
+  },
+  {
+    "name": "Salzburg Jet Aviation",
+    "code": "",
+    "icao": "MOZ"
+  },
+  {
+    "name": "Sama Airline",
+    "code": "",
+    "icao": "SDP"
+  },
+  {
+    "name": "Samaritan's Purse",
+    "code": "",
+    "icao": "NSP"
+  },
+  {
+    "name": "Samoa Airways",
+    "code": "OL",
+    "icao": "PAO"
+  },
+  {
+    "name": "San Carlos Flight School",
+    "code": "",
+    "icao": "BYF"
+  },
+  {
+    "name": "San Marino Executive Aviation",
+    "code": "",
+    "icao": "SMF"
+  },
+  {
+    "name": "Sansa",
+    "code": "RZ",
+    "icao": "LRS"
+  },
+  {
+    "name": "Sapsan Airline",
+    "code": "S2",
+    "icao": "KGB"
+  },
+  {
+    "name": "Sardinian Sky Service",
+    "code": "",
+    "icao": "SSR"
+  },
+  {
+    "name": "SAS",
+    "code": "SK",
+    "icao": "SAS"
+  },
+  {
+    "name": "SAS Connect",
+    "code": "SL",
+    "icao": "SZS"
+  },
+  {
+    "name": "SAS Link",
+    "code": "",
+    "icao": "SVS"
+  },
+  {
+    "name": "SATA Air Acores",
+    "code": "SP",
+    "icao": "SAT"
+  },
+  {
+    "name": "Satena",
+    "code": "9R",
+    "icao": "NSE"
+  },
+  {
+    "name": "Saudi Arabia - Air Force",
+    "code": "",
+    "icao": "RSF"
+  },
+  {
+    "name": "Saudi Arabia - Royal Flight",
+    "code": "",
+    "icao": "SRA"
+  },
+  {
+    "name": "Saudia",
+    "code": "SV",
+    "icao": "SVA"
+  },
+  {
+    "name": "Saurya Airlines",
+    "code": "",
+    "icao": "SAU"
+  },
+  {
+    "name": "Sawyer Aviation",
+    "code": "",
+    "icao": "SJA"
+  },
+  {
+    "name": "SaxonAir",
+    "code": "",
+    "icao": "SXN"
+  },
+  {
+    "name": "SC Aviation",
+    "code": "",
+    "icao": "COL"
+  },
+  {
+    "name": "Scanwings",
+    "code": "",
+    "icao": "ABF"
+  },
+  {
+    "name": "SCAT",
+    "code": "DV",
+    "icao": "VSV"
+  },
+  {
+    "name": "Schmiedel Air Service",
+    "code": "",
+    "icao": "SAB"
+  },
+  {
+    "name": "Scoot",
+    "code": "TR",
+    "icao": "TGW"
+  },
+  {
+    "name": "Seaborne",
+    "code": "BB",
+    "icao": "SBS"
+  },
+  {
+    "name": "SEair International",
+    "code": "XO",
+    "icao": "SGD"
+  },
+  {
+    "name": "Searca",
+    "code": "",
+    "icao": "SRC"
+  },
+  {
+    "name": "Secure Air Charter",
+    "code": "",
+    "icao": "JCM"
+  },
+  {
+    "name": "SelectJet",
+    "code": "",
+    "icao": "JSL"
+  },
+  {
+    "name": "Sepehran Airlines",
+    "code": "IS",
+    "icao": "SHI"
+  },
+  {
+    "name": "Serbia - Air Force",
+    "code": "",
+    "icao": "SRB"
+  },
+  {
+    "name": "Serene Air",
+    "code": "ER",
+    "icao": "SEP"
+  },
+  {
+    "name": "Servicios Optimos de Aeroenlace",
+    "code": "",
+    "icao": "ENL"
+  },
+  {
+    "name": "Servizi Aerei",
+    "code": "",
+    "icao": "SNM"
+  },
+  {
+    "name": "Sevenair",
+    "code": "",
+    "icao": "RVP"
+  },
+  {
+    "name": "Severstal Aircompany",
+    "code": "D2",
+    "icao": "SSF"
+  },
+  {
+    "name": "SF Airlines",
+    "code": "O3",
+    "icao": "CSS"
+  },
+  {
+    "name": "Shandong Airlines",
+    "code": "SC",
+    "icao": "CDG"
+  },
+  {
+    "name": "Shandong Dagao International Flight Academy",
+    "code": "",
+    "icao": "RXF"
+  },
+  {
+    "name": "Shanghai Airlines",
+    "code": "FM",
+    "icao": "CSH"
+  },
+  {
+    "name": "Shell Aviation",
+    "code": "",
+    "icao": "PEX"
+  },
+  {
+    "name": "Shenzhen Airlines",
+    "code": "ZH",
+    "icao": "CSZ"
+  },
+  {
+    "name": "Shirak Avia",
+    "code": "5G",
+    "icao": "SHS"
+  },
+  {
+    "name": "Shoreline Aviation",
+    "code": "",
+    "icao": "CST"
+  },
+  {
+    "name": "Shree Airlines",
+    "code": "N9",
+    "icao": "SHA"
+  },
+  {
+    "name": "Siam General Aviation",
+    "code": "5E",
+    "icao": "SGN"
+  },
+  {
+    "name": "Sichuan Airlines",
+    "code": "3U",
+    "icao": "CSC"
+  },
+  {
+    "name": "Sideral Linhas Aereas",
+    "code": "",
+    "icao": "SID"
+  },
+  {
+    "name": "Sierra Charlie Aviation",
+    "code": "",
+    "icao": "SCA"
+  },
+  {
+    "name": "Sierra Pacific Airlines",
+    "code": "SI",
+    "icao": "SPA"
+  },
+  {
+    "name": "Sierra West Airlines",
+    "code": "",
+    "icao": "PKW"
+  },
+  {
+    "name": "Silesia Air",
+    "code": "",
+    "icao": "SUA"
+  },
+  {
+    "name": "Silk Way Airlines",
+    "code": "ZP",
+    "icao": "AZQ"
+  },
+  {
+    "name": "Silk Way West Airlines",
+    "code": "7L",
+    "icao": "AZG"
+  },
+  {
+    "name": "Silkavia",
+    "code": "US",
+    "icao": "USA"
+  },
+  {
+    "name": "Silver Air",
+    "code": "",
+    "icao": "SIS"
+  },
+  {
+    "name": "Silver Air",
+    "code": "",
+    "icao": "SLD"
+  },
+  {
+    "name": "Silver Airways",
+    "code": "3M",
+    "icao": "SIL"
+  },
+  {
+    "name": "Silver Cloud Air",
+    "code": "",
+    "icao": "SCR"
+  },
+  {
+    "name": "Silverhawk Aviation",
+    "code": "",
+    "icao": "SLH"
+  },
+  {
+    "name": "Singapore - Air Force",
+    "code": "",
+    "icao": "SAF"
+  },
+  {
+    "name": "Singapore Airlines",
+    "code": "SQ",
+    "icao": "SIA"
+  },
+  {
+    "name": "Singapore Airlines Cargo",
+    "code": "",
+    "icao": "SQC"
+  },
+  {
+    "name": "Sino Jet",
+    "code": "",
+    "icao": "SJM"
+  },
+  {
+    "name": "Sino Jet Beijing",
+    "code": "",
+    "icao": "JBE"
+  },
+  {
+    "name": "Sirio",
+    "code": "",
+    "icao": "SIO"
+  },
+  {
+    "name": "Sirius Aero",
+    "code": "SA",
+    "icao": "CIG"
+  },
+  {
+    "name": "Sirius Airlines",
+    "code": "",
+    "icao": "SIU"
+  },
+  {
+    "name": "SKS Airways",
+    "code": "KI",
+    "icao": "SJB"
+  },
+  {
+    "name": "Sky Airline",
+    "code": "H2",
+    "icao": "SKU"
+  },
+  {
+    "name": "Sky Airline Peru",
+    "code": "H8",
+    "icao": "SKX"
+  },
+  {
+    "name": "Sky Angkor Airlines",
+    "code": "ZA",
+    "icao": "SWM"
+  },
+  {
+    "name": "Sky Bus",
+    "code": "",
+    "icao": "HVY"
+  },
+  {
+    "name": "Sky Cana",
+    "code": "RD",
+    "icao": "SNA"
+  },
+  {
+    "name": "SKY express",
+    "code": "GQ",
+    "icao": "SEH"
+  },
+  {
+    "name": "Sky Fru",
+    "code": "",
+    "icao": "KGZ"
+  },
+  {
+    "name": "Sky Helicopteros",
+    "code": "",
+    "icao": "HSY"
+  },
+  {
+    "name": "Sky Jet M.G.",
+    "code": "DU",
+    "icao": "LIZ"
+  },
+  {
+    "name": "Sky KG Airlines",
+    "code": "",
+    "icao": "KGK"
+  },
+  {
+    "name": "Sky Lease Cargo",
+    "code": "GG",
+    "icao": "KYE"
+  },
+  {
+    "name": "Sky Mali",
+    "code": "ML",
+    "icao": "FML"
+  },
+  {
+    "name": "Sky Prime Aviation",
+    "code": "",
+    "icao": "SPD"
+  },
+  {
+    "name": "Sky Quest",
+    "code": "",
+    "icao": "ERY"
+  },
+  {
+    "name": "Sky Shuttle Helicopters",
+    "code": "A7",
+    "icao": "HHK"
+  },
+  {
+    "name": "Sky Vision Airlines",
+    "code": "SE",
+    "icao": "SVI"
+  },
+  {
+    "name": "SkyAlps",
+    "code": "BQ",
+    "icao": "SWU"
+  },
+  {
+    "name": "Skyborne Airline Academy",
+    "code": "",
+    "icao": "SFY"
+  },
+  {
+    "name": "Skybus",
+    "code": "",
+    "icao": "IOS"
+  },
+  {
+    "name": "SkyCare",
+    "code": "",
+    "icao": "PHX"
+  },
+  {
+    "name": "Skyemotion",
+    "code": "",
+    "icao": "EMO"
+  },
+  {
+    "name": "Skyfirst",
+    "code": "",
+    "icao": "KFE"
+  },
+  {
+    "name": "SKYhigh Dominicana",
+    "code": "DO",
+    "icao": "SHH"
+  },
+  {
+    "name": "SkyJet Airlines",
+    "code": "M8",
+    "icao": "MSJ"
+  },
+  {
+    "name": "Skyline Express",
+    "code": "QU",
+    "icao": "UTN"
+  },
+  {
+    "name": "SkyLink Express",
+    "code": "",
+    "icao": "SLQ"
+  },
+  {
+    "name": "Skymark Airlines",
+    "code": "BC",
+    "icao": "SKY"
+  },
+  {
+    "name": "Skymark Executive",
+    "code": "",
+    "icao": "SMB"
+  },
+  {
+    "name": "Skypower Express Airways",
+    "code": "NV",
+    "icao": "EAN"
+  },
+  {
+    "name": "Skyservice Business Aviation",
+    "code": "",
+    "icao": "SYB"
+  },
+  {
+    "name": "Skyside",
+    "code": "",
+    "icao": "SKV"
+  },
+  {
+    "name": "SkyTaxi",
+    "code": "TE",
+    "icao": "IGA"
+  },
+  {
+    "name": "Skytrack Systems",
+    "code": "",
+    "icao": "TTQ"
+  },
+  {
+    "name": "Skytraders",
+    "code": "",
+    "icao": "SND"
+  },
+  {
+    "name": "Skytrans",
+    "code": "QN",
+    "icao": "SKP"
+  },
+  {
+    "name": "SkyUp Airlines",
+    "code": "PQ",
+    "icao": "SQP"
+  },
+  {
+    "name": "SkyUp MT",
+    "code": "U5",
+    "icao": "SEU"
+  },
+  {
+    "name": "Skyvalue Airways",
+    "code": "4A",
+    "icao": "DYN"
+  },
+  {
+    "name": "Skyward Express",
+    "code": "OW",
+    "icao": "SEW"
+  },
+  {
+    "name": "Skyway Enterprises",
+    "code": "",
+    "icao": "SKZ"
+  },
+  {
+    "name": "SkyWest Airlines",
+    "code": "OO",
+    "icao": "SKW"
+  },
+  {
+    "name": "SkyWest Charter",
+    "code": "CW",
+    "icao": "SCW"
+  },
+  {
+    "name": "Slam Lavori Aerei",
+    "code": "",
+    "icao": "SLJ"
+  },
+  {
+    "name": "Sloane Helicopters",
+    "code": "",
+    "icao": "SLN"
+  },
+  {
+    "name": "Slovakia - Air Force",
+    "code": "",
+    "icao": "SQF"
+  },
+  {
+    "name": "Slovakia - Government",
+    "code": "",
+    "icao": "SSG"
+  },
+  {
+    "name": "Slovenia - Air Force",
+    "code": "",
+    "icao": "LSV"
+  },
+  {
+    "name": "Slovenia - Government",
+    "code": "",
+    "icao": "GSI"
+  },
+  {
+    "name": "Small Fly",
+    "code": "",
+    "icao": "GDM"
+  },
+  {
+    "name": "Smart Aviation",
+    "code": "",
+    "icao": "SME"
+  },
+  {
+    "name": "Smart Jet",
+    "code": "",
+    "icao": "SAH"
+  },
+  {
+    "name": "Smart Jet International",
+    "code": "",
+    "icao": "SJI"
+  },
+  {
+    "name": "Smartavia",
+    "code": "5N",
+    "icao": "AUL"
+  },
+  {
+    "name": "Smartline",
+    "code": "",
+    "icao": "SMG"
+  },
+  {
+    "name": "SmartLynx",
+    "code": "6Y",
+    "icao": "ART"
+  },
+  {
+    "name": "SmartLynx Estonia",
+    "code": "",
+    "icao": "MYX"
+  },
+  {
+    "name": "SmartLynx Malta",
+    "code": "2N",
+    "icao": "LYX"
+  },
+  {
+    "name": "Smartwings",
+    "code": "QS",
+    "icao": "TVS"
+  },
+  {
+    "name": "Smartwings Hungary",
+    "code": "7O",
+    "icao": "TVL"
+  },
+  {
+    "name": "Smartwings Poland",
+    "code": "3Z",
+    "icao": "TVP"
+  },
+  {
+    "name": "Smartwings Slovakia",
+    "code": "6D",
+    "icao": "TVQ"
+  },
+  {
+    "name": "Solairus Aviation",
+    "code": "",
+    "icao": "TWY"
+  },
+  {
+    "name": "Solaseed Air",
+    "code": "6J",
+    "icao": "SNJ"
+  },
+  {
+    "name": "Solenta Aviation",
+    "code": "",
+    "icao": "SET"
+  },
+  {
+    "name": "Solenta Aviation Cote D'Ivoire",
+    "code": "",
+    "icao": "SIV"
+  },
+  {
+    "name": "Solenta Aviation Gabon",
+    "code": "",
+    "icao": "SVG"
+  },
+  {
+    "name": "Solinair",
+    "code": "ZS",
+    "icao": "SOP"
+  },
+  {
+    "name": "Solomon Airlines",
+    "code": "IE",
+    "icao": "SOL"
+  },
+  {
+    "name": "Soma Jets",
+    "code": "",
+    "icao": "OZK"
+  },
+  {
+    "name": "Somon Air",
+    "code": "SZ",
+    "icao": "SMR"
+  },
+  {
+    "name": "Sounds Air",
+    "code": "",
+    "icao": "SDA"
+  },
+  {
+    "name": "South Africa - Air Force",
+    "code": "",
+    "icao": "LMG"
+  },
+  {
+    "name": "South African Airways",
+    "code": "SA",
+    "icao": "SAA"
+  },
+  {
+    "name": "Southern Air Charter",
+    "code": "PL",
+    "icao": "SOA"
+  },
+  {
+    "name": "Southern Airways Express",
+    "code": "9X",
+    "icao": "FDY"
+  },
+  {
+    "name": "Southern Cross International",
+    "code": "",
+    "icao": "SXI"
+  },
+  {
+    "name": "Southern Illinois University School of Aviation",
+    "code": "",
+    "icao": "CBN"
+  },
+  {
+    "name": "Southwest Aircraft Charter",
+    "code": "",
+    "icao": "CAK"
+  },
+  {
+    "name": "Southwest Airlines",
+    "code": "WN",
+    "icao": "SWA"
+  },
+  {
+    "name": "Southwind Airlines",
+    "code": "2S",
+    "icao": "STW"
+  },
+  {
+    "name": "Spain - Air Force",
+    "code": "",
+    "icao": "AME"
+  },
+  {
+    "name": "Spain - Army",
+    "code": "",
+    "icao": "ETF"
+  },
+  {
+    "name": "Spain - Coast Guard",
+    "code": "",
+    "icao": "SSM"
+  },
+  {
+    "name": "Spain - Guardia Civil",
+    "code": "",
+    "icao": "DGC"
+  },
+  {
+    "name": "Spain - National Police",
+    "code": "",
+    "icao": "DGP"
+  },
+  {
+    "name": "Sparfell Luftfahrt",
+    "code": "",
+    "icao": "LDX"
+  },
+  {
+    "name": "Sparfell Malta",
+    "code": "",
+    "icao": "QFX"
+  },
+  {
+    "name": "Spartan College of Aeronautics and Technology",
+    "code": "",
+    "icao": "SCU"
+  },
+  {
+    "name": "Specialist Aviation Services",
+    "code": "",
+    "icao": "PLC"
+  },
+  {
+    "name": "SpiceJet",
+    "code": "SG",
+    "icao": "SEJ"
+  },
+  {
+    "name": "Spirit Airlines",
+    "code": "NK",
+    "icao": "NKS"
+  },
+  {
+    "name": "SpiritJets",
+    "code": "",
+    "icao": "SJJ"
+  },
+  {
+    "name": "Spot Jet Services",
+    "code": "",
+    "icao": "BYB"
+  },
+  {
+    "name": "Spree Flug",
+    "code": "",
+    "icao": "SFG"
+  },
+  {
+    "name": "Spring Airlines",
+    "code": "9C",
+    "icao": "CQH"
+  },
+  {
+    "name": "Spring City Aviation",
+    "code": "",
+    "icao": "SCJ"
+  },
+  {
+    "name": "Spring Japan",
+    "code": "IJ",
+    "icao": "SJO"
+  },
+  {
+    "name": "SprintAir",
+    "code": "P8",
+    "icao": "SRN"
+  },
+  {
+    "name": "SprintAir Cargo",
+    "code": "",
+    "icao": "SAR"
+  },
+  {
+    "name": "SR Jet",
+    "code": "",
+    "icao": "QSR"
+  },
+  {
+    "name": "SriLankan Airlines",
+    "code": "UL",
+    "icao": "ALK"
+  },
+  {
+    "name": "Sriwijaya Air",
+    "code": "SJ",
+    "icao": "SJY"
+  },
+  {
+    "name": "St Barth Commuter",
+    "code": "PV",
+    "icao": "SBU"
+  },
+  {
+    "name": "St Barth Executive",
+    "code": "LE",
+    "icao": "STB"
+  },
+  {
+    "name": "STAjets",
+    "code": "",
+    "icao": "KFB"
+  },
+  {
+    "name": "Star Air",
+    "code": "S5",
+    "icao": "SDG"
+  },
+  {
+    "name": "Star Air Cargo",
+    "code": "",
+    "icao": "BRH"
+  },
+  {
+    "name": "Star East Airlines",
+    "code": "4R",
+    "icao": "SEK"
+  },
+  {
+    "name": "Star Fly Wings",
+    "code": "",
+    "icao": "SYW"
+  },
+  {
+    "name": "Star Peru",
+    "code": "2I",
+    "icao": "SRU"
+  },
+  {
+    "name": "Star Wings",
+    "code": "",
+    "icao": "STQ"
+  },
+  {
+    "name": "Star Work Sky",
+    "code": "",
+    "icao": "SWP"
+  },
+  {
+    "name": "Starflyer",
+    "code": "7G",
+    "icao": "SFJ"
+  },
+  {
+    "name": "Stark Airways",
+    "code": "",
+    "icao": "XSK"
+  },
+  {
+    "name": "Starlink Aviation",
+    "code": "Q4",
+    "icao": "TLK"
+  },
+  {
+    "name": "Starlite Aviation",
+    "code": "",
+    "icao": "TRL"
+  },
+  {
+    "name": "Starlux",
+    "code": "JX",
+    "icao": "SJX"
+  },
+  {
+    "name": "Stellaer 212",
+    "code": "",
+    "icao": "EIX"
+  },
+  {
+    "name": "Sterling Airways",
+    "code": "VC",
+    "icao": "SRY"
+  },
+  {
+    "name": "Sterling Aviation",
+    "code": "",
+    "icao": "NSH"
+  },
+  {
+    "name": "STP Airways",
+    "code": "8F",
+    "icao": "STP"
+  },
+  {
+    "name": "Su Airlines",
+    "code": "",
+    "icao": "SUE"
+  },
+  {
+    "name": "Suburban Air Freight",
+    "code": "",
+    "icao": "SUB"
+  },
+  {
+    "name": "Sudan Airways",
+    "code": "SD",
+    "icao": "SUD"
+  },
+  {
+    "name": "Summit Air",
+    "code": "",
+    "icao": "SUT"
+  },
+  {
+    "name": "Summit Aviation",
+    "code": "",
+    "icao": "YEL"
+  },
+  {
+    "name": "Sun Air",
+    "code": "",
+    "icao": "SAV"
+  },
+  {
+    "name": "Sun Air",
+    "code": "SO",
+    "icao": "SNR"
+  },
+  {
+    "name": "Sun Air Bulgaria",
+    "code": "AB",
+    "icao": "BGS"
+  },
+  {
+    "name": "Sun Country Airlines",
+    "code": "SY",
+    "icao": "SCX"
+  },
+  {
+    "name": "Sun-Air",
+    "code": "EZ",
+    "icao": "SUS"
+  },
+  {
+    "name": "Sunclass Airlines",
+    "code": "DK",
+    "icao": "VKG"
+  },
+  {
+    "name": "Suncor Energy",
+    "code": "",
+    "icao": "JSN"
+  },
+  {
+    "name": "Sundair",
+    "code": "SR",
+    "icao": "SDR"
+  },
+  {
+    "name": "Sundt Air",
+    "code": "",
+    "icao": "AKK"
+  },
+  {
+    "name": "Sundt Air",
+    "code": "",
+    "icao": "MDT"
+  },
+  {
+    "name": "SunExpress",
+    "code": "XQ",
+    "icao": "SXS"
+  },
+  {
+    "name": "Sunkar Air",
+    "code": "",
+    "icao": "BBK"
+  },
+  {
+    "name": "Sunlight Air",
+    "code": "2R",
+    "icao": "RLB"
+  },
+  {
+    "name": "Sunrise Airways",
+    "code": "S6",
+    "icao": "KSZ"
+  },
+  {
+    "name": "Sunstate Airlines",
+    "code": "",
+    "icao": "SSQ"
+  },
+  {
+    "name": "Sunwest Aviation",
+    "code": "",
+    "icao": "CNK"
+  },
+  {
+    "name": "Sunwing Airlines",
+    "code": "WG",
+    "icao": "SWG"
+  },
+  {
+    "name": "Suparna Airlines",
+    "code": "Y8",
+    "icao": "YZR"
+  },
+  {
+    "name": "Super Air Jet",
+    "code": "IU",
+    "icao": "SJV"
+  },
+  {
+    "name": "Supernova Airlines",
+    "code": "P7",
+    "icao": "NPG"
+  },
+  {
+    "name": "Surf Air",
+    "code": "",
+    "icao": "URF"
+  },
+  {
+    "name": "Surinam Airways",
+    "code": "PY",
+    "icao": "SLM"
+  },
+  {
+    "name": "Surveillance Australia",
+    "code": "",
+    "icao": "BDF"
+  },
+  {
+    "name": "Susi Air",
+    "code": "",
+    "icao": "SQS"
+  },
+  {
+    "name": "Suzhou Aviation",
+    "code": "",
+    "icao": "CBW"
+  },
+  {
+    "name": "Svensk Luftambulans",
+    "code": "",
+    "icao": "SWV"
+  },
+  {
+    "name": "Svenskt Ambulansflyg",
+    "code": "",
+    "icao": "SWE"
+  },
+  {
+    "name": "Svenskt Industriflyg",
+    "code": "",
+    "icao": "JET"
+  },
+  {
+    "name": "SVG Air",
+    "code": "",
+    "icao": "SVD"
+  },
+  {
+    "name": "Sweden - Armed Forces",
+    "code": "",
+    "icao": "SVF"
+  },
+  {
+    "name": "Sweden - Coast Guard",
+    "code": "",
+    "icao": "KBV"
+  },
+  {
+    "name": "Sweden - Police",
+    "code": "",
+    "icao": "POL"
+  },
+  {
+    "name": "Sweden - Swedish Maritime Administration",
+    "code": "",
+    "icao": "HMF"
+  },
+  {
+    "name": "Swift Copters",
+    "code": "",
+    "icao": "WFC"
+  },
+  {
+    "name": "Swiftair",
+    "code": "WT",
+    "icao": "SWT"
+  },
+  {
+    "name": "Swiftair Hellas",
+    "code": "",
+    "icao": "MDF"
+  },
+  {
+    "name": "Swiss",
+    "code": "LX",
+    "icao": "SWR"
+  },
+  {
+    "name": "Swiss Flight Services",
+    "code": "",
+    "icao": "SFS"
+  },
+  {
+    "name": "Swiss Helicopter",
+    "code": "",
+    "icao": "HSI"
+  },
+  {
+    "name": "Swiss Private Jet",
+    "code": "",
+    "icao": "SWW"
+  },
+  {
+    "name": "Switzerland - Air Force",
+    "code": "",
+    "icao": "SUI"
+  },
+  {
+    "name": "SXM Airways",
+    "code": "",
+    "icao": "SXM"
+  },
+  {
+    "name": "Sylt Air",
+    "code": "7E",
+    "icao": "AWU"
+  },
+  {
+    "name": "Syncrude Canada",
+    "code": "",
+    "icao": "SYN"
+  },
+  {
+    "name": "Syphax Airlines",
+    "code": "Y3",
+    "icao": "SYA"
+  },
+  {
+    "name": "Syrian Air",
+    "code": "RB",
+    "icao": "SYR"
+  },
+  {
+    "name": "T'way Air",
+    "code": "TW",
+    "icao": "TWB"
+  },
+  {
+    "name": "TAAG Angola Airlines",
+    "code": "DT",
+    "icao": "DTA"
+  },
+  {
+    "name": "TAB Cargo",
+    "code": "2L",
+    "icao": "BOL"
+  },
+  {
+    "name": "Taban Airlines",
+    "code": "",
+    "icao": "TBN"
+  },
+  {
+    "name": "TAG Aviation",
+    "code": "",
+    "icao": "VIP"
+  },
+  {
+    "name": "TAG Aviation Asia",
+    "code": "",
+    "icao": "TBJ"
+  },
+  {
+    "name": "TAG Aviation Cayman",
+    "code": "",
+    "icao": "TCJ"
+  },
+  {
+    "name": "TAG Aviation Malta",
+    "code": "",
+    "icao": "TEU"
+  },
+  {
+    "name": "TAG Aviation San Marino",
+    "code": "",
+    "icao": "TAG"
+  },
+  {
+    "name": "TagAirlines",
+    "code": "5U",
+    "icao": "TGU"
+  },
+  {
+    "name": "Taiga Air",
+    "code": "",
+    "icao": "TGA"
+  },
+  {
+    "name": "Tailwind Airlines",
+    "code": "TI",
+    "icao": "TWI"
+  },
+  {
+    "name": "Tajik Air",
+    "code": "7J",
+    "icao": "TJK"
+  },
+  {
+    "name": "Talon Air",
+    "code": "",
+    "icao": "TFF"
+  },
+  {
+    "name": "Tanana Air Service",
+    "code": "Z3",
+    "icao": "TNR"
+  },
+  {
+    "name": "TAP Air Portugal",
+    "code": "TP",
+    "icao": "TAP"
+  },
+  {
+    "name": "Taquan Air",
+    "code": "K3",
+    "icao": "TQN"
+  },
+  {
+    "name": "TAR Aerolineas",
+    "code": "YQ",
+    "icao": "LCT"
+  },
+  {
+    "name": "Tarco Aviation",
+    "code": "3T",
+    "icao": "TQQ"
+  },
+  {
+    "name": "Tarom",
+    "code": "RO",
+    "icao": "ROT"
+  },
+  {
+    "name": "Tashkent Air",
+    "code": "",
+    "icao": "TSK"
+  },
+  {
+    "name": "Tasman Cargo Airlines",
+    "code": "HJ",
+    "icao": "TMN"
+  },
+  {
+    "name": "Tassili Airlines",
+    "code": "SF",
+    "icao": "DTH"
+  },
+  {
+    "name": "Tatra JET",
+    "code": "",
+    "icao": "TTJ"
+  },
+  {
+    "name": "Tbilisi Airways",
+    "code": "TD",
+    "icao": "TBC"
+  },
+  {
+    "name": "TCA",
+    "code": "N6",
+    "icao": "TZS"
+  },
+  {
+    "name": "Team Global Express",
+    "code": "",
+    "icao": "TFX"
+  },
+  {
+    "name": "Terra Avia",
+    "code": "T8",
+    "icao": "TVR"
+  },
+  {
+    "name": "Texel Air",
+    "code": "",
+    "icao": "XLR"
+  },
+  {
+    "name": "Texel Air Australasia",
+    "code": "",
+    "icao": "TNZ"
+  },
+  {
+    "name": "Tez Jet Airlines",
+    "code": "K9",
+    "icao": "TEZ"
+  },
+  {
+    "name": "Thai AirAsia",
+    "code": "FD",
+    "icao": "AIQ"
+  },
+  {
+    "name": "Thai AirAsia X",
+    "code": "XJ",
+    "icao": "TAX"
+  },
+  {
+    "name": "Thai Airways",
+    "code": "TG",
+    "icao": "THA"
+  },
+  {
+    "name": "Thai Lion Air",
+    "code": "SL",
+    "icao": "TLM"
+  },
+  {
+    "name": "Thai VietJet Air",
+    "code": "VZ",
+    "icao": "TVJ"
+  },
+  {
+    "name": "Thalair",
+    "code": "",
+    "icao": "TLJ"
+  },
+  {
+    "name": "Thales UK Flight Inspection Service",
+    "code": "",
+    "icao": "CLB"
+  },
+  {
+    "name": "The Little Jet Company",
+    "code": "",
+    "icao": "LJC"
+  },
+  {
+    "name": "The Mitre Corporation",
+    "code": "",
+    "icao": "MIP"
+  },
+  {
+    "name": "Thrive",
+    "code": "",
+    "icao": "TIV"
+  },
+  {
+    "name": "Thrust Flight",
+    "code": "",
+    "icao": "TRF"
+  },
+  {
+    "name": "Thunder Airlines",
+    "code": "",
+    "icao": "THU"
+  },
+  {
+    "name": "Tianjin Air Cargo",
+    "code": "HT",
+    "icao": "CTJ"
+  },
+  {
+    "name": "Tianjin Airlines",
+    "code": "GS",
+    "icao": "GCR"
+  },
+  {
+    "name": "Tibet Airlines",
+    "code": "TV",
+    "icao": "TBA"
+  },
+  {
+    "name": "Tigerair Taiwan",
+    "code": "IT",
+    "icao": "TTW"
+  },
+  {
+    "name": "Time Air",
+    "code": "",
+    "icao": "TIE"
+  },
+  {
+    "name": "Tinadar Jets",
+    "code": "",
+    "icao": "NAD"
+  },
+  {
+    "name": "Titan Airways",
+    "code": "ZT",
+    "icao": "AWC"
+  },
+  {
+    "name": "Titan Airways Malta",
+    "code": "TM",
+    "icao": "TMT"
+  },
+  {
+    "name": "TopFlight Aero-Services",
+    "code": "",
+    "icao": "TAF"
+  },
+  {
+    "name": "Total Express",
+    "code": "",
+    "icao": "TOT"
+  },
+  {
+    "name": "Total Linhas Aereas",
+    "code": "0T",
+    "icao": "TTL"
+  },
+  {
+    "name": "Toyo Aviation",
+    "code": "",
+    "icao": "TOY"
+  },
+  {
+    "name": "Trade Air",
+    "code": "C3",
+    "icao": "TDR"
+  },
+  {
+    "name": "Tradewind Aviation",
+    "code": "TJ",
+    "icao": "GPD"
+  },
+  {
+    "name": "Trans Air Congo",
+    "code": "Q8",
+    "icao": "TSG"
+  },
+  {
+    "name": "Trans Am Aero Express del Ecuador",
+    "code": "7T",
+    "icao": "RTM"
+  },
+  {
+    "name": "Trans Guyana Airways",
+    "code": "",
+    "icao": "TGY"
+  },
+  {
+    "name": "Trans Island Airways",
+    "code": "",
+    "icao": "GGT"
+  },
+  {
+    "name": "Trans Maldivian Airways",
+    "code": "",
+    "icao": "TMW"
+  },
+  {
+    "name": "Transair",
+    "code": "R2",
+    "icao": "GTS"
+  },
+  {
+    "name": "Transair",
+    "code": "R9",
+    "icao": "MUI"
+  },
+  {
+    "name": "Transavia",
+    "code": "HV",
+    "icao": "TRA"
+  },
+  {
+    "name": "Transavia France",
+    "code": "TO",
+    "icao": "TVF"
+  },
+  {
+    "name": "Transaviabaltika",
+    "code": "",
+    "icao": "KTB"
+  },
+  {
+    "name": "Transaviaexport Airlines",
+    "code": "",
+    "icao": "TXC"
+  },
+  {
+    "name": "TransNusa",
+    "code": "8B",
+    "icao": "TNU"
+  },
+  {
+    "name": "Travel Management Company",
+    "code": "",
+    "icao": "TMC"
+  },
+  {
+    "name": "Travira Air",
+    "code": "",
+    "icao": "TVV"
+  },
+  {
+    "name": "Trebet Aviation",
+    "code": "",
+    "icao": "AOO"
+  },
+  {
+    "name": "Tri-State Aero",
+    "code": "",
+    "icao": "TSS"
+  },
+  {
+    "name": "Trident Aircraft",
+    "code": "",
+    "icao": "WMN"
+  },
+  {
+    "name": "Trigana Air",
+    "code": "IL",
+    "icao": "TGN"
+  },
+  {
+    "name": "Tropic Air",
+    "code": "9N",
+    "icao": "TOS"
+  },
+  {
+    "name": "Tropic Ocean Airways",
+    "code": "TI",
+    "icao": "FTO"
+  },
+  {
+    "name": "TUI Airlines Belgium",
+    "code": "TB",
+    "icao": "JAF"
+  },
+  {
+    "name": "TUI Airlines Netherlands",
+    "code": "OR",
+    "icao": "TFL"
+  },
+  {
+    "name": "TUI Airways",
+    "code": "BY",
+    "icao": "TOM"
+  },
+  {
+    "name": "TUI fly",
+    "code": "X3",
+    "icao": "TUI"
+  },
+  {
+    "name": "TUI fly Nordic",
+    "code": "6B",
+    "icao": "BLX"
+  },
+  {
+    "name": "Tulpar",
+    "code": "",
+    "icao": "RFE"
+  },
+  {
+    "name": "TUM AeroCarga",
+    "code": "T2",
+    "icao": "MCS"
+  },
+  {
+    "name": "Tunisair",
+    "code": "TU",
+    "icao": "TAR"
+  },
+  {
+    "name": "Tunisair Express",
+    "code": "UG",
+    "icao": "TUX"
+  },
+  {
+    "name": "Tunisia - Air Force",
+    "code": "",
+    "icao": "TUN"
+  },
+  {
+    "name": "Turkey - Air Force",
+    "code": "",
+    "icao": "HVK"
+  },
+  {
+    "name": "Turkey - Government",
+    "code": "",
+    "icao": "TRK"
+  },
+  {
+    "name": "Turkish Airlines",
+    "code": "TK",
+    "icao": "THY"
+  },
+  {
+    "name": "Turkmenistan - Government",
+    "code": "",
+    "icao": "TUG"
+  },
+  {
+    "name": "Turkmenistan Airlines",
+    "code": "T5",
+    "icao": "TUA"
+  },
+  {
+    "name": "Turpial Airlines",
+    "code": "T9",
+    "icao": "VTU"
+  },
+  {
+    "name": "Tus Air",
+    "code": "U8",
+    "icao": "CYF"
+  },
+  {
+    "name": "Twin Jet",
+    "code": "T7",
+    "icao": "TJT"
+  },
+  {
+    "name": "Tyrol Air Ambulance",
+    "code": "",
+    "icao": "TYW"
+  },
+  {
+    "name": "Tyrolean Jets & Services",
+    "code": "",
+    "icao": "TJS"
+  },
+  {
+    "name": "Tyrolean Jets & Services Malta",
+    "code": "",
+    "icao": "TYJ"
+  },
+  {
+    "name": "UG Jet",
+    "code": "",
+    "icao": "UGJ"
+  },
+  {
+    "name": "Uganda Airlines",
+    "code": "UR",
+    "icao": "UGD"
+  },
+  {
+    "name": "Ukraine - State Air Traffic Service",
+    "code": "",
+    "icao": "UTS"
+  },
+  {
+    "name": "Ukraine Air Alliance",
+    "code": "",
+    "icao": "UKL"
+  },
+  {
+    "name": "Ukraine International Airlines",
+    "code": "PS",
+    "icao": "AUI"
+  },
+  {
+    "name": "Ukrainian Wings",
+    "code": "",
+    "icao": "UWJ"
+  },
+  {
+    "name": "ULS Airlines Cargo",
+    "code": "GO",
+    "icao": "KZU"
+  },
+  {
+    "name": "Ultimate Jet",
+    "code": "UE",
+    "icao": "UJC"
+  },
+  {
+    "name": "UmzaXpress",
+    "code": "",
+    "icao": "UMZ"
+  },
+  {
+    "name": "UND Aerospace",
+    "code": "",
+    "icao": "NDU"
+  },
+  {
+    "name": "UNI Air",
+    "code": "B7",
+    "icao": "UIA"
+  },
+  {
+    "name": "Uni-Fly",
+    "code": "",
+    "icao": "UNC"
+  },
+  {
+    "name": "Uni-Fly Heliworx",
+    "code": "",
+    "icao": "UFX"
+  },
+  {
+    "name": "Uni-Top Airlines",
+    "code": "UW",
+    "icao": "UTP"
+  },
+  {
+    "name": "Unicair",
+    "code": "",
+    "icao": "UNI"
+  },
+  {
+    "name": "Union Aviation",
+    "code": "",
+    "icao": "UAG"
+  },
+  {
+    "name": "Unique Air",
+    "code": "",
+    "icao": "UQA"
+  },
+  {
+    "name": "United Airlines",
+    "code": "UA",
+    "icao": "UAL"
+  },
+  {
+    "name": "United Arab Emirates - Air Force",
+    "code": "",
+    "icao": "UAF"
+  },
+  {
+    "name": "United Aviate Academy",
+    "code": "",
+    "icao": "VAR"
+  },
+  {
+    "name": "United Eagle",
+    "code": "",
+    "icao": "UEE"
+  },
+  {
+    "name": "United Kingdom - Air Ambulance",
+    "code": "",
+    "icao": "HLE"
+  },
+  {
+    "name": "United Kingdom - Army Air Corps",
+    "code": "",
+    "icao": "AAC"
+  },
+  {
+    "name": "United Kingdom - Coast Guard",
+    "code": "",
+    "icao": "SRD"
+  },
+  {
+    "name": "United Kingdom - Maritime and Coastguard Agency",
+    "code": "",
+    "icao": "SRG"
+  },
+  {
+    "name": "United Kingdom - RAF Support Helicopter Force",
+    "code": "",
+    "icao": "SHF"
+  },
+  {
+    "name": "United Kingdom - RAF Warton Military Flight Ops",
+    "code": "",
+    "icao": "WTN"
+  },
+  {
+    "name": "United Kingdom - Royal Air Force",
+    "code": "",
+    "icao": "RFR"
+  },
+  {
+    "name": "United Kingdom - Royal Air Force Air Transport",
+    "code": "",
+    "icao": "RRR"
+  },
+  {
+    "name": "United Kingdom - Royal Navy",
+    "code": "",
+    "icao": "NVY"
+  },
+  {
+    "name": "United Kingdom - UK Royal\/VIP Flights",
+    "code": "",
+    "icao": "KRF"
+  },
+  {
+    "name": "United Nations",
+    "code": "",
+    "icao": "UNO"
+  },
+  {
+    "name": "United Nigeria Airlines",
+    "code": "UN",
+    "icao": "NUA"
+  },
+  {
+    "name": "United States - Air Force",
+    "code": "",
+    "icao": "RCH"
+  },
+  {
+    "name": "United States - California Department of Forestry",
+    "code": "",
+    "icao": "CFR"
+  },
+  {
+    "name": "United States - FAA",
+    "code": "",
+    "icao": "NHK"
+  },
+  {
+    "name": "United States - Florida Forest Service",
+    "code": "",
+    "icao": "FFS"
+  },
+  {
+    "name": "United States - NASA",
+    "code": "",
+    "icao": "IGY"
+  },
+  {
+    "name": "United States - NOA",
+    "code": "",
+    "icao": "NOA"
+  },
+  {
+    "name": "United States - North Carolina Forest Service",
+    "code": "",
+    "icao": "FTK"
+  },
+  {
+    "name": "United States - Tennessee Valley Authority",
+    "code": "",
+    "icao": "VLY"
+  },
+  {
+    "name": "United States - US Department of Interior",
+    "code": "",
+    "icao": "DOI"
+  },
+  {
+    "name": "United States - US Department of Justice",
+    "code": "",
+    "icao": "DOJ"
+  },
+  {
+    "name": "United States - US Department of State",
+    "code": "",
+    "icao": "DOS"
+  },
+  {
+    "name": "United States - US Forest Service",
+    "code": "",
+    "icao": "XCN"
+  },
+  {
+    "name": "United States - US Immigration and Customs Enforcement",
+    "code": "",
+    "icao": "RPN"
+  },
+  {
+    "name": "United States - US Marshals Service",
+    "code": "",
+    "icao": "MSH"
+  },
+  {
+    "name": "Universal Air",
+    "code": "VO",
+    "icao": "UVL"
+  },
+  {
+    "name": "University of Central Missouri Aviation",
+    "code": "",
+    "icao": "UCM"
+  },
+  {
+    "name": "University of Oklahoma School of Aviation",
+    "code": "",
+    "icao": "OUA"
+  },
+  {
+    "name": "Uniworld Air Cargo",
+    "code": "U7",
+    "icao": "UCG"
+  },
+  {
+    "name": "UPS",
+    "code": "5X",
+    "icao": "UPS"
+  },
+  {
+    "name": "Ural Airlines",
+    "code": "U6",
+    "icao": "SVR"
+  },
+  {
+    "name": "Urumqi Air",
+    "code": "UQ",
+    "icao": "CUH"
+  },
+  {
+    "name": "US-Bangla Airlines",
+    "code": "BS",
+    "icao": "UBG"
+  },
+  {
+    "name": "USA Jet Airlines",
+    "code": "UJ",
+    "icao": "JUS"
+  },
+  {
+    "name": "USC",
+    "code": "XG",
+    "icao": "USY"
+  },
+  {
+    "name": "Utair",
+    "code": "UT",
+    "icao": "UTA"
+  },
+  {
+    "name": "UVT Aero",
+    "code": "RT",
+    "icao": "UVT"
+  },
+  {
+    "name": "Uzbekistan Airways",
+    "code": "HY",
+    "icao": "UZB"
+  },
+  {
+    "name": "Valair",
+    "code": "",
+    "icao": "VVV"
+  },
+  {
+    "name": "Valletta Airlines",
+    "code": "",
+    "icao": "HOT"
+  },
+  {
+    "name": "VallJet",
+    "code": "",
+    "icao": "VLJ"
+  },
+  {
+    "name": "ValueJet",
+    "code": "VK",
+    "icao": "FVJ"
+  },
+  {
+    "name": "Van Air Europe",
+    "code": "V9",
+    "icao": "VAA"
+  },
+  {
+    "name": "Varesh Airlines",
+    "code": "",
+    "icao": "VRH"
+  },
+  {
+    "name": "Vasco",
+    "code": "0V",
+    "icao": "VFC"
+  },
+  {
+    "name": "Venezolana",
+    "code": "WW",
+    "icao": "VNE"
+  },
+  {
+    "name": "Ventura",
+    "code": "",
+    "icao": "VNT"
+  },
+  {
+    "name": "Venture Aviation Group",
+    "code": "",
+    "icao": "VET"
+  },
+  {
+    "name": "Venture West Aviation",
+    "code": "",
+    "icao": "VWA"
+  },
+  {
+    "name": "VeriJet",
+    "code": "",
+    "icao": "WSP"
+  },
+  {
+    "name": "Via Air",
+    "code": "",
+    "icao": "VID"
+  },
+  {
+    "name": "Victory Air",
+    "code": "",
+    "icao": "FTN"
+  },
+  {
+    "name": "Vieques Air Link",
+    "code": "V4",
+    "icao": "VES"
+  },
+  {
+    "name": "VietJet Air",
+    "code": "VJ",
+    "icao": "VJC"
+  },
+  {
+    "name": "Vietnam Airlines",
+    "code": "VN",
+    "icao": "HVN"
+  },
+  {
+    "name": "Vietravel Airlines",
+    "code": "VU",
+    "icao": "VAG"
+  },
+  {
+    "name": "Virgin Atlantic",
+    "code": "VS",
+    "icao": "VIR"
+  },
+  {
+    "name": "Virgin Atlantic International",
+    "code": "",
+    "icao": "VGI"
+  },
+  {
+    "name": "Virgin Australia",
+    "code": "VA",
+    "icao": "VOZ"
+  },
+  {
+    "name": "Virgin Australia Regional",
+    "code": "",
+    "icao": "OZW"
+  },
+  {
+    "name": "Vista America",
+    "code": "",
+    "icao": "VJA"
+  },
+  {
+    "name": "VistaJet",
+    "code": "",
+    "icao": "VJT"
+  },
+  {
+    "name": "VistaJet",
+    "code": "H5",
+    "icao": "VJH"
+  },
+  {
+    "name": "Vistara",
+    "code": "UK",
+    "icao": "VTI"
+  },
+  {
+    "name": "VivaAerobus",
+    "code": "VB",
+    "icao": "VIV"
+  },
+  {
+    "name": "VoePass",
+    "code": "2Z",
+    "icao": "PTB"
+  },
+  {
+    "name": "Volare Aviation",
+    "code": "",
+    "icao": "VLZ"
+  },
+  {
+    "name": "Volaris",
+    "code": "Y4",
+    "icao": "VOI"
+  },
+  {
+    "name": "Volaris Costa Rica",
+    "code": "Q6",
+    "icao": "VOC"
+  },
+  {
+    "name": "Volaris El Salvador",
+    "code": "N3",
+    "icao": "VOS"
+  },
+  {
+    "name": "Volato",
+    "code": "",
+    "icao": "TMB"
+  },
+  {
+    "name": "Volga-Dnepr Airlines",
+    "code": "VI",
+    "icao": "VDA"
+  },
+  {
+    "name": "Volotea",
+    "code": "V7",
+    "icao": "VOE"
+  },
+  {
+    "name": "Voluxis",
+    "code": "",
+    "icao": "VXS"
+  },
+  {
+    "name": "Voyage Air",
+    "code": "",
+    "icao": "VRG"
+  },
+  {
+    "name": "Voyageur Airways",
+    "code": "VC",
+    "icao": "VAL"
+  },
+  {
+    "name": "Vueling",
+    "code": "VY",
+    "icao": "VLG"
+  },
+  {
+    "name": "VW Air Service",
+    "code": "",
+    "icao": "BTX"
+  },
+  {
+    "name": "Wamos Air",
+    "code": "EB",
+    "icao": "PLM"
+  },
+  {
+    "name": "Warbelows Air Ventures",
+    "code": "4W",
+    "icao": "WAV"
+  },
+  {
+    "name": "Wasaya Airways",
+    "code": "WP",
+    "icao": "WSG"
+  },
+  {
+    "name": "WEJET",
+    "code": "",
+    "icao": "WEJ"
+  },
+  {
+    "name": "Wermlandsflyg",
+    "code": "",
+    "icao": "SWX"
+  },
+  {
+    "name": "Wermlandsflyg",
+    "code": "",
+    "icao": "BLW"
+  },
+  {
+    "name": "West Air",
+    "code": "PN",
+    "icao": "CHB"
+  },
+  {
+    "name": "West Air",
+    "code": "",
+    "icao": "PCM"
+  },
+  {
+    "name": "West Air Sweden",
+    "code": "T2",
+    "icao": "SWN"
+  },
+  {
+    "name": "West Atlantic",
+    "code": "",
+    "icao": "NPT"
+  },
+  {
+    "name": "West Coast Charters",
+    "code": "",
+    "icao": "WCC"
+  },
+  {
+    "name": "West Link Airlines",
+    "code": "",
+    "icao": "WLN"
+  },
+  {
+    "name": "Westair Aviation",
+    "code": "",
+    "icao": "WAA"
+  },
+  {
+    "name": "Westair Helicopter Saudi",
+    "code": "",
+    "icao": "WSH"
+  },
+  {
+    "name": "Western Air",
+    "code": "WU",
+    "icao": "WST"
+  },
+  {
+    "name": "Western Air Express",
+    "code": "",
+    "icao": "WAE"
+  },
+  {
+    "name": "Western Aircraft",
+    "code": "ST",
+    "icao": "STT"
+  },
+  {
+    "name": "Western Global Airlines",
+    "code": "KD",
+    "icao": "WGN"
+  },
+  {
+    "name": "Western Michigan University College of Aviation",
+    "code": "",
+    "icao": "WMU"
+  },
+  {
+    "name": "WestJet",
+    "code": "WS",
+    "icao": "WJA"
+  },
+  {
+    "name": "WestJet Encore",
+    "code": "WR",
+    "icao": "WEN"
+  },
+  {
+    "name": "Wheels Up",
+    "code": "",
+    "icao": "WUP"
+  },
+  {
+    "name": "White",
+    "code": "WI",
+    "icao": "WHT"
+  },
+  {
+    "name": "Wideroe",
+    "code": "WF",
+    "icao": "WIF"
+  },
+  {
+    "name": "Wiggins Airways",
+    "code": "",
+    "icao": "WIG"
+  },
+  {
+    "name": "Wiking Helikopter Service",
+    "code": "",
+    "icao": "WHS"
+  },
+  {
+    "name": "Winair",
+    "code": "WM",
+    "icao": "WIA"
+  },
+  {
+    "name": "Windrose Air Jetcharter",
+    "code": "",
+    "icao": "QGA"
+  },
+  {
+    "name": "Windrose Airlines",
+    "code": "7W",
+    "icao": "WRC"
+  },
+  {
+    "name": "Wing Aviation",
+    "code": "",
+    "icao": "CWG"
+  },
+  {
+    "name": "Wingo",
+    "code": "P5",
+    "icao": "RPB"
+  },
+  {
+    "name": "Wingo Panama",
+    "code": "WH",
+    "icao": "WWP"
+  },
+  {
+    "name": "Wings Air",
+    "code": "IW",
+    "icao": "WON"
+  },
+  {
+    "name": "Wizz Air",
+    "code": "W6",
+    "icao": "WZZ"
+  },
+  {
+    "name": "Wizz Air Abu Dhabi",
+    "code": "5W",
+    "icao": "WAZ"
+  },
+  {
+    "name": "Wizz Air Malta",
+    "code": "W4",
+    "icao": "WMT"
+  },
+  {
+    "name": "Wizz Air UK",
+    "code": "W9",
+    "icao": "WUK"
+  },
+  {
+    "name": "Woodgate Aviation",
+    "code": "",
+    "icao": "CWY"
+  },
+  {
+    "name": "World Atlantic Airlines",
+    "code": "WL",
+    "icao": "WAL"
+  },
+  {
+    "name": "World Cargo Airlines",
+    "code": "3G",
+    "icao": "WCM"
+  },
+  {
+    "name": "World2Fly",
+    "code": "2W",
+    "icao": "WFL"
+  },
+  {
+    "name": "World2Fly Portugal",
+    "code": "3P",
+    "icao": "WPT"
+  },
+  {
+    "name": "Worldwide Jet Charter",
+    "code": "",
+    "icao": "WWI"
+  },
+  {
+    "name": "Wright Air Service",
+    "code": "8V",
+    "icao": "WRF"
+  },
+  {
+    "name": "XE Jet",
+    "code": "",
+    "icao": "XEJ"
+  },
+  {
+    "name": "Xead Aviation",
+    "code": "",
+    "icao": "XED"
+  },
+  {
+    "name": "Xfly",
+    "code": "EE",
+    "icao": "EST"
+  },
+  {
+    "name": "Xiamen Air",
+    "code": "MF",
+    "icao": "CXA"
+  },
+  {
+    "name": "Xinjiang Skylink General Aviation",
+    "code": "",
+    "icao": "KGA"
+  },
+  {
+    "name": "XO",
+    "code": "",
+    "icao": "XOJ"
+  },
+  {
+    "name": "Yakutia Airlines",
+    "code": "R3",
+    "icao": "SYL"
+  },
+  {
+    "name": "Yamal Airlines",
+    "code": "YC",
+    "icao": "LLM"
+  },
+  {
+    "name": "YanAir",
+    "code": "YE",
+    "icao": "ANR"
+  },
+  {
+    "name": "Yazd Airways",
+    "code": "",
+    "icao": "DZD"
+  },
+  {
+    "name": "Yemenia",
+    "code": "IY",
+    "icao": "IYE"
+  },
+  {
+    "name": "Yeti Airlines",
+    "code": "YT",
+    "icao": "NYT"
+  },
+  {
+    "name": "YTO Cargo Airlines",
+    "code": "YG",
+    "icao": "HYT"
+  },
+  {
+    "name": "Yute Commuter Services",
+    "code": "",
+    "icao": "TUD"
+  },
+  {
+    "name": "Z Air",
+    "code": "7Z",
+    "icao": "EZR"
+  },
+  {
+    "name": "Zafer Air",
+    "code": "",
+    "icao": "HMZ"
+  },
+  {
+    "name": "Zagros Airlines",
+    "code": "ZO",
+    "icao": "IZG"
+  },
+  {
+    "name": "Zambia Airways",
+    "code": "ZN",
+    "icao": "AZB"
+  },
+  {
+    "name": "Zanair",
+    "code": "",
+    "icao": "TAN"
+  },
+  {
+    "name": "Zenflight",
+    "code": "",
+    "icao": "XEN"
+  },
+  {
+    "name": "Zenith Aviation",
+    "code": "",
+    "icao": "BZE"
+  },
+  {
+    "name": "Zetavia",
+    "code": "ZK",
+    "icao": "ZAV"
+  },
+  {
+    "name": "Zeusch Aviation",
+    "code": "",
+    "icao": "SUZ"
+  },
+  {
+    "name": "Zhou Ji Airlines",
+    "code": "",
+    "icao": "JCN"
+  },
+  {
+    "name": "Zil Air",
+    "code": "",
+    "icao": "SYZ"
+  },
+  {
+    "name": "Zimex Aviation",
+    "code": "XM",
+    "icao": "IMX"
+  },
+  {
+    "name": "Zimex Aviation Austria",
+    "code": "ZX",
+    "icao": "AZD"
+  },
+  {
+    "name": "Zipair",
+    "code": "ZG",
+    "icao": "TZP"
+  },
+  {
+    "name": "Zooom",
+    "code": "ZO",
+    "icao": "ZOM"
+  },
+  {
+    "name": "Zorex",
+    "code": "",
+    "icao": "ORZ"
+  },
+  {
+    "name": "ZYB Lily Jet",
+    "code": "",
+    "icao": "MZT"
+  }
+]
