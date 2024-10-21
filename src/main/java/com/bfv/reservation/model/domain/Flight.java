@@ -1,7 +1,7 @@
-package com.bfv.reservation.model;
+package com.bfv.reservation.model.domain;
 
-import com.bfv.reservation.model.airport.Airline;
-import com.bfv.reservation.model.airport.Airport;
+import com.bfv.reservation.model.domain.airport.Airline;
+import com.bfv.reservation.model.domain.airport.Airport;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import lombok.*;

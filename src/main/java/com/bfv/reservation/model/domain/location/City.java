@@ -1,6 +1,6 @@
-package com.bfv.reservation.model.location;
+package com.bfv.reservation.model.domain.location;
 
-import com.bfv.reservation.model.PersistentEntity;
+import com.bfv.reservation.model.domain.PersistentEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;

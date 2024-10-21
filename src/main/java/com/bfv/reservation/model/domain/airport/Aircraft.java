@@ -1,6 +1,6 @@
-package com.bfv.reservation.model.location;
+package com.bfv.reservation.model.domain.airport;
 
-import com.bfv.reservation.model.PersistentEntity;
+import com.bfv.reservation.model.domain.PersistentEntity;
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +14,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public class Timezone extends PersistentEntity {
+public class Aircraft extends PersistentEntity {
     private String name;
-    private int offset;
+    private String code;
 }
