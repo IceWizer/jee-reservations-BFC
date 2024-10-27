@@ -1,4 +1,4 @@
-package com.bfv.reservation.model;
+package com.bfv.reservation.model.domain;
 
 import jakarta.persistence.Entity;
 
