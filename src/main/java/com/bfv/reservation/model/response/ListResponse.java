@@ -12,6 +12,6 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class ListResponse<T> {
-    private int count;
     private List<T> data;
+    private int count;
 }

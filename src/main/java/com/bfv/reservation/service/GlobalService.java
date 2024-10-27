@@ -1,12 +1,15 @@
 package com.bfv.reservation.service;
 
 import com.bfv.reservation.model.domain.PersistentEntity;
+import lombok.AccessLevel;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Getter(AccessLevel.PROTECTED)
 @RequiredArgsConstructor
 public class GlobalService<T extends PersistentEntity, R extends JpaRepository<T, String>> {
     private final R repository;
@@ -36,9 +39,5 @@ public class GlobalService<T extends PersistentEntity, R extends JpaRepository<T
         repository.deleteById(id);
 
         return id;
-    }
-
-    protected R getRepository() {
-        return repository;
     }
 }
