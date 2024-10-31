@@ -1,7 +1,6 @@
-package com.bfv.reservation.model.domain;
+package com.bfv.reservation.model.domain.flight;
 
-import com.bfv.reservation.model.domain.airport.Airline;
-import com.bfv.reservation.model.domain.airport.Airport;
+import com.bfv.reservation.model.domain.PersistentEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import lombok.*;
@@ -32,4 +31,5 @@ public class Flight extends PersistentEntity {
     private double duration;
 
     private double price;
+    private int availableSeats;
 }

@@ -1,7 +1,7 @@
 package com.bfv.reservation.service.airport;
 
-import com.bfv.reservation.model.domain.airport.Aircraft;
-import com.bfv.reservation.repository.airport.AircraftRepository;
+import com.bfv.reservation.model.domain.flight.Aircraft;
+import com.bfv.reservation.repository.flight.AircraftRepository;
 import com.bfv.reservation.service.GlobalService;
 
 public class AircraftService extends GlobalService<Aircraft, AircraftRepository> {

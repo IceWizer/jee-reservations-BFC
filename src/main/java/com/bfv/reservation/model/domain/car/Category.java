@@ -1,11 +1,8 @@
-package com.bfv.reservation.model.domain.airport;
+package com.bfv.reservation.model.domain.car;
 
 import com.bfv.reservation.model.domain.PersistentEntity;
 import jakarta.persistence.Entity;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 @Entity
@@ -14,7 +11,6 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public class Aircraft extends PersistentEntity {
+public class Category extends PersistentEntity {
     private String name;
-    private String code;
 }

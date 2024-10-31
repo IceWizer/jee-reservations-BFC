@@ -1,6 +1,6 @@
-package com.bfv.reservation.repository;
+package com.bfv.reservation.repository.flight;
 
-import com.bfv.reservation.model.domain.Flight;
+import com.bfv.reservation.model.domain.flight.Flight;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,7 +1,7 @@
 package com.bfv.reservation.controller;
 
 import com.bfv.reservation.exception.NotFound;
-import com.bfv.reservation.model.domain.Flight;
+import com.bfv.reservation.model.domain.flight.Flight;
 import com.bfv.reservation.model.request.FlightRequest;
 import com.bfv.reservation.model.response.BasicResponse;
 import com.bfv.reservation.model.response.DataResponse;

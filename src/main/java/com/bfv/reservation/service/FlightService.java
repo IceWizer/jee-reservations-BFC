@@ -1,7 +1,7 @@
 package com.bfv.reservation.service;
 
-import com.bfv.reservation.model.domain.Flight;
-import com.bfv.reservation.repository.FlightRepository;
+import com.bfv.reservation.model.domain.flight.Flight;
+import com.bfv.reservation.repository.flight.FlightRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
