@@ -6,9 +6,9 @@ import com.bfv.reservation.model.request.FlightRequest;
 import com.bfv.reservation.model.response.BasicResponse;
 import com.bfv.reservation.model.response.DataResponse;
 import com.bfv.reservation.model.response.ListResponse;
-import com.bfv.reservation.service.flight.FlightService;
 import com.bfv.reservation.service.flight.AirlineService;
 import com.bfv.reservation.service.flight.AirportService;
+import com.bfv.reservation.service.flight.FlightService;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -16,7 +16,6 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.temporal.ChronoUnit;
-import java.util.List;
 
 import static com.bfv.reservation.Library.*;
 

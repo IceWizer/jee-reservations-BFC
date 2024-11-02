@@ -220,9 +220,8 @@ public class StartScript {
 
 
     //Flight
-    //TODO : Update this method with capacity when the db is loaded
     private void aircraft() {
-        String[] HEADERS = {"id", "name", "code"};
+        String[] HEADERS = {"id", "name", "code", "capacity"};
         List<Aircraft> list = new ArrayList<>();
 
         InputStream is = getClass().getResourceAsStream("/data/flight/aircraft.csv");
@@ -241,7 +240,7 @@ public class StartScript {
                 aircraft.setId(csvRecord.get(HEADERS[0]));
                 aircraft.setName(csvRecord.get(HEADERS[1]));
                 aircraft.setCode(csvRecord.get(HEADERS[2]));
-                aircraft.setCapacity(random.nextInt(300) + 100);
+                aircraft.setCapacity(Integer.parseInt(csvRecord.get(HEADERS[3])));
 
                 list.add(aircraft);
             }
