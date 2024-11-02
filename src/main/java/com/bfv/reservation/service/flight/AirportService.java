@@ -1,4 +1,4 @@
-package com.bfv.reservation.service.airport;
+package com.bfv.reservation.service.flight;
 
 import com.bfv.reservation.model.domain.flight.Airport;
 import com.bfv.reservation.repository.flight.AirportRepository;

@@ -17,4 +17,5 @@ import lombok.experimental.SuperBuilder;
 public class Aircraft extends PersistentEntity {
     private String name;
     private String code;
+    private int capacity;
 }

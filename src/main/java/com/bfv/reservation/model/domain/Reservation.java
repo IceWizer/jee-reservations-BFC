@@ -10,6 +10,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
+import org.hibernate.annotations.UuidGenerator;
 
 import java.time.LocalDate;
 
@@ -20,14 +21,15 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @SuperBuilder
 public class Reservation extends PersistentEntity {
+    @UuidGenerator
     private String reservationNumber;
 
     private LocalDate startDate;
     private LocalDate endDate;
 
     private double totalPrice;
-    private boolean paid;
-    private boolean active;
+    private boolean paid = false;
+    private boolean active = true;
 
     @ManyToOne
     private User user;

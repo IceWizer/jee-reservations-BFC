@@ -6,23 +6,24 @@ import com.bfv.reservation.model.request.FlightRequest;
 import com.bfv.reservation.model.response.BasicResponse;
 import com.bfv.reservation.model.response.DataResponse;
 import com.bfv.reservation.model.response.ListResponse;
-import com.bfv.reservation.service.FlightService;
-import com.bfv.reservation.service.airport.AirlineService;
-import com.bfv.reservation.service.airport.AirportService;
+import com.bfv.reservation.service.flight.FlightService;
+import com.bfv.reservation.service.flight.AirlineService;
+import com.bfv.reservation.service.flight.AirportService;
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.temporal.ChronoUnit;
+import java.util.List;
+
+import static com.bfv.reservation.Library.*;
 
 @RestController
 @RequestMapping("/api/v1/flights")
 @RequiredArgsConstructor
 public class FlightController extends BuilderResponse<Flight> {
-    private final static String FLIGHT = "Flight";
-    private final static String AIRPORT = "Airport";
-
     private final AirportService airportService;
     private final AirlineService airlineService;
     private final FlightService flightService;
@@ -30,6 +31,11 @@ public class FlightController extends BuilderResponse<Flight> {
     @GetMapping
     public ListResponse<Flight> getFlights() {
         return getListResponse(flightService.findAll());
+    }
+
+    @GetMapping("?departure={departure}&arrival={arrival}")
+    public ListResponse<Flight> getFlightsByDepartureAndArrival(@PathVariable String departure, @PathVariable String arrival) {
+        return getListResponse(flightService.getFlightsByDepartureAndArrival(departure, arrival));
     }
 
     @GetMapping("/id/{id}")
@@ -51,17 +57,23 @@ public class FlightController extends BuilderResponse<Flight> {
 //                .build();
 //    }
 
-    @PostMapping("/")
-    public BasicResponse saveFlight(@Valid FlightRequest flightRequest) {
-        return save(new Flight(), flightRequest);
+    @PostMapping("/save")
+    @RolesAllowed("ADMIN")
+    public BasicResponse saveFlight(@Valid @RequestBody FlightRequest flightRequest) {
+        Flight flight = new Flight();
+        flight.setId(generateID());
+
+        return save(flight, flightRequest);
     }
 
-    @PutMapping("/{id}")
-    public BasicResponse updateFlight(@PathVariable String id, @Valid FlightRequest flightRequest) {
+    @PutMapping("/save/{id}")
+    @RolesAllowed("ADMIN")
+    public BasicResponse updateFlight(@PathVariable String id, @Valid @RequestBody FlightRequest flightRequest) {
         return save(flightService.findById(id).orElseThrow(() -> new NotFound(FLIGHT, id)), flightRequest);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
+    @RolesAllowed("ADMIN")
     public BasicResponse deleteFlight(@PathVariable String id) {
         return delete(flightService.delete(id));
     }
@@ -83,6 +95,6 @@ public class FlightController extends BuilderResponse<Flight> {
         //Calculate duration
         flight.setDuration(ChronoUnit.MINUTES.between(flightRequest.getDepartureTime(), flightRequest.getArrivalTime()));
 
-        return save(flightService.save(flight));
+        return save(FLIGHT, flightService.save(flight));
     }
 }
