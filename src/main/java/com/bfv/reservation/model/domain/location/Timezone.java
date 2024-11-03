@@ -16,6 +16,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @SuperBuilder
 public class Timezone extends PersistentEntity {
+
     private String name;
 
     @Column(name = "time_offset")

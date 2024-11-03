@@ -22,6 +22,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 @ExtendWith(MockitoExtension.class)
 @ActiveProfiles("test")
 class AuthControllerTest {
+
     private MockMvc mockMvc;
 
     @Mock
@@ -60,8 +61,6 @@ class AuthControllerTest {
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content(this.json(request))
                 )
-
-
                 // then
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.jsonPath("$.message").value("Successfully authenticated!"))
@@ -92,7 +91,6 @@ class AuthControllerTest {
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content(this.json(request))
                 )
-
                 // then
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.jsonPath("$.token").isEmpty());
@@ -116,7 +114,6 @@ class AuthControllerTest {
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content(this.json(request))
                 )
-
                 // then
                 .andExpect(MockMvcResultMatchers.status().isBadRequest());
 
@@ -130,7 +127,6 @@ class AuthControllerTest {
         // when
         this.mockMvc
                 .perform(MockMvcRequestBuilders.post("/api/auth/login"))
-
                 // then
                 .andExpect(MockMvcResultMatchers.status().isBadRequest());
         Mockito.verify(this.service, Mockito.never()).auth(Mockito.any());

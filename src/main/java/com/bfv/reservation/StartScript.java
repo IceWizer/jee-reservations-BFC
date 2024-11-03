@@ -41,6 +41,7 @@ import java.util.Random;
 @RequiredArgsConstructor
 @Profile("!test")
 public class StartScript {
+
     //Location
     private final TimezoneRepository timezoneRepository;
     private final CountryRepository countryRepository;
@@ -58,8 +59,7 @@ public class StartScript {
 
     private final ActiveRepository activeRepository;
 
-
-    @EventListener(ApplicationReadyEvent.class)
+    // @EventListener(ApplicationReadyEvent.class)
     public void runAfterStartup() {
         //Active
         Active active = activeRepository.findById(1L).orElse(null);
@@ -71,9 +71,10 @@ public class StartScript {
             activeRepository.save(active);
         }
 
-        if (active.isDataLoaded()) return;
+        if (active.isDataLoaded()) {
+            return;
+        }
         System.out.println("Loading data...");
-
 
         //Timezone
         System.out.println("Start loading timezone data...");
@@ -89,7 +90,6 @@ public class StartScript {
         System.out.println("Start loading city data...");
         city();
         System.out.println("City data loaded");
-
 
         //Aircraft
         System.out.println("Start loading aircraft data...");
@@ -111,7 +111,6 @@ public class StartScript {
         flight();
         System.out.println("Flight data loaded");
 
-
         //Room
         System.out.println("Start loading room data...");
         room();
@@ -121,7 +120,6 @@ public class StartScript {
         System.out.println("Start loading hotel data...");
         hotel();
         System.out.println("Hotel data loaded");
-
 
         //Car
         System.out.println("Start loading car data...");
@@ -219,7 +217,6 @@ public class StartScript {
 
         cityRepository.saveAll(list);
     }
-
 
     //Flight
     private void aircraft() {
@@ -323,7 +320,6 @@ public class StartScript {
         //TODO : Generate some flights
     }
 
-
     //Hotel
     private void hotel() {
         String[] HEADERS = {"id", "address", "email", "name", "phone_number", "rating", "website", "city_id"};
@@ -390,7 +386,6 @@ public class StartScript {
 
         roomRepository.saveAll(list);
     }
-
 
     //Car
     private void car() {

@@ -9,6 +9,7 @@ import lombok.Setter;
 @Setter
 @Builder
 public class AuthRequest {
+
     @NotBlank
     private String email;
 

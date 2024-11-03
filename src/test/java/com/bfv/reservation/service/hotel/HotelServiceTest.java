@@ -1,4 +1,4 @@
-package com.bfv.reservation.service;
+package com.bfv.reservation.service.hotel;
 
 import com.bfv.reservation.service.hotel.HotelService;
 import org.springframework.beans.factory.annotation.Autowired;

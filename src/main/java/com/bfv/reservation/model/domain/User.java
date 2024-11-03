@@ -16,6 +16,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @SuperBuilder
 public class User extends PersistentEntity {
+
     private String firstName;
     private String lastName;
     private String email;

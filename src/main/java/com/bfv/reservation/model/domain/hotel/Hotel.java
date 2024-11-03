@@ -18,6 +18,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @SuperBuilder
 public class Hotel extends PersistentEntity {
+
     @Column(length = 50)
     private String name;
 
@@ -34,6 +35,7 @@ public class Hotel extends PersistentEntity {
 
     private double rating;
 
+    @Column(length = 1000)
     private String description;
 
     @ManyToOne
