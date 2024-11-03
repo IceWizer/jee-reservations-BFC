@@ -1,9 +1,9 @@
 package com.bfv.reservation.api;
 
-import com.bfv.reservation.model.domain.Car;
+import com.bfv.reservation.model.domain.car.Car;
 import com.bfv.reservation.model.request.CarRequest;
-import com.bfv.reservation.repository.CarRepository;
-import com.bfv.reservation.service.CarService;
+import com.bfv.reservation.repository.car.CarRepository;
+import com.bfv.reservation.service.car.CarService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.bfv.reservation.controller.CarController;
@@ -121,6 +121,7 @@ public class CarApiControllerTest {
     }
 
     @Test
+    @WithMockUser(roles = "ADMIN")
     void shouldCreateStatusCreated() throws Exception{
         //given
         CarRequest carRequest = CarRequest.builder()
@@ -134,7 +135,7 @@ public class CarApiControllerTest {
             .thenReturn("1");
         //when
         this.mockMvc.perform(
-            MockMvcRequestBuilders.post("/api/v1/cars/")
+            MockMvcRequestBuilders.post("/api/v1/cars/save")
             .with(SecurityMockMvcRequestPostProcessors.csrf())
             .contentType(MediaType.APPLICATION_JSON)
             .content(this.json(carRequest))
@@ -146,6 +147,7 @@ public class CarApiControllerTest {
     }
 
     @Test
+    @WithMockUser(roles = "ADMIN")
     void shouldCreateStatusFoundBadRequest() throws Exception{
         //given
         CarRequest carRequest = CarRequest.builder()
@@ -154,7 +156,7 @@ public class CarApiControllerTest {
 
         //when
         this.mockMvc.perform(
-            MockMvcRequestBuilders.post("/api/v1/cars/")
+            MockMvcRequestBuilders.post("/api/v1/cars/save")
             .with(SecurityMockMvcRequestPostProcessors.csrf())
             .contentType(MediaType.APPLICATION_JSON)
             .content(this.json(carRequest))
@@ -166,6 +168,7 @@ public class CarApiControllerTest {
     }
 
     @Test
+    @WithMockUser(roles = "ADMIN")
     void shouldUpdateStatusOk() throws Exception{
         //given
         String id = "1";
@@ -181,7 +184,7 @@ public class CarApiControllerTest {
 
         //when
         this.mockMvc.perform(
-            MockMvcRequestBuilders.put("/api/v1/cars/" + id)
+            MockMvcRequestBuilders.put("/api/v1/cars/save/" + id)
             .with(SecurityMockMvcRequestPostProcessors.csrf())
             .contentType(MediaType.APPLICATION_JSON)
             .content(this.json(carRequest))
@@ -193,6 +196,7 @@ public class CarApiControllerTest {
     }
 
     @Test
+    @WithMockUser(roles = "ADMIN")
     void shouldUpdateStatusBadRequest() throws Exception{
         //given
         String id = "1";
@@ -205,7 +209,7 @@ public class CarApiControllerTest {
 
         //when
         this.mockMvc.perform(
-            MockMvcRequestBuilders.put("/api/v1/cars/" + id)
+            MockMvcRequestBuilders.put("/api/v1/cars/save/" + id)
             .with(SecurityMockMvcRequestPostProcessors.csrf())
             .contentType(MediaType.APPLICATION_JSON)
             .content(this.json(carRequest))
@@ -217,6 +221,7 @@ public class CarApiControllerTest {
     }
 
     @Test
+    @WithMockUser(roles = "ADMIN")
     void shouldDeleteStatusOk() throws Exception{
         //given
         String id = "1";
@@ -226,7 +231,7 @@ public class CarApiControllerTest {
 
         //when
         this.mockMvc.perform(
-            MockMvcRequestBuilders.delete("/api/v1/cars/" + id)
+            MockMvcRequestBuilders.delete("/api/v1/cars/delete/" + id)
             .with(SecurityMockMvcRequestPostProcessors.csrf())
         )
         //then
