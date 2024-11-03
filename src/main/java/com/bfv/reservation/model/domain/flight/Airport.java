@@ -4,7 +4,10 @@ import com.bfv.reservation.model.domain.PersistentEntity;
 import com.bfv.reservation.model.domain.location.City;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
 @Entity

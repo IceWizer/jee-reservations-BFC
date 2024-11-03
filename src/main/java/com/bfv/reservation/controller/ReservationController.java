@@ -2,8 +2,8 @@ package com.bfv.reservation.controller;
 
 import com.bfv.reservation.exception.NotFound;
 import com.bfv.reservation.model.domain.Reservation;
-import com.bfv.reservation.model.request.reservation.ReservationRequest;
 import com.bfv.reservation.model.request.reservation.ReservationCarRequest;
+import com.bfv.reservation.model.request.reservation.ReservationRequest;
 import com.bfv.reservation.model.request.reservation.ReservationRoomRequest;
 import com.bfv.reservation.model.response.BasicResponse;
 import com.bfv.reservation.model.response.DataResponse;
