@@ -238,6 +238,34 @@ class CarControllerTest {
 
     @Test
     @WithMockUser(roles = "ADMIN")
+    void shouldUpdateStatusNotFound() throws Exception {
+        //given
+        String id = "car-5";
+        CarRequest carRequest = CarRequest.builder()
+                .brand("Test Model")
+                .plate("12-abw-15")
+                .color("Rouge")
+                .motor("v8")
+                .build();
+
+        Mockito.when(this.carService.findById(id))
+                .thenReturn(Optional.empty());
+
+        //when
+        this.mockMvc.perform(
+                MockMvcRequestBuilders.put("/api/v1/cars/save/" + id)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(this.json(carRequest))
+        )
+                //then
+                .andExpect(MockMvcResultMatchers.status().isNotFound());
+
+        Mockito.verify(this.carService).findById(Mockito.any());
+        Mockito.verify(this.carService, Mockito.never()).save(Mockito.any());
+    }
+
+    @Test
+    @WithMockUser(roles = "ADMIN")
     void shouldUpdateStatusBadRequest() throws Exception {
         //given
         String id = "1";

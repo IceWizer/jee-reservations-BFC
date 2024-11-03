@@ -19,6 +19,6 @@ public class UserService extends GlobalService<User, UserRepository> {
     }
 
     public boolean hasEmail(String email) {
-        return getRepository().findByEmail(email) != null;
+        return getRepository().findByEmail(email).isPresent();
     }
 }

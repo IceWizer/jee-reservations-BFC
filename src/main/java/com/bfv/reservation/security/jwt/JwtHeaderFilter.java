@@ -1,14 +1,8 @@
 package com.bfv.reservation.security.jwt;
 
-import com.bfv.reservation.exception.NotFound;
-import com.bfv.reservation.model.domain.User;
-import com.bfv.reservation.repository.UserRepository;
-
-import jakarta.servlet.FilterChain;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import lombok.RequiredArgsConstructor;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -17,12 +11,14 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import static com.bfv.reservation.Library.USER;
+import com.bfv.reservation.model.domain.User;
 import com.bfv.reservation.service.UserService;
+
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import lombok.RequiredArgsConstructor;
 
 @Component
 @RequiredArgsConstructor
@@ -38,10 +34,14 @@ public class JwtHeaderFilter extends OncePerRequestFilter {
         if (token != null && JwtUtil.isValid(token, userService)) {
             String email = JwtUtil.getEmail(token);
 
-            User user = userService.findByEmail(email).orElseThrow(() -> new NotFound(USER, email));
+            User user = userService.findByEmail(email).get();
 
             List<SimpleGrantedAuthority> authorities = new ArrayList<>();
-            authorities.add(new SimpleGrantedAuthority(user.isAdmin() ? "ROLE_ADMIN" : "ROLE_USER"));
+            if (user.isAdmin()) {
+                authorities.add(new SimpleGrantedAuthority("ROLE_ADMIN"));
+            } else {
+                authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
+            }
 
             Authentication authentication = new UsernamePasswordAuthenticationToken(email, null, authorities);
             SecurityContextHolder.getContext().setAuthentication(authentication);

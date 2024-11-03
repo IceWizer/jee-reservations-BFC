@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
 public class NotFound extends RuntimeException {
+
     public NotFound(String id, String name) {
         super(name + " not found with this " + id);
     }

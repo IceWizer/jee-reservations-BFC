@@ -1,5 +1,7 @@
 package com.bfv.reservation.security.jwt;
 
+import java.util.List;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,9 +10,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.test.context.ActiveProfiles;
-
-import java.util.List;
-import java.util.Optional;
 
 import io.jsonwebtoken.MalformedJwtException;
 import io.jsonwebtoken.UnsupportedJwtException;
@@ -65,6 +64,13 @@ class JwtUtilTest {
         Assertions.assertThrows(IllegalArgumentException.class, () -> JwtUtil.getEmail("  "));
         Assertions.assertThrows(IllegalArgumentException.class, () -> JwtUtil.getEmail(null));
     }
+
+    @Test
+    void testInit() {
+        Assertions.assertNotNull(new JwtUtil());
+    }
+
+    
 
     private Authentication createAuthentication() {
         return new UsernamePasswordAuthenticationToken(EMAIL, null, List.of(new SimpleGrantedAuthority("ROLE_USER")));

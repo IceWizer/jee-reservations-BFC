@@ -32,4 +32,13 @@ public class UserServiceTest {
         Assertions.assertEquals("password", user.getPassword());
         Assertions.assertNotNull(user.getId());
     }
+
+    @Test
+    public void testHasEmail() {
+        // given
+        // when
+        // then
+        Assertions.assertTrue(userService.hasEmail("test_user-repository_find-by-email@icewize.fr"));
+        Assertions.assertFalse(userService.hasEmail("test-not-email@icewize.fr"));
+    }
 }

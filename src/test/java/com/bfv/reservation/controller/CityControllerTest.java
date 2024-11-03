@@ -76,4 +76,30 @@ public class CityControllerTest {
 
         Mockito.verify(this.cityService).findById(id);
     }
+
+    @Test
+    void shouldFindByName() throws Exception {
+        // Given
+        String name = "Paris";
+        City mockCity = new City();  // Create a mock City object and set fields as needed
+        Mockito.when(cityService.findByName(name)).thenReturn(Optional.of(mockCity));
+
+        //When
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/cities/name/" + name))
+                .andExpect(MockMvcResultMatchers.status().isOk());
+
+        Mockito.verify(this.cityService).findByName(name);
+    }
+
+    @Test
+    void shouldNotFindByName() throws Exception {
+        //Given
+        String name = "Parises";
+
+        //When
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/cities/name/" + name))
+                .andExpect(MockMvcResultMatchers.status().isNotFound());
+
+        Mockito.verify(this.cityService).findByName(name);
+    }
 }

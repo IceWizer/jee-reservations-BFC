@@ -22,11 +22,13 @@ public class SecurityConfig {
     SecurityFilterChain filterChain(HttpSecurity http, JwtHeaderFilter jwtHeaderFilter) throws Exception {
         http.authorizeHttpRequests(authorize -> {
             authorize.requestMatchers("/api/auth/login", "/api/auth/create").permitAll();
-            authorize.requestMatchers("/api/v1/cars/save").hasRole("ADMIN");
+            authorize.requestMatchers("/api/v1/flights/save").hasRole("ADMIN");
             authorize.requestMatchers("/api/v1/flights/save/**").hasRole("ADMIN");
             authorize.requestMatchers("/api/v1/flights/delete/**").hasRole("ADMIN");
+            authorize.requestMatchers("/api/v1/hotels/save").hasRole("ADMIN");
             authorize.requestMatchers("/api/v1/hotels/save/**").hasRole("ADMIN");
             authorize.requestMatchers("/api/v1/hotels/delete/**").hasRole("ADMIN");
+            authorize.requestMatchers("/api/v1/cars/save").hasRole("ADMIN");
             authorize.requestMatchers("/api/v1/cars/save/**").hasRole("ADMIN");
             authorize.requestMatchers("/api/v1/cars/delete/**").hasRole("ADMIN");
             authorize.anyRequest().authenticated();

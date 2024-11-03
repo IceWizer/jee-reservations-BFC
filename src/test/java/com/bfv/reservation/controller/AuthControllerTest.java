@@ -1,10 +1,6 @@
 package com.bfv.reservation.controller;
 
-import com.bfv.reservation.model.request.user.AuthRequest;
-import com.bfv.reservation.model.response.domain.AuthResponse;
-import com.bfv.reservation.security.service.AuthService;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,11 +9,21 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.http.MediaType;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import com.bfv.reservation.model.request.user.AuthRequest;
+import com.bfv.reservation.model.response.domain.AuthResponse;
+import com.bfv.reservation.security.service.AuthService;
+import com.bfv.reservation.service.UserService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import jakarta.servlet.ServletException;
 
 @ExtendWith(MockitoExtension.class)
 @ActiveProfiles("test")
@@ -27,6 +33,12 @@ class AuthControllerTest {
 
     @Mock
     private AuthService service;
+
+    @Mock
+    private UserService userService;
+
+    @Mock
+    private PasswordEncoder passwordEncoder;
 
     @InjectMocks
     private AuthController ctrl;
@@ -136,5 +148,53 @@ class AuthControllerTest {
         ObjectMapper mapper = new ObjectMapper();
 
         return mapper.writeValueAsString(request);
+    }
+
+    @Test
+    void shouldSaveUser() throws Exception {
+        // given
+        AuthRequest request = AuthRequest.builder()
+                .email("new-user@icewize.fr")
+                .password("password")
+                .build();
+
+        Mockito.when(this.userService.hasEmail("new-user@icewize.fr")).thenReturn(false);
+
+        Mockito.when(this.passwordEncoder.encode(Mockito.any(CharSequence.class))).thenReturn("encodedPassword");
+
+        Mockito.when(this.service.auth(Mockito.any())).thenReturn(
+                AuthResponse.builder()
+                        .message("Successfully authenticated!")
+                        .token("the.token")
+                        .build()
+        );
+
+        this.mockMvc.perform(
+                MockMvcRequestBuilders
+                        .post("/api/auth/create")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(this.json(request))
+        )
+                // then
+                .andExpect(MockMvcResultMatchers.status().isCreated());
+    }
+
+    @Test
+    void shouldNotSaveDuplicatedEmail() throws Exception {
+        // given
+        AuthRequest request = AuthRequest.builder()
+                .email("duplicated@icewize.fr")
+                .password("password")
+                .build();
+
+        Mockito.when(this.userService.hasEmail("duplicated@icewize.fr")).thenReturn(true);
+
+        ServletException exception = Assertions.assertThrows(ServletException.class, () -> this.mockMvc.perform(
+                MockMvcRequestBuilders
+                        .post("/api/auth/create")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(this.json(request))
+        ));
+        Assertions.assertNotNull(exception);
     }
 }

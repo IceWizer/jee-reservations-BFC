@@ -1,5 +1,24 @@
 package com.bfv.reservation.controller;
 
+import java.time.temporal.ChronoUnit;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
+import static com.bfv.reservation.Library.AIRPORT;
+import static com.bfv.reservation.Library.FLIGHT;
+import static com.bfv.reservation.Library.generateID;
 import com.bfv.reservation.exception.NotFound;
 import com.bfv.reservation.model.domain.flight.Airline;
 import com.bfv.reservation.model.domain.flight.Flight;
@@ -10,21 +29,15 @@ import com.bfv.reservation.model.response.ListResponse;
 import com.bfv.reservation.service.flight.AirlineService;
 import com.bfv.reservation.service.flight.AirportService;
 import com.bfv.reservation.service.flight.FlightService;
+
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.BeanUtils;
-import org.springframework.http.HttpStatus;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.*;
-
-import java.time.temporal.ChronoUnit;
-
-import static com.bfv.reservation.Library.*;
 
 @RestController
 @RequestMapping("/api/v1/flights")
 @RequiredArgsConstructor
 public class FlightController extends BuilderResponse<Flight> {
+
     private final AirportService airportService;
     private final AirlineService airlineService;
     private final FlightService flightService;
@@ -34,8 +47,8 @@ public class FlightController extends BuilderResponse<Flight> {
         return getListResponse(flightService.findAll());
     }
 
-    @GetMapping("?departure={departure}&arrival={arrival}")
-    public ListResponse<Flight> getFlightsByDepartureAndArrival(@PathVariable String departure, @PathVariable String arrival) {
+    @GetMapping("/by-departure-arrival")
+    public ListResponse<Flight> getFlightsByDepartureAndArrival(@RequestParam String departure, @RequestParam String arrival) {
         return getListResponse(flightService.getFlightsByDepartureAndArrival(departure, arrival)
                 .stream()
                 .filter(flight -> flight.getAvailableSeats() > 0)
@@ -52,15 +65,6 @@ public class FlightController extends BuilderResponse<Flight> {
     public DataResponse<Flight> getFlightByFlightNumber(@PathVariable String flightNumber) {
         return getDataResponse(flightService.getFlightByFlightNumber(flightNumber).orElseThrow(() -> new NotFound(FLIGHT, flightNumber)), FLIGHT);
     }
-
-    //TODO : We need to use a query model to get the flights by departure
-//    @GetMapping("/departure/{departure}")
-//    public ListResponse<Flight> getFlightsByDeparture(@PathVariable String departure) {
-//        return ListResponse.<Flight>builder()
-//                .count(getService().getFlightsByDeparture(departure).size())
-//                .data(getService().getFlightsByDeparture(departure))
-//                .build();
-//    }
 
     @PostMapping("/save")
     @PreAuthorize("hasRole('ADMIN')")

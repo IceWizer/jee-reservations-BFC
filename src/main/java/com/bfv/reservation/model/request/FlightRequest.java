@@ -1,14 +1,18 @@
 package com.bfv.reservation.model.request;
 
 import jakarta.validation.constraints.NotBlank;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
+@Builder
 public class FlightRequest {
+
     @NotBlank
     private String flightNumber;
 
@@ -22,10 +26,10 @@ public class FlightRequest {
     private String airlineICAO;
 
     @NotBlank
-    private LocalDate departureTime;
+    private LocalDateTime departureTime;
 
     @NotBlank
-    private LocalDate arrivalTime;
+    private LocalDateTime arrivalTime;
 
     @NotBlank
     private double price;

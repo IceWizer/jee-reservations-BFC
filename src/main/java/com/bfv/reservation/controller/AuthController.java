@@ -1,20 +1,23 @@
 package com.bfv.reservation.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
+import static com.bfv.reservation.Library.generateID;
 import com.bfv.reservation.exception.DuplicateElement;
 import com.bfv.reservation.model.domain.User;
 import com.bfv.reservation.model.request.user.AuthRequest;
 import com.bfv.reservation.model.response.domain.AuthResponse;
 import com.bfv.reservation.security.service.AuthService;
 import com.bfv.reservation.service.UserService;
+
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.web.bind.annotation.*;
-
-import static com.bfv.reservation.Library.generateID;
 
 @RestController
 @RequestMapping("/api/auth")
