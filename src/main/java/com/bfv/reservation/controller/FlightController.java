@@ -1,6 +1,7 @@
 package com.bfv.reservation.controller;
 
 import com.bfv.reservation.exception.NotFound;
+import com.bfv.reservation.model.domain.flight.Airline;
 import com.bfv.reservation.model.domain.flight.Flight;
 import com.bfv.reservation.model.request.FlightRequest;
 import com.bfv.reservation.model.response.BasicResponse;
@@ -35,7 +36,11 @@ public class FlightController extends BuilderResponse<Flight> {
 
     @GetMapping("?departure={departure}&arrival={arrival}")
     public ListResponse<Flight> getFlightsByDepartureAndArrival(@PathVariable String departure, @PathVariable String arrival) {
-        return getListResponse(flightService.getFlightsByDepartureAndArrival(departure, arrival));
+        return getListResponse(flightService.getFlightsByDepartureAndArrival(departure, arrival)
+                .stream()
+                .filter(flight -> flight.getAvailableSeats() > 0)
+                .toList()
+        );
     }
 
     @GetMapping("/id/{id}")
@@ -90,7 +95,10 @@ public class FlightController extends BuilderResponse<Flight> {
         flight.setArrivalAirport(airportService.getAirportByIata(flightRequest.getArrivalAirportIATA()).orElseThrow(() -> new NotFound(AIRPORT, flightRequest.getArrivalAirportIATA())));
 
         //Airline
-        flight.setAirline(airlineService.getAirlineByIcao(flightRequest.getAirlineICAO()).orElseThrow(() -> new NotFound("Airline", flightRequest.getAirlineICAO())));
+        Airline airline = airlineService.getAirlineByIcao(flightRequest.getAirlineICAO()).orElseThrow(() -> new NotFound("Airline", flightRequest.getAirlineICAO()));
+        flight.setAirline(airline);
+
+        flight.setAvailableSeats(airline.getAircraft().getCapacity());
 
         flight.setDepartureTime(flightRequest.getDepartureTime());
         flight.setDepartureTime(flightRequest.getArrivalTime());

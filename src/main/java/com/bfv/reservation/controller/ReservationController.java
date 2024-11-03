@@ -2,6 +2,9 @@ package com.bfv.reservation.controller;
 
 import com.bfv.reservation.exception.NotFound;
 import com.bfv.reservation.model.domain.Reservation;
+import com.bfv.reservation.model.domain.car.Car;
+import com.bfv.reservation.model.domain.flight.Flight;
+import com.bfv.reservation.model.domain.hotel.Room;
 import com.bfv.reservation.model.request.reservation.ReservationCarRequest;
 import com.bfv.reservation.model.request.reservation.ReservationRequest;
 import com.bfv.reservation.model.request.reservation.ReservationRoomRequest;
@@ -65,7 +68,11 @@ public class ReservationController extends BuilderResponse<Reservation> {
     @ResponseStatus(HttpStatus.ACCEPTED)
     public BasicResponse saveReservationCar(@PathVariable String id, @Valid @RequestBody ReservationCarRequest request) {
         Reservation reservation = reservationService.findById(id).orElseThrow(() -> new NotFound(RESERVATION, id));
-        reservation.setCar(carService.findById(request.getCarId()).orElseThrow(() -> new NotFound(CAR, request.getCarId())));
+        Car car = carService.findById(request.getCarId()).orElseThrow(() -> new NotFound(CAR, request.getCarId()));
+        car.setAvailable(false);
+        carService.save(car);
+
+        reservation.setCar(car);
 
         return save(RESERVATION, reservationService.save(reservation));
     }
@@ -74,7 +81,11 @@ public class ReservationController extends BuilderResponse<Reservation> {
     @ResponseStatus(HttpStatus.ACCEPTED)
     public BasicResponse saveReservationRoom(@PathVariable String id, @Valid @RequestBody ReservationRoomRequest request) {
         Reservation reservation = reservationService.findById(id).orElseThrow(() -> new NotFound(RESERVATION, id));
-        reservation.setRoom(roomService.findById(request.getRoomId()).orElseThrow(() -> new NotFound(CAR, request.getRoomId())));
+        Room room = roomService.findById(request.getRoomId()).orElseThrow(() -> new NotFound(CAR, request.getRoomId()));
+        room.setAvailable(false);
+        roomService.save(room);
+
+        reservation.setRoom(room);
 
         return save(RESERVATION, reservationService.save(reservation));
     }
@@ -88,8 +99,16 @@ public class ReservationController extends BuilderResponse<Reservation> {
     private BasicResponse save(Reservation reservation, ReservationRequest request) {
         BeanUtils.copyProperties(request, reservation);
 
-        reservation.setDepartureFlight(flightService.getFlightByFlightNumber(request.getDepartureFlightNumber()).orElseThrow(() -> new NotFound(FLIGHT, request.getDepartureFlightNumber())));
-        reservation.setReturnFlight(flightService.getFlightByFlightNumber(request.getReturnFlightNumber()).orElseThrow(() -> new NotFound(FLIGHT, request.getReturnFlightNumber())));
+        Flight departureFlight = flightService.getFlightByFlightNumber(request.getDepartureFlightNumber()).orElseThrow(() -> new NotFound(FLIGHT, request.getDepartureFlightNumber()));
+        departureFlight.setAvailableSeats(departureFlight.getAvailableSeats() - 1);
+        flightService.save(departureFlight);
+
+        Flight returnFlight = flightService.getFlightByFlightNumber(request.getReturnFlightNumber()).orElseThrow(() -> new NotFound(FLIGHT, request.getReturnFlightNumber()));
+        returnFlight.setAvailableSeats(returnFlight.getAvailableSeats() - 1);
+        flightService.save(returnFlight);
+
+        reservation.setDepartureFlight(departureFlight);
+        reservation.setReturnFlight(returnFlight);
 
         reservation.setUser(userService.findById(request.getUserId()).orElseThrow(() -> new NotFound(USER, request.getUserId())));
 

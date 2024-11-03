@@ -26,7 +26,7 @@ public class CarController extends BuilderResponse<Car> {
 
     @GetMapping("/")
     public ListResponse<Car> getCars() {
-        return getListResponse(carService.findAll());
+        return getListResponse(carService.findAll().stream().filter(Car::isAvailable).toList());
     }
 
     @GetMapping("/id/{id}")
