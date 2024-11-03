@@ -1,5 +1,7 @@
 package com.bfv.reservation.repository;
 
+import static com.bfv.reservation.Library.generateID;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -17,6 +19,7 @@ import jakarta.transaction.Transactional;
 @DataJpaTest
 @ActiveProfiles("test")
 public class CarRepositoryTest {
+
     @Autowired
     private CarRepository carRepository;
 
@@ -36,6 +39,7 @@ public class CarRepositoryTest {
         // given
         String plate = "aw-105-fr";
         Car car = new Car();
+        car.setId(generateID());
         car.setPlate(plate);
         this.carRepository.save(car);
         // when

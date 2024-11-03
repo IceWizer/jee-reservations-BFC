@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 @Log4j2
 public class AuthService {
+
     private final AuthenticationManager authenticationManager;
 
     public AuthResponse auth(AuthRequest authRequest) {
@@ -31,7 +32,7 @@ public class AuthService {
 
             return AuthResponse.builder()
                     .message("Successfully authenticated!")
-                    .token(JwtUtil.generate(authentication))
+                    .token(JwtUtil.generate(authentication.getPrincipal().toString()))
                     .build();
         } catch (BadCredentialsException ex) {
             message = "Can't authenticate : bad credentials.";

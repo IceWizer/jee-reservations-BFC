@@ -3,42 +3,46 @@ package com.bfv.reservation.security.jwt;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import lombok.Getter;
-import org.springframework.security.core.Authentication;
+
+import com.bfv.reservation.service.UserService;
 
 import javax.crypto.SecretKey;
 import java.util.Date;
-import java.util.Optional;
 
 @Getter
 public class JwtUtil {
+
     private static final String KEY = "19D6IjLAudjoZMxFHnp/Owq2SKapi7JRqGhUo82TrAMF9JBz7ATG4SnDLulvQqI2";
 
-    public static String generate(Authentication authentication) {
+    public static String generate(String email) {
         SecretKey key = Keys.hmacShaKeyFor(KEY.getBytes());
         Date now = new Date();
 
         return Jwts.builder()
-                .subject(authentication.getName())
+                .subject(email)
                 .issuedAt(now)
                 .expiration(new Date(now.getTime() + 36_000_000))
                 .signWith(key)
                 .compact();
     }
 
-    public static Optional<String> getEmail(String token) {
+    public static boolean isValid(String token, UserService userService) {
         try {
-            SecretKey key = Keys.hmacShaKeyFor(KEY.getBytes());
-
-            return Optional.ofNullable(
-                    Jwts.parser()
-                            .verifyWith(key)
-                            .build()
-                            .parseSignedClaims(token)
-                            .getPayload()
-                            .getSubject()
-            );
+            String email = JwtUtil.getEmail(token);
+            userService.findByEmail(email).orElseThrow();
+            return true;
         } catch (Exception ex) {
-            return Optional.empty();
+            return false;
         }
+    }
+
+    public static String getEmail(String token) {
+        SecretKey key = Keys.hmacShaKeyFor(KEY.getBytes());
+        return Jwts.parser()
+                .verifyWith(key)
+                .build()
+                .parseSignedClaims(token)
+                .getPayload()
+                .getSubject();
     }
 }

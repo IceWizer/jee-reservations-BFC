@@ -2,10 +2,12 @@ package com.bfv.reservation.security.jwt;
 
 import com.bfv.reservation.model.domain.User;
 import com.bfv.reservation.repository.UserRepository;
+
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,6 +15,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -24,9 +27,12 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
+import com.bfv.reservation.service.UserService;
+
 @ExtendWith(MockitoExtension.class)
 @ActiveProfiles("test")
 class JwtHeaderFilterTest {
+
     private static final String EMAIL = "test_user-repository_find-by-email@icewize.fr";
 
     @Mock
@@ -39,7 +45,7 @@ class JwtHeaderFilterTest {
     private FilterChain filterChain;
 
     @Mock
-    private UserRepository userRepository;
+    private UserService userService;
 
     @InjectMocks
     private JwtHeaderFilter jwtFilter;
@@ -47,49 +53,47 @@ class JwtHeaderFilterTest {
     @Test
     void shouldAuthorizeThenAdmin() throws ServletException, IOException {
         // given
-        Authentication authentication = this.createAuthentication();
         User user = new User();
-
         user.setEmail(EMAIL);
         user.setAdmin(true);
 
-        String token = JwtUtil.generate(authentication);
+        String token = JwtUtil.generate(EMAIL); // Generate the token with the correct email
         Mockito.when(request.getHeader("Authorization")).thenReturn("Bearer " + token);
-        Mockito.when(userRepository.findByEmail(EMAIL)).thenReturn(Optional.of(user));
+        Mockito.when(userService.findByEmail(EMAIL)).thenReturn(Optional.of(user));
 
         // when
         jwtFilter.doFilter(request, response, filterChain);
 
         // then
-        authentication = SecurityContextHolder.getContext().getAuthentication();
         Mockito.verify(filterChain).doFilter(request, response);
-        Assertions.assertNotNull(authentication);
+
+        // Assert that the SecurityContext has been populated
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        Assertions.assertNotNull(authentication, "Authentication should not be null after filter");
         Assertions.assertEquals(1, authentication.getAuthorities().size());
-        Assertions.assertEquals("ROLE_ADMIN", Objects.requireNonNull(authentication.getAuthorities().stream().findFirst().orElse(null)).getAuthority());
+        Assertions.assertEquals("ROLE_ADMIN", authentication.getAuthorities().iterator().next().getAuthority());
     }
 
     @Test
     void shouldAuthorizeThenUser() throws ServletException, IOException {
         // given
-        Authentication authentication = this.createAuthentication();
         User user = new User();
-
         user.setEmail(EMAIL);
-        user.setAdmin(false);
+        user.setAdmin(false); // Non-admin user
 
-        String token = JwtUtil.generate(authentication);
+        String token = JwtUtil.generate(EMAIL); // Generate the token with the correct email
         Mockito.when(request.getHeader("Authorization")).thenReturn("Bearer " + token);
-        Mockito.when(userRepository.findByEmail(EMAIL)).thenReturn(Optional.of(user));
+        Mockito.when(userService.findByEmail(EMAIL)).thenReturn(Optional.of(user));
 
         // when
         jwtFilter.doFilter(request, response, filterChain);
+        Mockito.verify(filterChain).doFilter(request, response);
 
         // then
-        authentication = SecurityContextHolder.getContext().getAuthentication();
-        Mockito.verify(filterChain).doFilter(request, response);
-        Assertions.assertNotNull(authentication);
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        Assertions.assertNotNull(authentication, "Authentication should not be null after filter");
         Assertions.assertEquals(1, authentication.getAuthorities().size());
-        Assertions.assertEquals("ROLE_USER", Objects.requireNonNull(authentication.getAuthorities().stream().findFirst().orElse(null)).getAuthority());
+        Assertions.assertEquals("ROLE_USER", authentication.getAuthorities().iterator().next().getAuthority());
     }
 
     @Test

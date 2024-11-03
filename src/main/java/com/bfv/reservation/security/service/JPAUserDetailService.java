@@ -14,6 +14,7 @@ import static com.bfv.reservation.Library.USER;
 @Service
 @RequiredArgsConstructor
 public class JPAUserDetailService implements UserDetailsService {
+
     private final UserRepository repository;
 
     @Override

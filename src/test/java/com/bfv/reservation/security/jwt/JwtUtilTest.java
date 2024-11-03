@@ -12,9 +12,13 @@ import org.springframework.test.context.ActiveProfiles;
 import java.util.List;
 import java.util.Optional;
 
+import io.jsonwebtoken.MalformedJwtException;
+import io.jsonwebtoken.UnsupportedJwtException;
+
 @ExtendWith(MockitoExtension.class)
 @ActiveProfiles("test")
 class JwtUtilTest {
+
     private static final String EMAIL = "test_user-repository_find-by-email@icewize.fr";
 
     @Test
@@ -23,31 +27,26 @@ class JwtUtilTest {
         Authentication authentication = this.createAuthentication();
 
         // when
-        String token = JwtUtil.generate(authentication);
-        Optional<String> optUsername = JwtUtil.getEmail(token);
+        String token = JwtUtil.generate(authentication.getPrincipal().toString());
+        String optUsername = JwtUtil.getEmail(token);
 
         // then
         Assertions.assertNotNull(token);
         Assertions.assertNotNull(optUsername);
-        Assertions.assertTrue(optUsername.isPresent());
-        Assertions.assertEquals(EMAIL, optUsername.get());
+        Assertions.assertEquals(EMAIL, optUsername);
     }
 
     @Test
     void shouldTryValidateTokenThenFailed() {
         // given
         Authentication authentication = this.createAuthentication();
-        String token = JwtUtil.generate(authentication);
 
         // On transforme le token : algo "none" et suppression de la signature
-        token = "eyJhbGciOiJub25lIn0." + token.split("\\.")[1] + ".";
+        String token = "eyJhbGciOiJub25lIn0." + JwtUtil.generate(authentication.getPrincipal().toString()).split("\\.")[1] + ".";
 
         // when
-        Optional<String> optUsername = JwtUtil.getEmail(token);
-
         // then
-        Assertions.assertNotNull(optUsername);
-        Assertions.assertFalse(optUsername.isPresent());
+        Assertions.assertThrows(UnsupportedJwtException.class, () -> JwtUtil.getEmail(token));
     }
 
     @Test
@@ -56,18 +55,15 @@ class JwtUtilTest {
         String token = "123456$";
 
         // when
-        Optional<String> optUsername = JwtUtil.getEmail(token);
-
         // then
-        Assertions.assertNotNull(optUsername);
-        Assertions.assertFalse(optUsername.isPresent());
+        Assertions.assertThrows(MalformedJwtException.class, () -> JwtUtil.getEmail(token));
     }
 
     @Test
     void shouldNotValidateToken() {
-        Assertions.assertFalse(JwtUtil.getEmail("").isPresent());
-        Assertions.assertFalse(JwtUtil.getEmail("  ").isPresent());
-        Assertions.assertFalse(JwtUtil.getEmail(null).isPresent());
+        Assertions.assertThrows(IllegalArgumentException.class, () -> JwtUtil.getEmail(""));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> JwtUtil.getEmail("  "));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> JwtUtil.getEmail(null));
     }
 
     private Authentication createAuthentication() {

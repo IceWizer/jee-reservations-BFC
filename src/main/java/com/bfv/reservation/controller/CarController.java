@@ -10,6 +10,7 @@ import com.bfv.reservation.service.car.CarService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
@@ -18,15 +19,15 @@ import static com.bfv.reservation.Library.CAR;
 
 @RestController
 @RequestMapping("/api/v1/cars")
-@RequiredArgsConstructor
 public class CarController extends BuilderResponse<Car> {
-    private final CarService carService;
+
+    @Autowired
+    private CarService carService;
 
     @GetMapping("/")
     public ListResponse<Car> getCars() {
         return getListResponse(carService.findAll());
     }
-
 
     @GetMapping("/id/{id}")
     public DataResponse<Car> getCarById(@PathVariable String id) {
@@ -42,6 +43,7 @@ public class CarController extends BuilderResponse<Car> {
     @PreAuthorize("hasRole('ADMIN')")
     @ResponseStatus(HttpStatus.CREATED)
     public BasicResponse createCar(@Valid @RequestBody CarRequest carRequest) {
+        System.out.println("CarController.save");
         return save(new Car(), carRequest);
     }
 
@@ -60,6 +62,7 @@ public class CarController extends BuilderResponse<Car> {
     }
 
     private BasicResponse save(Car car, CarRequest carRequest) {
+        System.out.println("CarController.save");
         BeanUtils.copyProperties(carRequest, car);
 
         return save(CAR, carService.save(car));
