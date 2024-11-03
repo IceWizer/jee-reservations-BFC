@@ -9,13 +9,14 @@ import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
 @Entity
-@Table(name = "user")
+@Table(name = "[user]")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
 public class User extends PersistentEntity {
+
     private String firstName;
     private String lastName;
     private String email;

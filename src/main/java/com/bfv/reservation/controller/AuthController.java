@@ -8,6 +8,8 @@ import com.bfv.reservation.security.service.AuthService;
 import com.bfv.reservation.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
@@ -16,11 +18,14 @@ import static com.bfv.reservation.Library.generateID;
 
 @RestController
 @RequestMapping("/api/auth")
-@RequiredArgsConstructor
 public class AuthController {
-    private final UserService userService;
-    private final AuthService authService;
-    private final PasswordEncoder passwordEncoder;
+
+    @Autowired
+    private UserService userService;
+    @Autowired
+    private AuthService authService;
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)

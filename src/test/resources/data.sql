@@ -5,7 +5,7 @@ INSERT INTO
         password,
         first_name,
         last_name,
-        role
+        admin
     )
 VALUES (
         'test_user-repository_find-by-email',
@@ -13,7 +13,7 @@ VALUES (
         'password',
         'Test',
         'User',
-        'USER'
+        false
     );
 
 INSERT INTO
@@ -132,21 +132,24 @@ VALUES (
     );
 
 INSERT INTO
-    aircraft (id, name, code)
+    aircraft (id, name, code, capacity)
 VALUES (
         'airbus-a320',
         'Airbus A320',
-        'A320'
+        'A320',
+        150
     ),
     (
         'boeing-737',
         'Boeing 737',
-        'B737'
+        'B737',
+        200
     ),
     (
         'boeing-747',
         'Boeing 747',
-        'B747'
+        'B747',
+        400
     );
 
 INSERT INTO
@@ -189,7 +192,8 @@ INSERT INTO
         departure_time,
         arrival_time,
         duration,
-        price
+        price,
+        available_seats
     )
 VALUES (
         'paris-berlin',
@@ -200,6 +204,7 @@ VALUES (
         TIMESTAMP '2021-01-01 12:00:00',
         TIMESTAMP '2021-01-01 14:00:00',
         2.5,
+        100,
         100
     ),
     (
@@ -211,7 +216,8 @@ VALUES (
         TIMESTAMP '2021-01-01 12:00:00',
         TIMESTAMP '2021-01-01 14:00:00',
         2,
-        150
+        150,
+        50
     ),
     (
         'paris-new-york',
@@ -222,7 +228,8 @@ VALUES (
         TIMESTAMP '2021-01-01 12:00:00',
         TIMESTAMP '2021-01-01 14:00:00',
         8,
-        500
+        500,
+        200
     );
 
 INSERT INTO
@@ -234,6 +241,7 @@ INSERT INTO
         phone_number,
         email,
         website,
+        rating,
         description
     )
 VALUES (
@@ -244,6 +252,7 @@ VALUES (
         '01 23 45 67 89',
         'acceuil@hotel-paris.fr',
         'https://www.hotel-paris.fr',
+        5,
         'Hotel Paris is a 5-star hotel located in the heart of Paris, near the Louvre Museum.'
     ),
     (
@@ -254,6 +263,7 @@ VALUES (
         '01 23 45 67 89',
         'acceuil@hotel-berlin.fr',
         'https://www.hotel-berlin.fr',
+        5,
         'Hotel Berlin is a 5-star hotel located in the heart of Berlin, near the Brandenburg Gate.'
     ),
     (
@@ -264,105 +274,64 @@ VALUES (
         '01 23 45 67 89',
         'acceuil@hotel-londres.fr',
         'https://www.hotel-londres.fr',
+        5,
         'Hotel London is a 5-star hotel located in the heart of London, near Buckingham Palace.'
     );
 
 INSERT INTO
-    room_type (
+    room (
         id,
-        name,
-        description,
-        number,
+        hotel_id,
+        room_number,
         price,
-        hotel_id
+        capacity,
+        available
     )
 VALUES (
-        'hotel-paris-single-room',
-        'Single Room',
-        'A single room with a single bed.',
+        'room-hotel-paris-1',
+        'hotel-paris',
+        '101',
+        100,
         2,
-        100,
-        'hotel-paris'
+        1
     ),
     (
-        'hotel-paris-double-room',
-        'Double Room',
-        'A double room with a double bed.',
-        1,
+        'room-hotel-paris-2',
+        'hotel-paris',
+        '102',
         150,
-        'hotel-paris'
+        2,
+        1
     ),
     (
-        'hotel-paris-suite',
-        'Suite',
-        'A suite with a king-size bed and a living room.',
-        5,
-        300,
-        'hotel-paris'
-    ),
-    (
-        'hotel-berlin-single-room',
-        'Single Room',
-        'A single room with a single bed.',
-        10,
+        'room-hotel-berlin-1',
+        'hotel-berlin',
+        '201',
         100,
-        'hotel-berlin'
+        2,
+        1
     ),
     (
-        'hotel-berlin-double-room',
-        'Double Room',
-        'A double room with a double bed.',
-        10,
+        'room-hotel-berlin-2',
+        'hotel-berlin',
+        '202',
         150,
-        'hotel-berlin'
+        2,
+        0
     ),
     (
-        'hotel-berlin-suite',
-        'Suite',
-        'A suite with a king-size bed and a living room.',
-        5,
-        300,
-        'hotel-berlin'
-    );
-
-INSERT INTO
-    room_type_reservation (
-        id,
-        room_type_id,
-        user_id,
-        from_date,
-        to_date,
-        state
-    )
-VALUES (
-        'hotel-paris-single-room-01',
-        'hotel-paris-single-room',
-        'test_user-repository_find-by-email',
-        '2021-01-01',
-        '2021-01-05',
-        'confirmed'
+        'room-hotel-london-1',
+        'hotel-london',
+        '301',
+        100,
+        2,
+        0
     ),
     (
-        'hotel-paris-single-room-02',
-        'hotel-paris-single-room',
-        'test_user-repository_find-by-email',
-        '2021-01-01',
-        '2021-01-05',
-        'cancelled'
-    ),
-    (
-        'hotel-paris-double-room-01',
-        'hotel-paris-double-room',
-        'test_user-repository_find-by-email',
-        '2021-01-01',
-        '2021-01-05',
-        'confirmed'
-    ),
-    (
-        'hotel-paris-suite-01',
-        'hotel-paris-suite',
-        'test_user-repository_find-by-email',
-        '2021-01-01',
-        '2021-01-05',
-        'confirmed'
+        'room-hotel-london-2',
+        'hotel-london',
+        '302',
+        150,
+        2,
+        0
     );

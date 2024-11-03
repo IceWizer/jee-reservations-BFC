@@ -20,6 +20,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @SuperBuilder
 public class Flight extends PersistentEntity {
+
     private String flightNumber;
 
     @ManyToOne
@@ -33,6 +34,7 @@ public class Flight extends PersistentEntity {
 
     private LocalDate departureTime;
     private LocalDate arrivalTime;
+
     private double duration;
 
     private double price;

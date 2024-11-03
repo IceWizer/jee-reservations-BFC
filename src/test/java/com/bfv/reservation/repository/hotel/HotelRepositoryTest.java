@@ -1,6 +1,5 @@
-package com.bfv.reservation.repository;
+package com.bfv.reservation.repository.hotel;
 
-import com.bfv.reservation.repository.hotel.HotelRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
