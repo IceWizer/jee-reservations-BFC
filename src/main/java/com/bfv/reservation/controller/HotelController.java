@@ -38,7 +38,7 @@ public class HotelController extends BuilderResponse<Hotel> {
         return getDataResponse(hotelService.findById(id).orElseThrow(() -> new NotFound(HOTEL, id)), HOTEL);
     }
 
-    @PutMapping("/save")
+    @PostMapping("/save")
     @PreAuthorize("hasRole('ADMIN')")
     @ResponseStatus(HttpStatus.CREATED)
     public BasicResponse saveHotel(@Valid @RequestBody HotelRequest request) {

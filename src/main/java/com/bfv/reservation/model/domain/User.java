@@ -9,7 +9,7 @@ import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
 @Entity
-@Table(name = "user")
+@Table(name = "[user]")
 @Getter
 @Setter
 @NoArgsConstructor

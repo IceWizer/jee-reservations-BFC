@@ -34,6 +34,8 @@ public class Hotel extends PersistentEntity {
 
     private double rating;
 
+    private String description;
+
     @ManyToOne
     private City city;
 }

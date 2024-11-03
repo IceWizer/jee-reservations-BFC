@@ -17,5 +17,8 @@ public class Car extends PersistentEntity {
     private String plate;
     private String motor;
     private String color;
+
+    private double price;
+
     private boolean available = true;
 }

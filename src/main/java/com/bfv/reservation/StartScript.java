@@ -24,6 +24,7 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
+import org.springframework.context.annotation.Profile;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
@@ -38,6 +39,7 @@ import java.util.Random;
 
 @Component
 @RequiredArgsConstructor
+@Profile("!test")
 public class StartScript {
     //Location
     private final TimezoneRepository timezoneRepository;

@@ -25,15 +25,14 @@ import static com.bfv.reservation.Library.USER;
 @RequiredArgsConstructor
 public class JwtHeaderFilter extends OncePerRequestFilter {
     private final UserRepository userRepository;
-    private final JwtUtil jwtUtil;
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         //Implementation of the filter
         String token = getToken(request);
 
-        if (token != null && jwtUtil.getEmail(token).isPresent()) {
-            String email = jwtUtil.getEmail(token).get();
+        if (token != null && JwtUtil.getEmail(token).isPresent()) {
+            String email = JwtUtil.getEmail(token).get();
 
             User user = userRepository.findByEmail(email).orElseThrow(() -> new NotFound(USER, email));
 

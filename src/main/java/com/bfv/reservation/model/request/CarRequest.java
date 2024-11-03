@@ -3,11 +3,8 @@ package com.bfv.reservation.model.request;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
-@Getter
-@Setter
+@Data
 @Builder
-@AllArgsConstructor
-@NoArgsConstructor
 public class CarRequest {
     @NotBlank
     private String brand;

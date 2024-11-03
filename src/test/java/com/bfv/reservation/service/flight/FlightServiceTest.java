@@ -1,15 +1,15 @@
-package com.bfv.reservation.service;
+package com.bfv.reservation.service.flight;
 
 import com.bfv.reservation.model.domain.flight.Flight;
-import com.bfv.reservation.service.flight.FlightService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
+@ActiveProfiles("test")
 public class FlightServiceTest {
-
     @Autowired
     private FlightService flightService;
 

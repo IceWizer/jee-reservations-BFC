@@ -3,23 +3,17 @@ package com.bfv.reservation.security.jwt;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
-import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
 import java.util.Date;
 import java.util.Optional;
 
 @Getter
-@RequiredArgsConstructor
-@Component
 public class JwtUtil {
-    @Value("${jwt.secret}")
-    private String KEY;
+    private static final String KEY = "19D6IjLAudjoZMxFHnp/Owq2SKapi7JRqGhUo82TrAMF9JBz7ATG4SnDLulvQqI2";
 
-    public String generate(Authentication authentication) {
+    public static String generate(Authentication authentication) {
         SecretKey key = Keys.hmacShaKeyFor(KEY.getBytes());
         Date now = new Date();
 
@@ -31,7 +25,7 @@ public class JwtUtil {
                 .compact();
     }
 
-    public Optional<String> getEmail(String token) {
+    public static Optional<String> getEmail(String token) {
         try {
             SecretKey key = Keys.hmacShaKeyFor(KEY.getBytes());
 

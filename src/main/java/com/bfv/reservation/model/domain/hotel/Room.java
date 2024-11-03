@@ -18,6 +18,8 @@ import lombok.experimental.SuperBuilder;
 public class Room extends PersistentEntity {
     private String roomNumber;
 
+    private String name;
+
     private int capacity;
 
     private double price;
