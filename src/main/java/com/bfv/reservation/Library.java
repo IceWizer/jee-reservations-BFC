@@ -9,6 +9,7 @@ public class Library {
     public final static String FLIGHT = "Flight";
     public final static String USER = "User";
     public final static String AIRPORT = "Airport";
+    public final static String CITY = "City";
 
     public static String generateID() {
         return UUID.randomUUID().toString();

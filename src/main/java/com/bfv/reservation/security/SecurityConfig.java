@@ -29,9 +29,9 @@ public class SecurityConfig {
         http.authorizeHttpRequests(authorize -> {
             authorize.requestMatchers("/api/auth/**").permitAll();
 
-            authorize.requestMatchers(staticResources).hasRole("ADMIN");
+            //authorize.requestMatchers(staticResources).hasRole("ADMIN");
 
-            authorize.requestMatchers("/api/v1/**").authenticated();
+            authorize.requestMatchers("/api/v1/**").permitAll();
         });
 
         http.csrf(AbstractHttpConfigurer::disable);

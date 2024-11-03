@@ -29,6 +29,4 @@ public class FlightRequest {
 
     @NotBlank
     private double price;
-
-    private int availableSeats;
 }

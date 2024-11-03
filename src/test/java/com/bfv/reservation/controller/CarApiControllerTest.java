@@ -1,4 +1,4 @@
-package com.bfv.reservation.api;
+package com.bfv.reservation.controller;
 
 import com.bfv.reservation.model.domain.car.Car;
 import com.bfv.reservation.model.request.CarRequest;
@@ -6,7 +6,6 @@ import com.bfv.reservation.repository.car.CarRepository;
 import com.bfv.reservation.service.car.CarService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.bfv.reservation.controller.CarController;
 
 import static org.mockito.Mockito.when;
 

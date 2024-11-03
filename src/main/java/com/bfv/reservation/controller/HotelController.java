@@ -28,9 +28,9 @@ public class HotelController extends BuilderResponse<Hotel> {
     private final RoomService roomService;
     private final CityService cityService;
 
-    @GetMapping
-    public ListResponse<Hotel> getHotels() {
-        return getListResponse(hotelService.findAll());
+    @GetMapping("?city={cityName}")
+    public ListResponse<Hotel> getHotels(@PathVariable String cityName) {
+        return getListResponse(hotelService.findAll().stream().filter(hotel -> hotel.getCity().getName().equalsIgnoreCase(cityName)).toList());
     }
 
     @GetMapping("/id/{id}")
