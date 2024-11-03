@@ -6,6 +6,7 @@ import com.bfv.reservation.model.domain.PersistentEntity;
 import com.bfv.reservation.model.domain.User;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
@@ -19,6 +20,7 @@ public class RoomTypeReservation extends PersistentEntity {
     RoomType roomType;
 
     @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
     User user;
 
     LocalDate fromDate;

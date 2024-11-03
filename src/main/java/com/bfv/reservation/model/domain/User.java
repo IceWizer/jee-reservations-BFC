@@ -1,13 +1,13 @@
 package com.bfv.reservation.model.domain;
 
-import java.time.LocalDate;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
+@Table(name = "[user]")
 @Getter
 @Setter
 public class User extends PersistentEntity {
@@ -19,6 +19,4 @@ public class User extends PersistentEntity {
     @Column(length = 500)
     private String password;
     private String role = "CUSTOMER";
-    private LocalDate verifiedAt;
-    private String phoneNumber;
 }
