@@ -1,7 +1,0 @@
-package com.bfv.reservation.repository;
-
-import com.bfv.reservation.model.domain.Hotel;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface HotelRepository extends JpaRepository<Hotel, String> {
-}

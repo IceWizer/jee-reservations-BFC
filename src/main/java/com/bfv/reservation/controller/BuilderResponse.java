@@ -1,13 +1,12 @@
 package com.bfv.reservation.controller;
 
-import com.bfv.reservation.model.domain.PersistentEntity;
 import com.bfv.reservation.model.response.BasicResponse;
 import com.bfv.reservation.model.response.DataResponse;
 import com.bfv.reservation.model.response.ListResponse;
 
 import java.util.List;
 
-public class BuilderResponse<T extends PersistentEntity> {
+public class BuilderResponse<T> {
     protected ListResponse<T> getListResponse(List<T> list) {
         return ListResponse.<T>builder()
                 .count(list.size())
@@ -22,9 +21,10 @@ public class BuilderResponse<T extends PersistentEntity> {
                 .build();
     }
 
-    protected BasicResponse save(String message) {
+    protected BasicResponse save(String message, String id) {
         return BasicResponse.builder()
-                .message(message)
+                .message(message + " saved")
+                .id(id)
                 .build();
     }
 

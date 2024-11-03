@@ -16,6 +16,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @SuperBuilder
 public class City extends PersistentEntity {
+
     private String name;
 
     @ManyToOne

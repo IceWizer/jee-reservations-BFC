@@ -11,8 +11,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 
 import com.bfv.reservation.exception.NotFound;
-import com.bfv.reservation.model.domain.Car;
-import com.bfv.reservation.repository.CarRepository;
+import com.bfv.reservation.model.domain.car.Car;
+import com.bfv.reservation.repository.car.CarRepository;
+import com.bfv.reservation.service.car.CarService;
 
 
 @SpringBootTest(classes = CarService.class)
