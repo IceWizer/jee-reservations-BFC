@@ -1,12 +1,10 @@
 package com.bfv.reservation.repository;
 
-import java.util.Optional;
-
+import com.bfv.reservation.model.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.bfv.reservation.model.domain.User;
+import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<User, String> {
-
-    public Optional<User> findByEmail(String email);
+    Optional<User> findByEmail(String email);
 }

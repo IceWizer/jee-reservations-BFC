@@ -1,80 +1,85 @@
 package com.bfv.reservation.controller;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.bfv.reservation.model.domain.Hotel;
-import com.bfv.reservation.model.request.HotelCreateRequest;
-import com.bfv.reservation.model.request.HotelUpdateRequest;
-import com.bfv.reservation.service.HotelService;
+import com.bfv.reservation.exception.NotFound;
+import com.bfv.reservation.model.domain.hotel.Hotel;
+import com.bfv.reservation.model.domain.hotel.Room;
+import com.bfv.reservation.model.request.hotel.HotelRequest;
+import com.bfv.reservation.model.response.BasicResponse;
+import com.bfv.reservation.model.response.DataResponse;
+import com.bfv.reservation.model.response.ListResponse;
+import com.bfv.reservation.service.hotel.HotelService;
+import com.bfv.reservation.service.hotel.RoomService;
 import com.bfv.reservation.service.location.CityService;
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.BeanUtils;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import static com.bfv.reservation.Library.HOTEL;
+import static com.bfv.reservation.Library.generateID;
 
 @RestController
-@RequestMapping("/api/hotel")
-public class HotelController {
-
-    @Autowired
-    private HotelService hotelService;
-
-    @Autowired
-    private CityService cityService;
+@RequestMapping("/api/v1/hotels")
+@RequiredArgsConstructor
+public class HotelController extends BuilderResponse<Hotel> {
+    private final HotelService hotelService;
+    private final RoomService roomService;
+    private final CityService cityService;
 
     @GetMapping
-    public List<Hotel> index() {
-        return hotelService.findAll();
+    public ListResponse<Hotel> getHotels() {
+        return getListResponse(hotelService.findAll());
     }
 
-    @PostMapping
-    public ResponseEntity<Hotel> create(@RequestBody HotelCreateRequest hotelRequest) {
-        Hotel hotel = hotelRequest.toHotel(this.cityService);
-        try {
-            hotelService.save(hotel);
-        } catch (Exception e) {
-            return ResponseEntity.badRequest().build();
-        }
-        return ResponseEntity.ok(hotel);
+    @GetMapping("/id/{id}")
+    public DataResponse<Hotel> getHotelById(@PathVariable String id) {
+        return getDataResponse(hotelService.findById(id).orElseThrow(() -> new NotFound(HOTEL, id)), HOTEL);
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<Hotel> update(@PathVariable String id, @RequestBody HotelUpdateRequest hotelRequest) {
-        Hotel hotel = hotelService.findById(id).orElse(null);
-        if (hotel == null) {
-            return ResponseEntity.notFound().build();
-        }
+    @PutMapping("/save")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.CREATED)
+    public BasicResponse saveHotel(@Valid @RequestBody HotelRequest request) {
+        Hotel hotel = new Hotel();
+        hotel.setId(generateID());
 
-        Hotel updatedHotel = hotelRequest.toHotel(this.cityService);
-        updatedHotel.setId(id);
-
-        try {
-            hotelService.save(updatedHotel);
-        } catch (Exception e) {
-            return ResponseEntity.badRequest().build();
-        }
-        return ResponseEntity.ok(updatedHotel);
+        return save(new Hotel(), request);
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> delete(@PathVariable String id) {
-        Hotel existingHotel = hotelService.findById(id).orElse(null);
-        if (existingHotel == null) {
-            return ResponseEntity.notFound().build();
+    @PutMapping("/save/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public BasicResponse updateHotel(@PathVariable String id, @Valid @RequestBody HotelRequest request) {
+        return save(hotelService.findById(id).orElseThrow(() -> new NotFound(HOTEL, id)), request);
+    }
+
+    @PutMapping("/delete/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public BasicResponse deleteHotel(@PathVariable String id) {
+        return delete(hotelService.delete(id));
+    }
+
+    private BasicResponse save(Hotel hotel, HotelRequest request) {
+        BeanUtils.copyProperties(request, hotel);
+
+        hotel.setCity(cityService.findById(request.getCityId()).orElseThrow(() -> new NotFound("City", request.getCityId())));
+        String hotelId = hotelService.save(hotel);
+
+        if (request.getRooms() != null && !request.getRooms().isEmpty()) {
+            request.getRooms().forEach(roomRequest -> {
+                Room room = new Room();
+                room.setId(generateID());
+                room.setHotel(hotel);
+
+                BeanUtils.copyProperties(roomRequest, room);
+
+                roomService.save(room);
+            });
         }
 
-        try {
-            hotelService.delete(existingHotel);
-        } catch (Exception e) {
-            return ResponseEntity.badRequest().build();
-        }
-        return ResponseEntity.noContent().build();
+        return save(HOTEL, hotelId);
     }
 }

@@ -9,4 +9,5 @@ import lombok.Setter;
 @Builder
 public class BasicResponse {
     private String message;
+    private String id;
 }
