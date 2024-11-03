@@ -1,9 +1,8 @@
 package com.bfv.reservation.controller;
 
-import com.bfv.reservation.model.domain.location.City;
-import com.bfv.reservation.repository.UserRepository;
-import com.bfv.reservation.service.car.CarService;
-import com.bfv.reservation.service.location.CityService;
+import java.util.List;
+import java.util.Optional;
+
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,42 +15,54 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import com.bfv.reservation.model.domain.location.City;
+import com.bfv.reservation.repository.UserRepository;
+import com.bfv.reservation.service.UserService;
+import com.bfv.reservation.service.location.CityService;
+
 @WebMvcTest(CityController.class)
 @WithMockUser
 @ActiveProfiles("test")
 @EnableMethodSecurity()
 public class CityControllerTest {
+
     @Autowired
     private MockMvc mockMvc;
 
     @MockBean
-    private CityService service;
+    private CityService cityService;
 
     @MockBean
-    @SuppressWarnings("unused")
+    private UserService userService;
+
+    @MockBean
     private UserRepository userRepository;
 
     @Test
     void shouldFindAllStatusOk() throws Exception {
         //given
+        List<City> cities = List.of(new City(), new City());
+        Mockito.when(cityService.findAll()).thenReturn(cities);
 
         // when
-        this.mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/cities/"))
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/cities"))
                 .andExpect(MockMvcResultMatchers.status().isOk());
 
-        Mockito.verify(this.service).findAll();
+        Mockito.verify(this.cityService).findAll();
     }
 
     @Test
     void shouldFindById() throws Exception {
-        //Given
+        // Given
         String id = "paris";
+        City mockCity = new City();  // Create a mock City object and set fields as needed
+        Mockito.when(cityService.findById(id)).thenReturn(Optional.of(mockCity));
 
         //When
         this.mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/cities/" + id))
                 .andExpect(MockMvcResultMatchers.status().isOk());
 
-        Mockito.verify(this.service).findById(id);
+        Mockito.verify(this.cityService).findById(id);
     }
 
     @Test
@@ -63,6 +74,6 @@ public class CityControllerTest {
         this.mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/cities/" + id))
                 .andExpect(MockMvcResultMatchers.status().isNotFound());
 
-        Mockito.verify(this.service).findById(id);
+        Mockito.verify(this.cityService).findById(id);
     }
 }

@@ -278,55 +278,70 @@ VALUES (
         'Hotel London is a 5-star hotel located in the heart of London, near Buckingham Palace.'
     );
 
--- INSERT INTO "room" (id,
---                     hotel_id,
---                     room_number,
---                     name,
---                     price,
---                     capacity,
---                     available)
--- VALUES ('room-hotel-paris-1',
---         'hotel-paris',
---         '101',
---         'Standard Room',
---         100,
---         2,
---         true),
---        ('room-hotel-paris-2',
---         'hotel-paris',
---         '102',
---         'Deluxe Room',
---         150,
---         2,
---         true),
---        ('room-hotel-berlin-1',
---         'hotel-berlin',
---         '201',
---         'Standard Room',
---         100,
---         2,
---         true),
---        ('room-hotel-berlin-2',
---         'hotel-berlin',
---         '202',
---         'Deluxe Room',
---         150,
---         2,
---         false),
---        ('room-hotel-london-1',
---         'hotel-london',
---         '301',
---         'Standard Room',
---         100,
---         2,
---         false),
---        ('room-hotel-london-2',
---         'hotel-london',
---         '302',
---         'Deluxe Room',
---         150,
---         2,
---         false);
+INSERT INTO
+    room (
+        id,
+        hotel_id,
+        room_number,
+        name,
+        price,
+        capacity,
+        available
+    )
+VALUES (
+        'room-hotel-paris-1',
+        'hotel-paris',
+        '101',
+        'Standard Room',
+        100,
+        2,
+        1
+    ),
+    (
+        'room-hotel-paris-2',
+        'hotel-paris',
+        '102',
+        'Deluxe Room',
+        150,
+        2,
+        1
+    ),
+    (
+        'room-hotel-berlin-1',
+        'hotel-berlin',
+        '201',
+        'Standard Room',
+        100,
+        2,
+        1
+    ),
+    (
+        'room-hotel-berlin-2',
+        'hotel-berlin',
+        '202',
+        'Deluxe Room',
+        150,
+        2,
+        0
+    ),
+    (
+        'room-hotel-london-1',
+        'hotel-london',
+        '301',
+        'Standard Room',
+        100,
+        2,
+        0
+    ),
+    (
+        'room-hotel-london-2',
+        'hotel-london',
+        '302',
+        'Deluxe Room',
+        150,
+        2,
+        0
+    );
 
 INSERT INTO
     car (

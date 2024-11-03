@@ -1,12 +1,13 @@
 package com.bfv.reservation.controller;
 
+import java.util.List;
+
 import com.bfv.reservation.model.response.BasicResponse;
 import com.bfv.reservation.model.response.DataResponse;
 import com.bfv.reservation.model.response.ListResponse;
 
-import java.util.List;
-
 public class BuilderResponse<T> {
+
     protected ListResponse<T> getListResponse(List<T> list) {
         return ListResponse.<T>builder()
                 .count(list.size())

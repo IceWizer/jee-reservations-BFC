@@ -3,6 +3,7 @@ package com.bfv.reservation.model.domain.hotel;
 import com.bfv.reservation.model.domain.PersistentEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,6 +17,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @SuperBuilder
 public class Room extends PersistentEntity {
+
     private String roomNumber;
 
     private String name;

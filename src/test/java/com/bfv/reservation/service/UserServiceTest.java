@@ -1,16 +1,17 @@
 package com.bfv.reservation.service;
 
-import com.bfv.reservation.model.domain.User;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
+import com.bfv.reservation.model.domain.User;
+
 @SpringBootTest
 @ActiveProfiles("test")
 public class UserServiceTest {
+
     @Autowired
     private UserService userService;
 

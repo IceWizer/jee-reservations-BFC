@@ -30,13 +30,12 @@ public class AuthController {
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     public AuthResponse saveUser(@Valid @RequestBody AuthRequest request) {
-        User user = new User();
-        user.setId(generateID());
-
-        if (userService.getEmails().contains(request.getEmail())) {
+        if (userService.hasEmail(request.getEmail())) {
             throw new DuplicateElement("Email");
         }
 
+        User user = new User();
+        user.setId(generateID());
         user.setEmail(request.getEmail());
         user.setPassword(passwordEncoder.encode(request.getPassword()));
         userService.save(user);

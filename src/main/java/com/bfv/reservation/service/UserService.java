@@ -1,14 +1,15 @@
 package com.bfv.reservation.service;
 
-import com.bfv.reservation.model.domain.User;
-import com.bfv.reservation.repository.UserRepository;
+import java.util.Optional;
+
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
+import com.bfv.reservation.model.domain.User;
+import com.bfv.reservation.repository.UserRepository;
 
 @Service
 public class UserService extends GlobalService<User, UserRepository> {
+
     public UserService(UserRepository repository) {
         super(repository);
     }
@@ -17,7 +18,7 @@ public class UserService extends GlobalService<User, UserRepository> {
         return getRepository().findByEmail(email);
     }
 
-    public List<String> getEmails() {
-        return getRepository().findAll().stream().map(User::getEmail).toList();
+    public boolean hasEmail(String email) {
+        return getRepository().findByEmail(email) != null;
     }
 }
