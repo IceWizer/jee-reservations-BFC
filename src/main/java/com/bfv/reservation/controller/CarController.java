@@ -40,12 +40,12 @@ public class CarController extends BuilderResponse<Car> {
 
     @PostMapping("/")
     @ResponseStatus(HttpStatus.CREATED)
-    public BasicResponse createCar(@Valid CarRequest carRequest) {
+    public BasicResponse createCar(@Valid @RequestBody CarRequest carRequest) {
         return save(new Car(), carRequest);
     }
 
     @PutMapping("/{id}")
-    public BasicResponse updateCar(@PathVariable String id, @Valid CarRequest carRequest) {
+    public BasicResponse updateCar(@PathVariable String id, @Valid @RequestBody CarRequest carRequest) {
         return save(carService.findById(id).orElseThrow(() -> new NotFound(CAR, id)), carRequest);
     }
 
