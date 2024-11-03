@@ -10,10 +10,11 @@ import com.bfv.reservation.model.response.ListResponse;
 import com.bfv.reservation.service.hotel.HotelService;
 import com.bfv.reservation.service.hotel.RoomService;
 import com.bfv.reservation.service.location.CityService;
-import jakarta.annotation.security.RolesAllowed;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import static com.bfv.reservation.Library.HOTEL;
@@ -37,8 +38,9 @@ public class HotelController extends BuilderResponse<Hotel> {
         return getDataResponse(hotelService.findById(id).orElseThrow(() -> new NotFound(HOTEL, id)), HOTEL);
     }
 
-    @PostMapping()
-    @RolesAllowed("ADMIN")
+    @PutMapping("/save")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.CREATED)
     public BasicResponse saveHotel(@Valid @RequestBody HotelRequest request) {
         Hotel hotel = new Hotel();
         hotel.setId(generateID());
@@ -46,14 +48,16 @@ public class HotelController extends BuilderResponse<Hotel> {
         return save(new Hotel(), request);
     }
 
-    @PutMapping("/{id}")
-    @RolesAllowed("ADMIN")
+    @PutMapping("/save/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.ACCEPTED)
     public BasicResponse updateHotel(@PathVariable String id, @Valid @RequestBody HotelRequest request) {
         return save(hotelService.findById(id).orElseThrow(() -> new NotFound(HOTEL, id)), request);
     }
 
-    @DeleteMapping("/{id}")
-    @RolesAllowed("ADMIN")
+    @PutMapping("/delete/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public BasicResponse deleteHotel(@PathVariable String id) {
         return delete(hotelService.delete(id));
     }

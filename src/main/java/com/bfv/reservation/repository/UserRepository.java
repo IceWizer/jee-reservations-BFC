@@ -1,4 +1,4 @@
-package com.bfv.reservation.repository.car;
+package com.bfv.reservation.repository;
 
 import com.bfv.reservation.model.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;

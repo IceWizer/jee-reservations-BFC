@@ -1,7 +1,7 @@
 package com.bfv.reservation.security.service;
 
 import com.bfv.reservation.exception.NotFound;
-import com.bfv.reservation.repository.car.UserRepository;
+import com.bfv.reservation.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -22,7 +22,7 @@ public class JPAUserDetailService implements UserDetailsService {
 
         return User.withUsername(email)
                 .password(user.getPassword())
-                .roles(user.getRole())
+                .roles(user.isAdmin() ? "ADMIN" : "USER")
                 .build();
     }
 }

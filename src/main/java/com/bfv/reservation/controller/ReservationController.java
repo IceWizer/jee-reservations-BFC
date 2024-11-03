@@ -16,6 +16,7 @@ import com.bfv.reservation.service.hotel.RoomService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import static com.bfv.reservation.Library.*;
@@ -45,7 +46,8 @@ public class ReservationController extends BuilderResponse<Reservation> {
         return getDataResponse(reservationService.getReservationByReservationNumber(reservationNumber).orElseThrow(() -> new NotFound(RESERVATION, reservationNumber)), RESERVATION);
     }
 
-    @PostMapping
+    @PostMapping("/save")
+    @ResponseStatus(HttpStatus.CREATED)
     public BasicResponse saveReservation(@Valid @RequestBody ReservationRequest request) {
         Reservation reservation = new Reservation();
         reservation.setId(generateID());
@@ -53,7 +55,14 @@ public class ReservationController extends BuilderResponse<Reservation> {
         return save(new Reservation(), request);
     }
 
-    @PutMapping("/car/{id}")
+    @PutMapping("/save/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public BasicResponse updateReservation(@PathVariable String id, @Valid @RequestBody ReservationRequest request) {
+        return save(reservationService.findById(id).orElseThrow(() -> new NotFound(RESERVATION, id)), request);
+    }
+
+    @PutMapping("/save/car/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
     public BasicResponse saveReservationCar(@PathVariable String id, @Valid @RequestBody ReservationCarRequest request) {
         Reservation reservation = reservationService.findById(id).orElseThrow(() -> new NotFound(RESERVATION, id));
         reservation.setCar(carService.findById(request.getCarId()).orElseThrow(() -> new NotFound(CAR, request.getCarId())));
@@ -61,7 +70,8 @@ public class ReservationController extends BuilderResponse<Reservation> {
         return save(RESERVATION, reservationService.save(reservation));
     }
 
-    @PutMapping("/room/{id}")
+    @PutMapping("/save/room/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
     public BasicResponse saveReservationRoom(@PathVariable String id, @Valid @RequestBody ReservationRoomRequest request) {
         Reservation reservation = reservationService.findById(id).orElseThrow(() -> new NotFound(RESERVATION, id));
         reservation.setRoom(roomService.findById(request.getRoomId()).orElseThrow(() -> new NotFound(CAR, request.getRoomId())));
@@ -69,12 +79,8 @@ public class ReservationController extends BuilderResponse<Reservation> {
         return save(RESERVATION, reservationService.save(reservation));
     }
 
-    @PutMapping("/{id}")
-    public BasicResponse updateReservation(@PathVariable String id, @Valid @RequestBody ReservationRequest request) {
-        return save(reservationService.findById(id).orElseThrow(() -> new NotFound(RESERVATION, id)), request);
-    }
-
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public BasicResponse deleteReservation(@PathVariable String id) {
         return delete(reservationService.delete(id));
     }

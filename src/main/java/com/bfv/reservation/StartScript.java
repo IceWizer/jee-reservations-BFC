@@ -392,6 +392,7 @@ public class StartScript {
 
     //Car
     private void car() {
-        //TODO : Implement this method
+        //TODO : Generate some cars
+
     }
 }

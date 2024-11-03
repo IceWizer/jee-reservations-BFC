@@ -6,37 +6,35 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
-import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-
-import java.util.List;
 
 @Configuration
-@EnableMethodSecurity
 public class SecurityConfig {
     @Bean
     SecurityFilterChain filterChain(HttpSecurity http, JwtHeaderFilter jwtHeaderFilter) throws Exception {
         http.authorizeHttpRequests(authorize -> {
-            authorize.requestMatchers("/api/v1/flights/save/**").hasRole("ADMIN");
-            authorize.requestMatchers("/api/v1/flights/delete/**").hasRole("ADMIN");
-            authorize.requestMatchers("/api/v1/hotels/save/**").hasRole("ADMIN");
-            authorize.requestMatchers("/api/v1/hotels/delete/**").hasRole("ADMIN");
-            authorize.requestMatchers("/api/v1/cars/save/**").hasRole("ADMIN");
-            authorize.requestMatchers("/api/v1/cars/delete/**").hasRole("ADMIN");
+            authorize.requestMatchers("/api/auth/**").permitAll();
 
-            authorize.requestMatchers("/api/v1/users/create/", "/api/v1/users/login").permitAll();
-            authorize.requestMatchers("/**").authenticated();
+            authorize.requestMatchers(
+                    "/api/v1/flights/save/**",
+                    "/api/v1/flights/delete/**",
+                    "/api/v1/hotels/save/**",
+                    "/api/v1/hotels/delete/**",
+                    "/api/v1/cars/save/**",
+                    "/api/v1/cars/delete/**"
+            ).hasRole("ADMIN");
+
+            authorize.requestMatchers("/api/v1/**").authenticated();
         });
 
         http.csrf(AbstractHttpConfigurer::disable);
+        http.cors(Customizer.withDefaults());
+
         http.httpBasic(Customizer.withDefaults());
 
         http.addFilterBefore(jwtHeaderFilter, UsernamePasswordAuthenticationFilter.class);
@@ -51,19 +49,5 @@ public class SecurityConfig {
     @Bean
     AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();
-    }
-
-    @Bean
-    CorsConfigurationSource corsConfigurationSource() {
-        UrlBasedCorsConfigurationSource corsSource = new UrlBasedCorsConfigurationSource();
-        CorsConfiguration corsConfiguration = new CorsConfiguration();
-
-        corsConfiguration.setAllowedHeaders(List.of("*"));
-        corsConfiguration.setAllowedMethods(List.of("*"));
-        corsConfiguration.setAllowedOrigins(List.of("http://localhost:5000"));
-
-        corsSource.registerCorsConfiguration("/**", corsConfiguration);
-
-        return corsSource;
     }
 }

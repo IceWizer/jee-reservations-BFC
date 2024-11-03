@@ -23,6 +23,7 @@ import static com.bfv.reservation.Library.USER;
 public class AuthService {
     private final AuthenticationManager authenticationManager;
     private final UserService userService;
+    private final JwtUtil jwtUtil;
 
     public AuthResponse auth(CreateUserRequest authRequest) {
         String message;
@@ -39,7 +40,7 @@ public class AuthService {
 
             return AuthResponse.builder()
                     .message("Successfully authenticated!")
-                    .token(JwtUtil.generate(authentication))
+                    .token(jwtUtil.generate(authentication))
                     .id(user.getId())
                     .build();
         } catch (BadCredentialsException ex) {

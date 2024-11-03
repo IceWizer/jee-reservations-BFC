@@ -9,10 +9,11 @@ import com.bfv.reservation.model.response.ListResponse;
 import com.bfv.reservation.service.flight.AirlineService;
 import com.bfv.reservation.service.flight.AirportService;
 import com.bfv.reservation.service.flight.FlightService;
-import jakarta.annotation.security.RolesAllowed;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.temporal.ChronoUnit;
@@ -57,7 +58,8 @@ public class FlightController extends BuilderResponse<Flight> {
 //    }
 
     @PostMapping("/save")
-    @RolesAllowed("ADMIN")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.CREATED)
     public BasicResponse saveFlight(@Valid @RequestBody FlightRequest flightRequest) {
         Flight flight = new Flight();
         flight.setId(generateID());
@@ -66,13 +68,15 @@ public class FlightController extends BuilderResponse<Flight> {
     }
 
     @PutMapping("/save/{id}")
-    @RolesAllowed("ADMIN")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.ACCEPTED)
     public BasicResponse updateFlight(@PathVariable String id, @Valid @RequestBody FlightRequest flightRequest) {
         return save(flightService.findById(id).orElseThrow(() -> new NotFound(FLIGHT, id)), flightRequest);
     }
 
     @DeleteMapping("/delete/{id}")
-    @RolesAllowed("ADMIN")
+    @PreAuthorize("hasRole('ADMIN')")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public BasicResponse deleteFlight(@PathVariable String id) {
         return delete(flightService.delete(id));
     }

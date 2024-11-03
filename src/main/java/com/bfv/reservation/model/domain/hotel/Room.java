@@ -22,7 +22,7 @@ public class Room extends PersistentEntity {
 
     private double price;
 
-    private boolean available = false;
+    private boolean available = true;
 
     @ManyToOne
     private Hotel hotel;

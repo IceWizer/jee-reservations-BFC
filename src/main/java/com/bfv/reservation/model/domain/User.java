@@ -17,5 +17,5 @@ public class User extends PersistentEntity {
     private String password;
     private String phoneNumber;
 
-    private String role;
+    private boolean admin = false;
 }
