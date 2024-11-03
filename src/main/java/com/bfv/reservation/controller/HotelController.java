@@ -30,7 +30,13 @@ public class HotelController extends BuilderResponse<Hotel> {
 
     @GetMapping("?city={cityName}")
     public ListResponse<Hotel> getHotels(@PathVariable String cityName) {
-        return getListResponse(hotelService.findAll().stream().filter(hotel -> hotel.getCity().getName().equalsIgnoreCase(cityName)).toList());
+        return getListResponse(roomService.findAll()
+                .stream()
+                .filter(room -> room.getHotel().getCity().getName().equalsIgnoreCase(cityName) && room.isAvailable())
+                .map(Room::getHotel)
+                .distinct()
+                .toList()
+        );
     }
 
     @GetMapping("/id/{id}")

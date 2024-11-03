@@ -36,7 +36,11 @@ public class FlightController extends BuilderResponse<Flight> {
 
     @GetMapping("?departure={departure}&arrival={arrival}")
     public ListResponse<Flight> getFlightsByDepartureAndArrival(@PathVariable String departure, @PathVariable String arrival) {
-        return getListResponse(flightService.getFlightsByDepartureAndArrival(departure, arrival));
+        return getListResponse(flightService.getFlightsByDepartureAndArrival(departure, arrival)
+                .stream()
+                .filter(flight -> flight.getAvailableSeats() > 0)
+                .toList()
+        );
     }
 
     @GetMapping("/id/{id}")
