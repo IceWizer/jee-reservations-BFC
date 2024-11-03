@@ -1,4 +1,4 @@
-package com.bfv.reservation.model.request;
+package com.bfv.reservation.model.request.hotel;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

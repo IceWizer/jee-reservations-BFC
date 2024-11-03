@@ -2,7 +2,7 @@ package com.bfv.reservation.controller;
 
 import com.bfv.reservation.exception.DuplicateElement;
 import com.bfv.reservation.model.domain.User;
-import com.bfv.reservation.model.request.user.CreateUserRequest;
+import com.bfv.reservation.model.request.user.AuthRequest;
 import com.bfv.reservation.model.response.domain.AuthResponse;
 import com.bfv.reservation.security.service.AuthService;
 import com.bfv.reservation.service.UserService;
@@ -24,7 +24,7 @@ public class AuthController {
 
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
-    public AuthResponse saveUser(@Valid @RequestBody CreateUserRequest request) {
+    public AuthResponse saveUser(@Valid @RequestBody AuthRequest request) {
         User user = new User();
         user.setId(generateID());
 
@@ -40,7 +40,7 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-    public AuthResponse login(@Valid @RequestBody CreateUserRequest request) {
+    public AuthResponse login(@Valid @RequestBody AuthRequest request) {
         return authService.auth(request);
     }
 }

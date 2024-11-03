@@ -3,7 +3,7 @@ package com.bfv.reservation.controller;
 import com.bfv.reservation.exception.NotFound;
 import com.bfv.reservation.model.domain.hotel.Hotel;
 import com.bfv.reservation.model.domain.hotel.Room;
-import com.bfv.reservation.model.request.HotelRequest;
+import com.bfv.reservation.model.request.hotel.HotelRequest;
 import com.bfv.reservation.model.response.BasicResponse;
 import com.bfv.reservation.model.response.DataResponse;
 import com.bfv.reservation.model.response.ListResponse;

@@ -1,15 +1,15 @@
 package com.bfv.reservation.model.domain;
 
 import jakarta.persistence.Entity;
-import lombok.AllArgsConstructor;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
 @Entity
-@Table(name = "[user]")
+@Table(name = "user")
 @Getter
 @Setter
 @NoArgsConstructor

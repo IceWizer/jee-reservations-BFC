@@ -34,7 +34,7 @@ public class UserController extends BuilderResponse<UserResponse> {
 
     @GetMapping("/email/{email}")
     public DataResponse<UserResponse> getUserByEmail(@PathVariable String email) {
-        return getDataResponse(buildResponse(userService.getUserByEmail(email).orElseThrow(() -> new NotFound(USER, email))), USER);
+        return getDataResponse(buildResponse(userService.findByEmail(email).orElseThrow(() -> new NotFound(USER, email))), USER);
     }
 
     @PutMapping("/create/{id}")

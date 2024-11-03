@@ -2,7 +2,7 @@ package com.bfv.reservation.security.service;
 
 import com.bfv.reservation.exception.NotFound;
 import com.bfv.reservation.model.domain.User;
-import com.bfv.reservation.model.request.user.CreateUserRequest;
+import com.bfv.reservation.model.request.user.AuthRequest;
 import com.bfv.reservation.model.response.domain.AuthResponse;
 import com.bfv.reservation.security.jwt.JwtUtil;
 import com.bfv.reservation.service.UserService;
@@ -25,7 +25,7 @@ public class AuthService {
     private final UserService userService;
     private final JwtUtil jwtUtil;
 
-    public AuthResponse auth(CreateUserRequest authRequest) {
+    public AuthResponse auth(AuthRequest authRequest) {
         String message;
 
         try {
@@ -34,7 +34,7 @@ public class AuthService {
             Authentication authentication = this.authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authRequest.getEmail(), authRequest.getPassword()));
             SecurityContextHolder.getContext().setAuthentication(authentication);
 
-            User user = userService.getUserByEmail(authRequest.getEmail()).orElseThrow(() -> new NotFound(USER, authRequest.getEmail()));
+            User user = userService.findByEmail(authRequest.getEmail()).orElseThrow(() -> new NotFound(USER, authRequest.getEmail()));
 
             log.debug("Successfully authenticated!");
 

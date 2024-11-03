@@ -13,7 +13,7 @@ public class UserService extends GlobalService<User, UserRepository> {
         super(repository);
     }
 
-    public Optional<User> getUserByEmail(String email) {
+    public Optional<User> findByEmail(String email) {
         return getRepository().findByEmail(email);
     }
 
