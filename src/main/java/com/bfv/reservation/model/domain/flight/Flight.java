@@ -3,15 +3,14 @@ package com.bfv.reservation.model.domain.flight;
 import com.bfv.reservation.model.domain.PersistentEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.Table;
+import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "flight")
 @Getter
 @Setter
 @NoArgsConstructor
